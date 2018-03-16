@@ -1,0 +1,45 @@
+<view class="userinfo">
+  <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover" bindtap="chooseImage"></image>
+  <text class="userinfo-nickname" style="position: absolute;top: 2%;left: 23%;">{{userInfo.nickName}}</text>
+  <text class="userinfo-nickname" style="position: absolute;top: 5.5%;left: 23%;">默认等级</text>
+  <text class="userinfo-nickname" style="position: absolute;top: 9%;left: 23%;">推荐人:{{userData.first_leader}}</text>
+</view>
+<view class="hr"></view>
+<view class="user-money">
+  <view class="money-list">
+    <text class="money-text">成功提现金额</text>
+    <text class="money-text">￥{{userData.ok_money ? userData.ok_money : 0.00}}</text>
+  </view>
+  <view class="money-list">
+    <text class="money-text">可提现佣金</text>
+    <text class="money-text">￥{{userData.out_money ? userData.out_money : 0.00}}</text>
+  </view>
+</view>
+<view class="fx-list" style="flex-direction:row;" >
+  <view class="list-li" bindtap="navigateTomoney">
+    <image src="../../../../images/fx.png"></image>
+    <text>分销佣金</text>
+    <b style="color:#FEAF05;display: inline;">{{userData.distribut_money ? userData.distribut_money : 0}} </b> <text style="display: inline;">元</text>
+  </view>
+   <view class="list-li flex-item"  bindtap="navigateToOrder">
+    <image src="../../../../images/fxdd.png"></image>
+    <text>分销订单</text>
+    <b style="color:#FEAF05;display: inline;">{{userData.rebate_count ? userData.rebate_count : 0}}</b> <text style="display: inline;"> 笔</text>
+  </view>
+    <view class="list-li flex-item" style="border-right:none;"  bindtap="navigateToDetailed">
+    <image src="../../../../images/txmx.png"></image>
+    <text>提现明细</text>
+    <b style="color:#FEAF05;display: inline;">{{userData.detailed ? userData.detailed : 0}}</b> <text style="display: inline;"> 笔</text>
+  </view>
+    <view class="list-li flex-item" bindtap="navigateToOffline">
+    <image src="../../../../images/wdxx.png"></image>
+    <text >我的下线</text>
+   <b style="color:#FEAF05;display: inline;">{{userData.my_user ? userData.my_user : 0}} </b> <text style="display: inline;">人</text>
+  </view>
+    <view class="list-li flex-item" bindtap="navigateToRwm">
+    <image src="../../../../images/rwm.png"></image>
+    <text>推广二维码</text>
+     <text >点击进入</text>
+  </view>
+</view>
+

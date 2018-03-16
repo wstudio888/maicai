@@ -1,0 +1,90 @@
+<include file="Public/min-header" />
+<div class="wrapper">
+	<include file="Public/breadcrumb"/>
+	<section class="content">
+       <div class="row">
+       		<div class="col-xs-12">
+	       		<div class="box">
+	             <div class="box-header">
+
+	               	
+	             </div>
+	             <div class="box-body">
+	           	 <div class="row">
+	            	<div class="col-sm-12">
+                    <table id="list-table" class="table table-bordered table-striped dataTable">
+                        <thead>
+                        <tr role="row">
+                            <th>快递员名称</th>
+                            <th>联系电话</th>
+                            <th>联系微信</th>
+                            <th>银行卡号</th>
+                            <th>银行名称</th>
+                            <th>提现金额</th>
+                            <th>申请提现时间</th>
+                            <th>完成提现时间</th>
+                            <th>操作</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                          <foreach name="list" item="vo" key="k" >
+                             <tr role="row">    
+                             <td>{$vo.courier_name}</td>
+		                     <td>{$vo.courier_phone}</td>
+		                     <th>{$vo.courier_wx}</th>   
+		                     <th>{$vo.card_no}</th> 
+		                     <th>{$vo.bank_name}</th>
+		                     <td>{$vo.money_x}</td>                                     
+		                     <td>{$vo.time_now|date='Y-m-d h:i:s',###}</td> 
+		                     <td>
+		                     <if condition="$vo['terminal_time'] eq null">
+								未完成支付
+		                     <elseif condition="$vo['terminal_time'] neq null"/> 
+								{$vo.terminal_time|date='Y-m-d h:i:s',###}
+		                     </if>
+		                     		                    					
+		                     </td>
+		                     <td>
+		                    <if condition="$vo['status_x'] eq 1">
+		                     <a href="{:U('Courier/courier_money',['id' => $vo['id']])}">确认付款</a>
+		                    <elseif condition="$vo['status_x'] eq 2"/> 
+		                     <a style="color:green;">已完成付款</a>
+							</if>
+
+				     		</td>
+		                   </tr>
+		                  </foreach>
+		                   </tbody>
+		                 <tfoot>
+		                 </tfoot>
+		               </table>
+	               </div>
+	          </div>
+              <div class="row">
+              	    <div class="col-sm-6 text-left">
+              	    	<button class="btn btn-default btn-sm checkbox-toggle"><i class="fa fa-square-o"></i></button>
+              	    </div>
+                    <div class="col-sm-6 text-right">{$page}</div>		
+              </div>
+	          </div>
+	        </div>
+       	</div>
+       </div>
+   </section>
+<script>
+
+//修改指定表的指定字段值 给商家使用的函数
+function change(id,status)
+{
+		                                                
+		$.ajax({
+				url:"/index.php?m=Admin&c=Store&a=change&id="+id+"&status="+status,			
+				success: function(data){									
+					window.location.href="/index.php?m=Admin&c=Store&a=apply_list";        
+				}
+		});		
+}
+</script>
+</div>
+</body>
+</html>   

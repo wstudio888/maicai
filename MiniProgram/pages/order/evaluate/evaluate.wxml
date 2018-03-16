@@ -1,0 +1,21 @@
+<view wx:for="{{orders}}" wx:for-item="mapping" wx:key="" bindtap="details" data-index="{{index}}">
+  <view class="carts-item">
+    <view>
+      <!-- 缩略图 -->
+      <image class="carts-image" src="{{mapping.image}}" mode="aspectFill" />
+    </view>
+    <view class="carts-text">
+      <!-- 商品标题 -->
+      <text class="carts-title">{{mapping.goods_name}}</text>
+    </view>
+  </view>
+  <view style="width:100%;margin:auto;border-bottom: 1px solid #eee;">
+    <textarea class="textarea-css" placeholder="输入您要评价的内容" bindinput="bindButtonTap" focus="{{focus}}" data-index="{{mapping.rec_id}}"/>
+    <view style="margin-top:30rpx;margin-bottom:30rpx;height:53rpx;"><text class="btn-pay" data-index="{{mapping.rec_id}}" bindtap="textok">提交评论</text></view>
+  </view>
+</view>
+
+
+<!-- 返回顶部按钮 -->
+<import src="/template/toTop/toTop.wxml" />
+<template is="toTop" data="{{...toTop}}" />

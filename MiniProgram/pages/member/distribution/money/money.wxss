@@ -1,0 +1,70 @@
+/* money.wxss */
+page{
+  background: #F5F5F5;
+}
+
+.money-header {
+  height: 100rpx;
+  display: flex;
+  justify-content: space-between;
+  padding: 15rpx;
+  background: #fe5455;
+  color: #fff;
+  font-size: 28rpx;
+   align-items:center;
+}
+
+.money-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.money-left text{
+  line-height: 40rpx;
+}
+
+.money-right{
+  border: 1px solid #fff;
+  border-radius: 6rpx;
+  padding: 9rpx;
+}
+
+.list-text{
+  height: 940rpx;
+  background: #F5F5F5
+}
+
+.text-list{
+  height: 80rpx;
+  line-height: 80rpx;
+  background: #fff;
+  margin-top: 20rpx;
+  display: flex;
+  justify-content:space-between;
+  padding-left: 15rpx;
+  padding-right: 15rpx;
+  font-size: 28rpx;
+}
+
+.textred{
+  color: #E54240;
+}
+
+.txbutton{
+  background-color:#E64340; 
+  color: #fff;
+  width: 95%;
+  margin: auto;
+}
+
+.txbutton2{
+  background-color:#D3D3D3; 
+  color: #fff;
+  width: 95%;
+  margin: auto;
+  border: none;
+}
+
+button::after{
+  border: none;
+}

@@ -1,0 +1,120 @@
+[ 2018-03-11T12:59:29+08:00 ] 112.97.62.46 /index.php/WXAPI/Index/home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000353s ]
+SQL: SHOW COLUMNS FROM `ty_coupon` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `ty_coupon` WHERE `send_start_time` < 1520744369 AND `send_end_time` > 1520744369  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ty_ad` [ RunTime:0.0014s ]
+SQL: SELECT `ad_link`,`ad_name`,`ad_code`,`pid` FROM `ty_ad` WHERE `pid` = 1 AND `enabled` = 1  [ RunTime:0.0001s ]
+SQL: SELECT `ad_link`,`ad_name`,`ad_code`,`pid` FROM `ty_ad` WHERE `pid` = 2 AND `enabled` = 1  [ RunTime:0.0001s ]
+SQL: SELECT `ad_link`,`ad_name`,`ad_code`,`pid` FROM `ty_ad` WHERE `pid` = 3 AND `enabled` = 1  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_article` [ RunTime:0.0014s ]
+SQL: SELECT `article_id`,`content`,`link`,`description` FROM `ty_article` WHERE `article_id` = 2 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `article_id`,`content`,`link`,`description` FROM `ty_article` WHERE `article_id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_article_cat` [ RunTime:0.0012s ]
+SQL: SELECT `cat_name`,`thumb`,`cat_desc` FROM `ty_article_cat` WHERE `parent_id` = 2 AND `show_in_nav` = 1 ORDER BY sort_order  [ RunTime:0.0001s ]
+SQL: SELECT `cat_name`,`thumb`,`cat_desc`,`type` FROM `ty_article_cat` WHERE `parent_id` = 9 AND `show_in_nav` = 1 ORDER BY sort_order  [ RunTime:0.0001s ]
+
+[ 2018-03-11T12:59:30+08:00 ] 112.97.62.46 /index.php/WXAPI/User/getOpenid?url=https%3A%2F%2Fapi.weixin.qq.com%2Fsns%2Fjscode2session%3Fappid%3Dwxf3a9ae58645327d5%26secret%3Dc90e9c7fa14d4df6fbde0970cc2f0fb0%26js_code%3D013bSNcs0jmJrd1ZvXds0flRcs0bSNc0%26grant_type%3Dauthorization_code%26code%3D013bSNcs0jmJrd1ZvXds0flRcs0bSNc0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000364s ]
+SQL: SHOW COLUMNS FROM `ty_users` [ RunTime:0.0023s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000467s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000539s ]
+
+[ 2018-03-11T12:59:30+08:00 ] 112.97.62.46 /index.php/WXAPI/User/validateOpenid?openid=o9h__0EXgulc4yT1XL2BMzQS7Ze0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000338s ]
+SQL: SHOW COLUMNS FROM `ty_users` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `ty_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ty_users` WHERE `open_id` = 'o9h__0EXgulc4yT1XL2BMzQS7Ze0' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `ty_config` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `ty_config` WHERE `name` = 'hot_keywords' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_seller_apply` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `ty_seller_apply` WHERE `user_id` = 342 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000361s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000401s ]
+
+[ 2018-03-11T22:42:47+08:00 ] 14.123.226.251 /index.php/WXAPI/Index/home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000357s ]
+SQL: SHOW COLUMNS FROM `ty_coupon` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `ty_coupon` WHERE `send_start_time` < 1520779367 AND `send_end_time` > 1520779367  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ty_ad` [ RunTime:0.0008s ]
+SQL: SELECT `ad_link`,`ad_name`,`ad_code`,`pid` FROM `ty_ad` WHERE `pid` = 1 AND `enabled` = 1  [ RunTime:0.0001s ]
+SQL: SELECT `ad_link`,`ad_name`,`ad_code`,`pid` FROM `ty_ad` WHERE `pid` = 2 AND `enabled` = 1  [ RunTime:0.0001s ]
+SQL: SELECT `ad_link`,`ad_name`,`ad_code`,`pid` FROM `ty_ad` WHERE `pid` = 3 AND `enabled` = 1  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_article` [ RunTime:0.0009s ]
+SQL: SELECT `article_id`,`content`,`link`,`description` FROM `ty_article` WHERE `article_id` = 2 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `article_id`,`content`,`link`,`description` FROM `ty_article` WHERE `article_id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_article_cat` [ RunTime:0.0006s ]
+SQL: SELECT `cat_name`,`thumb`,`cat_desc` FROM `ty_article_cat` WHERE `parent_id` = 2 AND `show_in_nav` = 1 ORDER BY sort_order  [ RunTime:0.0001s ]
+SQL: SELECT `cat_name`,`thumb`,`cat_desc`,`type` FROM `ty_article_cat` WHERE `parent_id` = 9 AND `show_in_nav` = 1 ORDER BY sort_order  [ RunTime:0.0001s ]
+
+[ 2018-03-11T22:42:47+08:00 ] 14.123.226.251 /index.php/WXAPI/User/getOpenid?url=https%3A%2F%2Fapi.weixin.qq.com%2Fsns%2Fjscode2session%3Fappid%3Dwxf3a9ae58645327d5%26secret%3Dc90e9c7fa14d4df6fbde0970cc2f0fb0%26js_code%3D0133YOYp1l8Y4r0X2hXp19iLYp13YOYg%26grant_type%3Dauthorization_code%26code%3D0133YOYp1l8Y4r0X2hXp19iLYp13YOYg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000351s ]
+SQL: SHOW COLUMNS FROM `ty_users` [ RunTime:0.0013s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000506s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000581s ]
+
+[ 2018-03-11T22:42:47+08:00 ] 14.123.226.251 /index.php/WXAPI/User/validateOpenid?openid=o9h__0KduxyRgjKGosc1hho4jhB4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000391s ]
+SQL: SHOW COLUMNS FROM `ty_users` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `ty_users` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ty_users` WHERE `open_id` = 'o9h__0KduxyRgjKGosc1hho4jhB4' LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000356s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000394s ]
+
+[ 2018-03-11T22:42:49+08:00 ] 14.123.226.251 /index.php/WXAPI/User/register?open_id=o9h__0KduxyRgjKGosc1hho4jhB4&country=China&gender=2&nick_name=Fannie%20Sun&province=Guangdong&city=Zhuhai&head_pic=https://wx.qlogo.cn/mmopen/vi_32/icfPJLlpgTnecO17eyyUa3hKUJpReR9s6sqogtFj6YAq7iabyiaQKsx2jviadV1w9T2oe0log2VTu2UU0NickicyMtibQ/0&fid=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000237s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000327s ]
+SQL: SHOW COLUMNS FROM `ty_users` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `ty_users` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `ty_config` [ RunTime:0.0005s ]
+SQL: SELECT `value` FROM `ty_config` WHERE `name` = 'distributor' LIMIT 1   [ RunTime:0.0001s ]
+SQL: INSERT INTO `ty_users` (`city`,`open_id`,`nick_name`,`province`,`head_pic`) VALUES ('0','o9h__0KduxyRgjKGosc1hho4jhB4','Fannie Sun','0','https://wx.qlogo.cn/mmopen/vi_32/icfPJLlpgTnecO17eyyUa3hKUJpReR9s6sqogtFj6YAq7iabyiaQKsx2jviadV1w9T2oe0log2VTu2UU0NickicyMtibQ/0') [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ty_users` WHERE `user_id` = 945 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: v /var/www/html/maicai/Application/WXAPI/Controller/UserController.class.php 第 736 行.
+SQL: UPDATE `ty_users` SET `head_pic`='/Public/head/945.jpg' WHERE `user_id` = 945 [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ty_users` WHERE `user_id` = 945 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ty_users` WHERE `user_id` = 945 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ty_config` WHERE `name` = 'hot_keywords' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_seller_apply` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ty_seller_apply` WHERE `user_id` = 945 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000389s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000440s ]
+

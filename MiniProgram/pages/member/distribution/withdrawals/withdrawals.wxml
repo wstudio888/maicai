@@ -1,0 +1,29 @@
+<view>
+  <view class="wtitle">
+    <text class="title-text2">提现余额（元）</text>
+    <text class="title-text">{{usermoney.out_money}}</text>
+  </view>
+  <view>
+    <view class="wdiv"><text>提现方式:</text>
+      <text>微信 \n</text>
+      <switch checked="{{showstatus}}" type="switch" bindchange="switch1Change" /> <text>
+       银行卡 \n</text>
+      <switch checked="{{showstatus2}}" type="switch" bindchange="switch2Change" />
+    </view>
+    <view class="{{showstatus2 ? 'show_view' : 'hidde_view'}}">
+      <view class="wdiv"><text> 银行名称: </text><input type="digit" bindchange="Setbankname" class="input" placeholder="请输入您银行名称" /></view>
+      <view class="wdiv"><text>银行卡号: </text><input type="digit"  bindchange="SetaccountBank" class="input" placeholder="请输入您的银行卡号" /></view>
+      <view class="wdiv"><text>确认卡号: </text><input type="digit"  bindchange="SetaccountBank2" class="input" placeholder="请再次输入您的银行卡号" /></view>
+      <view class="wdiv"><text>真实姓名: </text><input type="digit"  bindchange="SetaccountName" class="input" placeholder="请输入您的真实姓名" /></view>
+    </view>
+  </view>
+
+  <view class="{{showstatus ? 'show_view' : 'hidde_view'}}">
+    <view class="wdiv"><text>微信号: </text><input type="digit" bindchange="Setbankname" class="input" placeholder="请输入您微信号" /></view>
+    <view class="wdiv"><text>确认微信号: </text><input type="digit" bindchange="Setbankname2" class="input" placeholder="请再次输入您的微信号" /></view>
+  </view>
+
+  <view class="wbutton">
+    <button bindtap="submitok">确认提现</button>
+  </view>
+</view>

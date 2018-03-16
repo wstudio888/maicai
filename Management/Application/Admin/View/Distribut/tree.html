@@ -1,0 +1,86 @@
+<include file="Public/min-header" />
+<div class="wrapper">
+	<include file="Public/breadcrumb"/>
+    <link href="__PUBLIC__/bootstrap/css/style.css" rel="stylesheet" type="text/css" />
+    <section class="content">
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="box">
+					<div class="box-header">
+						<nav class="navbar navbar-default">
+                            <div class="collapse navbar-collapse">
+                                  <form method="post" role="search" class="navbar-form form-inline" id="search-form" action="#">
+                                    <div class="form-group">
+                                        <input type="text" placeholder="上级id" name="user_id" id="user_id" class="form-control">
+                                    </div>
+                                      <button class="btn btn-info" type="submit"><i class="fa fa-search"></i> 筛选</button>
+                                   <input type="hidden" name="__hash__" value="a01e6d1e396fb3ce0a93cb19f162cfd3_7047c690e82cfdbdeafb27906139af6f"></form>
+                            </div>
+	               		</nav>
+					</div>
+            <div class="box-body">
+                <div class="tree well">
+                    <ul>
+                        <volist name="list" id="vo">
+                            <li><span class="tree_span" data-id="{$vo.user_id}"><i class="icon-folder-open"></i>{$vo.user_id}:{$vo.nick_name}</span></li>
+                        </volist>
+                        <li>
+                    </ul>
+                </div>
+            </div>
+				</div>
+			</div>
+		</div>
+	</section>
+</div>
+<script>
+//  ajax 请求树下面的节点
+$('.tree').on('click', '.tree_span', function () {
+    tmp_span = $(this);
+    tmp_span.siblings('ul').toggle();
+    if (tmp_span.hasClass('requrst'))
+        return false;
+    $.ajax({
+        type: "get",
+        url: "/index.php?m=Admin&c=Distribut&a=ajax_lower&id=" + tmp_span.data('id'),//+tab,
+        //data : $('#'+form).serialize(),// 你的formid
+        success: function (data) {
+            tmp_span.after(data);
+            tmp_span.addClass('requrst'); // 表示ajax 请求过了 不再请求第二次
+        }
+    });
+});
+</script>
+
+<style type="text/css">
+[class^="icon-"], [class*=" icon-"] {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    margin-top: 1px;
+    line-height: 14px;
+    vertical-align: text-top;
+    background-image: url("/Public/bootstrap//img/glyphicons-halflings.png");
+    background-position: 14px 14px;
+    background-repeat: no-repeat;
+}
+.icon-folder-open {
+    width: 16px;
+    background-position: -408px -120px;
+}
+.icon-minus-sign {
+    background-position: -24px -96px;
+}
+.icon-plus-sign {
+    background-position: 0 -96px;
+}
+.icon-leaf {
+    background-position: -48px -120px;
+}
+.tree li:last-child::before {
+    height: 25px;
+}
+
+</style>
+</body>
+</html>

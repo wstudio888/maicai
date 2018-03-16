@@ -1,0 +1,1537 @@
+[ 2018-02-02T09:40:27+08:00 ] 113.69.41.120 /index.php/WXAPI/Index/home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000403s ]
+SQL: SHOW COLUMNS FROM `ty_coupon` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `ty_coupon` WHERE `send_start_time` < 1517535627 AND `send_end_time` > 1517535627  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ty_ad` [ RunTime:0.0014s ]
+SQL: SELECT `ad_link`,`ad_name`,`ad_code`,`pid` FROM `ty_ad` WHERE `pid` = 1 AND `enabled` = 1  [ RunTime:0.0001s ]
+SQL: SELECT `ad_link`,`ad_name`,`ad_code`,`pid` FROM `ty_ad` WHERE `pid` = 2 AND `enabled` = 1  [ RunTime:0.0001s ]
+SQL: SELECT `ad_link`,`ad_name`,`ad_code`,`pid` FROM `ty_ad` WHERE `pid` = 3 AND `enabled` = 1  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_article` [ RunTime:0.0016s ]
+SQL: SELECT `article_id`,`content`,`link`,`description` FROM `ty_article` WHERE `article_id` = 2 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `article_id`,`content`,`link`,`description` FROM `ty_article` WHERE `article_id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_article_cat` [ RunTime:0.0019s ]
+SQL: SELECT `cat_name`,`thumb`,`cat_desc` FROM `ty_article_cat` WHERE `parent_id` = 2 AND `show_in_nav` = 1 ORDER BY sort_order  [ RunTime:0.0001s ]
+SQL: SELECT `cat_name`,`thumb`,`cat_desc`,`type` FROM `ty_article_cat` WHERE `parent_id` = 9 AND `show_in_nav` = 1 ORDER BY sort_order  [ RunTime:0.0001s ]
+
+[ 2018-02-02T09:40:29+08:00 ] 113.69.41.120 /index.php/WXAPI/User/getOpenid?url=https%3A%2F%2Fapi.weixin.qq.com%2Fsns%2Fjscode2session%3Fappid%3Dwxf3a9ae58645327d5%26secret%3Dc90e9c7fa14d4df6fbde0970cc2f0fb0%26js_code%3D001NYF1a0AomQv1duc4a0niB1a0NYF1l%26grant_type%3Dauthorization_code%26code%3D001NYF1a0AomQv1duc4a0niB1a0NYF1l
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000342s ]
+SQL: SHOW COLUMNS FROM `ty_users` [ RunTime:0.0022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000420s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000494s ]
+
+[ 2018-02-02T09:40:31+08:00 ] 113.69.41.120 /index.php/WXAPI/User/validateOpenid?openid=o9h__0FogVmklxsBGpGfyl4zcjb8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000237s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000365s ]
+SQL: SHOW COLUMNS FROM `ty_users` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `ty_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ty_users` WHERE `open_id` = 'o9h__0FogVmklxsBGpGfyl4zcjb8' LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000327s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000368s ]
+
+[ 2018-02-02T09:40:31+08:00 ] 113.69.41.120 /index.php/WXAPI/Store/getStoreClass
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000357s ]
+SQL: SHOW COLUMNS FROM `ty_store` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `ty_store` WHERE `store_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ty_store_class` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `ty_store_class` ORDER BY sc_sort asc  [ RunTime:0.0001s ]
+
+[ 2018-02-02T09:40:31+08:00 ] 113.69.41.120 /index.php/WXAPI/Store/getStores
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000355s ]
+SQL: SHOW COLUMNS FROM `ty_store` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `ty_store` WHERE `store_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ty_store` WHERE `store_state` = 1  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_goods` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ty_goods` WHERE `store_id` = 3 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ty_goods` WHERE `store_id` = 3 LIMIT 0,4   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ty_goods` WHERE `store_id` = 35 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ty_goods` WHERE `store_id` = 35 LIMIT 0,4   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ty_goods` WHERE `store_id` = 36 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ty_goods` WHERE `store_id` = 36 LIMIT 0,4   [ RunTime:0.0001s ]
+
+[ 2018-02-02T09:40:57+08:00 ] 113.69.41.120 /index.php/WXAPI/User/register?open_id=o9h__0FogVmklxsBGpGfyl4zcjb8&country=China&gender=1&nick_name=aKen_YUENG%20%E2%9C%A8%E2%9D%81%D2%89%D2%89%D2%89%D2%89%D2%89%D2%89%D2%89%D2%89&province=Guangdong&city=Foshan&head_pic=https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTL7QWEibBRUvZgWDibbwtPSxPY6mBjIYEJJ4KGypqm9gTeUJYsS3aicLxcw8dft0RJ1R88jqVVm8o1iag/0&fid=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000346s ]
+SQL: SHOW COLUMNS FROM `ty_users` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `ty_users` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `ty_config` [ RunTime:0.0015s ]
+SQL: SELECT `value` FROM `ty_config` WHERE `name` = 'distributor' LIMIT 1   [ RunTime:0.0001s ]
+SQL: INSERT INTO `ty_users` (`city`,`open_id`,`nick_name`,`province`,`head_pic`) VALUES ('0','o9h__0FogVmklxsBGpGfyl4zcjb8','aKen_YUENG ✨❁҉҉҉҉҉҉҉҉','0','https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTL7QWEibBRUvZgWDibbwtPSxPY6mBjIYEJJ4KGypqm9gTeUJYsS3aicLxcw8dft0RJ1R88jqVVm8o1iag/0') [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ty_users` WHERE `user_id` = 757 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: v /var/www/html/maicai/Application/WXAPI/Controller/UserController.class.php 第 736 行.
+SQL: UPDATE `ty_users` SET `head_pic`='/Public/head/757.jpg' WHERE `user_id` = 757 [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ty_users` WHERE `user_id` = 757 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ty_users` WHERE `user_id` = 757 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ty_config` WHERE `name` = 'hot_keywords' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_seller_apply` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `ty_seller_apply` WHERE `user_id` = 757 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000380s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000427s ]
+
+[ 2018-02-02T09:41:02+08:00 ] 113.69.41.120 /index.php/WXAPI/Goods/goodsCategoryList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000403s ]
+SQL: SHOW COLUMNS FROM `ty_goods_category` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `ty_goods_category` WHERE ( parent_id = 0 AND is_show=1 ) ORDER BY parent_id_path,sort_order desc  [ RunTime:0.0001s ]
+
+[ 2018-02-02T09:41:13+08:00 ] 113.69.41.120 /index.php/WXAPI/goods/categoryBanner/banner_name/%E8%82%89%E7%B1%BB
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000396s ]
+SQL: SHOW COLUMNS FROM `ty_ad_position` [ RunTime:0.0007s ]
+SQL: SELECT `position_id` FROM `ty_ad_position` WHERE `position_name` = '肉类' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-02-02T09:41:28+08:00 ] 113.69.41.120 /index.php/WXAPI/Goods/goodsCategoryList/parent_id/43
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000379s ]
+SQL: SHOW COLUMNS FROM `ty_goods_category` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ty_goods_category` WHERE ( parent_id = 43 AND is_show=1 ) ORDER BY parent_id_path,sort_order desc  [ RunTime:0.0001s ]
+
+[ 2018-02-02T09:41:39+08:00 ] 117.136.79.85 /index.php/WXAPI/Index/home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000463s ]
+SQL: SHOW COLUMNS FROM `ty_coupon` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ty_coupon` WHERE `send_start_time` < 1517535699 AND `send_end_time` > 1517535699  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ty_ad` [ RunTime:0.0006s ]
+SQL: SELECT `ad_link`,`ad_name`,`ad_code`,`pid` FROM `ty_ad` WHERE `pid` = 1 AND `enabled` = 1  [ RunTime:0.0001s ]
+SQL: SELECT `ad_link`,`ad_name`,`ad_code`,`pid` FROM `ty_ad` WHERE `pid` = 2 AND `enabled` = 1  [ RunTime:0.0001s ]
+SQL: SELECT `ad_link`,`ad_name`,`ad_code`,`pid` FROM `ty_ad` WHERE `pid` = 3 AND `enabled` = 1  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_article` [ RunTime:0.0006s ]
+SQL: SELECT `article_id`,`content`,`link`,`description` FROM `ty_article` WHERE `article_id` = 2 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `article_id`,`content`,`link`,`description` FROM `ty_article` WHERE `article_id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_article_cat` [ RunTime:0.0007s ]
+SQL: SELECT `cat_name`,`thumb`,`cat_desc` FROM `ty_article_cat` WHERE `parent_id` = 2 AND `show_in_nav` = 1 ORDER BY sort_order  [ RunTime:0.0001s ]
+SQL: SELECT `cat_name`,`thumb`,`cat_desc`,`type` FROM `ty_article_cat` WHERE `parent_id` = 9 AND `show_in_nav` = 1 ORDER BY sort_order  [ RunTime:0.0001s ]
+
+[ 2018-02-02T09:41:40+08:00 ] 117.136.79.85 /index.php/WXAPI/User/getOpenid?url=https%3A%2F%2Fapi.weixin.qq.com%2Fsns%2Fjscode2session%3Fappid%3Dwxf3a9ae58645327d5%26secret%3Dc90e9c7fa14d4df6fbde0970cc2f0fb0%26js_code%3D013xrmYO0HtfEa27Ie1P050zYO0xrmY6%26grant_type%3Dauthorization_code%26code%3D013xrmYO0HtfEa27Ie1P050zYO0xrmY6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000346s ]
+SQL: SHOW COLUMNS FROM `ty_users` [ RunTime:0.0017s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000428s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000499s ]
+
+[ 2018-02-02T09:41:40+08:00 ] 117.136.79.85 /index.php/WXAPI/User/validateOpenid?openid=o9h__0DXmlbntcVt39O0yaUPOQ3M
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000333s ]
+SQL: SHOW COLUMNS FROM `ty_users` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `ty_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ty_users` WHERE `open_id` = 'o9h__0DXmlbntcVt39O0yaUPOQ3M' LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000361s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000410s ]
+
+[ 2018-02-02T09:41:43+08:00 ] 117.136.79.85 /index.php/WXAPI/User/register?open_id=o9h__0DXmlbntcVt39O0yaUPOQ3M&country=China&gender=1&nick_name=區先生-&province=Guangdong&city=Foshan&head_pic=https://wx.qlogo.cn/mmopen/vi_32/WE7ibF3Fl2trKQD08Wpc5adbKsL5sI9YM9AFTeRIOHILPSD07DJCBp5dLXiakpGnd7icP9mM7HWSclfNVciaicZBLsA/0&fid=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000350s ]
+SQL: SHOW COLUMNS FROM `ty_users` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `ty_users` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `ty_config` [ RunTime:0.0004s ]
+SQL: SELECT `value` FROM `ty_config` WHERE `name` = 'distributor' LIMIT 1   [ RunTime:0.0001s ]
+SQL: INSERT INTO `ty_users` (`city`,`open_id`,`nick_name`,`province`,`head_pic`) VALUES ('0','o9h__0DXmlbntcVt39O0yaUPOQ3M','區先生-','0','https://wx.qlogo.cn/mmopen/vi_32/WE7ibF3Fl2trKQD08Wpc5adbKsL5sI9YM9AFTeRIOHILPSD07DJCBp5dLXiakpGnd7icP9mM7HWSclfNVciaicZBLsA/0') [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ty_users` WHERE `user_id` = 758 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: v /var/www/html/maicai/Application/WXAPI/Controller/UserController.class.php 第 736 行.
+SQL: UPDATE `ty_users` SET `head_pic`='/Public/head/758.jpg' WHERE `user_id` = 758 [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ty_users` WHERE `user_id` = 758 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ty_users` WHERE `user_id` = 758 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ty_config` WHERE `name` = 'hot_keywords' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_seller_apply` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ty_seller_apply` WHERE `user_id` = 758 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000344s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000396s ]
+
+[ 2018-02-02T09:42:00+08:00 ] 117.136.79.85 /index.php/WXAPI/Store/getStoreClass
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000343s ]
+SQL: SHOW COLUMNS FROM `ty_store` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `ty_store` WHERE `store_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ty_store_class` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ty_store_class` ORDER BY sc_sort asc  [ RunTime:0.0001s ]
+
+[ 2018-02-02T09:42:00+08:00 ] 117.136.79.85 /index.php/WXAPI/Store/getStores
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000231s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000335s ]
+SQL: SHOW COLUMNS FROM `ty_store` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `ty_store` WHERE `store_id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ty_store` WHERE `store_state` = 1  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ty_goods` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ty_goods` WHERE `store_id` = 3 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ty_goods` WHERE `store_id` = 3 LIMIT 0,4   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ty_goods` WHERE `store_id` = 35 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ty_goods` WHERE `store_id` = 35 LIMIT 0,4   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ty_goods` WHERE `store_id` = 36 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ty_goods` WHERE `store_id` = 36 LIMIT 0,4   [ RunTime:0.0001s ]
+
+[ 2018-02-02T09:42:10+08:00 ] 117.136.79.85 /index.php/WXAPI/Goods/goodsCategoryList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000341s ]
+SQL: SHOW COLUMNS FROM `ty_goods_category` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ty_goods_category` WHERE ( parent_id = 0 AND is_show=1 ) ORDER BY parent_id_path,sort_order desc  [ RunTime:0.0001s ]
+
+[ 2018-02-02T09:42:10+08:00 ] 117.136.79.85 /index.php/WXAPI/goods/categoryBanner/banner_name/肉类
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000229s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000355s ]
+SQL: SHOW COLUMNS FROM `ty_ad_position` [ RunTime:0.0006s ]
+SQL: SELECT `position_id` FROM `ty_ad_position` WHERE `position_name` = '肉类' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-02-02T09:42:10+08:00 ] 117.136.79.85 /index.php/WXAPI/Goods/goodsCategoryList/parent_id/43
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000353s ]
+SQL: SHOW COLUMNS FROM `ty_goods_category` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ty_goods_category` WHERE ( parent_id = 43 AND is_show=1 ) ORDER BY parent_id_path,sort_order desc  [ RunTime:0.0001s ]
+
+[ 2018-02-02T09:42:15+08:00 ] 117.136.79.85 /index.php/WXAPI/goods/categoryBanner/banner_name/蛋类
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000235s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000369s ]
+SQL: SHOW COLUMNS FROM `ty_ad_position` [ RunTime:0.0006s ]
+SQL: SELECT `position_id` FROM `ty_ad_position` WHERE `position_name` = '蛋类' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-02-02T09:42:15+08:00 ] 117.136.79.85 /index.php/WXAPI/Goods/goodsCategoryList/parent_id/44
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000237s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000348s ]
+SQL: SHOW COLUMNS FROM `ty_goods_category` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ty_goods_category` WHERE ( parent_id = 44 AND is_show=1 ) ORDER BY parent_id_path,sort_order desc  [ RunTime:0.0001s ]
+
+[ 2018-02-02T09:42:17+08:00 ] 117.136.79.85 /index.php/WXAPI/Goods/goodsCategoryList/parent_id/45
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000343s ]
+SQL: SHOW COLUMNS FROM `ty_goods_category` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ty_goods_category` WHERE ( parent_id = 45 AND is_show=1 ) ORDER BY parent_id_path,sort_order desc  [ RunTime:0.0001s ]
+
+[ 2018-02-02T09:42:17+08:00 ] 117.136.79.85 /index.php/WXAPI/goods/categoryBanner/banner_name/水产类
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000364s ]
+SQL: SHOW COLUMNS FROM `ty_ad_position` [ RunTime:0.0005s ]
+SQL: SELECT `position_id` FROM `ty_ad_position` WHERE `position_name` = '水产类' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-02-02T09:42:19+08:00 ] 117.136.79.85 /index.php/WXAPI/goods/categoryBanner/banner_name/蔬菜
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000330s ]
+SQL: SHOW COLUMNS FROM `ty_ad_position` [ RunTime:0.0006s ]
+SQL: SELECT `position_id` FROM `ty_ad_position` WHERE `position_name` = '蔬菜' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-02-02T09:42:19+08:00 ] 117.136.79.85 /index.php/WXAPI/Goods/goodsCategoryList/parent_id/46
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000229s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000352s ]
+SQL: SHOW COLUMNS FROM `ty_goods_category` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ty_goods_category` WHERE ( parent_id = 46 AND is_show=1 ) ORDER BY parent_id_path,sort_order desc  [ RunTime:0.0001s ]
+
+[ 2018-02-02T09:42:20+08:00 ] 117.136.79.85 /index.php/WXAPI/goods/categoryBanner/banner_name/干货
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000350s ]
+SQL: SHOW COLUMNS FROM `ty_ad_position` [ RunTime:0.0006s ]
+SQL: SELECT `position_id` FROM `ty_ad_position` WHERE `position_name` = '干货' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-02-02T09:42:20+08:00 ] 117.136.79.85 /index.php/WXAPI/Goods/goodsCategoryList/parent_id/47
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000249s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000431s ]
+SQL: SHOW COLUMNS FROM `ty_goods_category` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ty_goods_category` WHERE ( parent_id = 47 AND is_show=1 ) ORDER BY parent_id_path,sort_order desc  [ RunTime:0.0001s ]
+
+[ 2018-02-02T09:42:22+08:00 ] 117.136.79.85 /index.php/WXAPI/goods/categoryBanner/banner_name/蔬菜
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000347s ]
+SQL: SHOW COLUMNS FROM `ty_ad_position` [ RunTime:0.0017s ]
+SQL: SELECT `position_id` FROM `ty_ad_position` WHERE `position_name` = '蔬菜' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-02-02T09:42:22+08:00 ] 117.136.79.85 /index.php/WXAPI/Goods/goodsCategoryList/parent_id/46
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000466s ]
+SQL: SHOW COLUMNS FROM `ty_goods_category` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ty_goods_category` WHERE ( parent_id = 46 AND is_show=1 ) ORDER BY parent_id_path,sort_order desc  [ RunTime:0.0001s ]
+
+[ 2018-02-02T09:42:23+08:00 ] 117.136.79.85 /index.php/WXAPI/Goods/goodsList/id/59/sort/shop_price/sort_asc/desc/p/0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000390s ]
+NOTIC: [8] Undefined index: start_price /var/www/html/maicai/Application/WXAPI/Controller/GoodsController.class.php 第 115 行.
+NOTIC: [8] Undefined index: end_price /var/www/html/maicai/Application/WXAPI/Controller/GoodsController.class.php 第 115 行.
+SQL: SHOW COLUMNS FROM `ty_goods` [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `ty_goods_category` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ty_goods_category` WHERE ( id = 59 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_goods_category` [ RunTime:0.0005s ]
+SQL: SELECT `id`,`parent_id` FROM `ty_goods_category`  [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `ty_goods_category` WHERE ( parent_id = 59 )  [ RunTime:0.0001s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/html/maicai/Application/Common/Common/common.php 第 393 行.
+SQL: SHOW COLUMNS FROM `ty_goods` [ RunTime:0.0012s ]
+SQL: SELECT `goods_id` FROM `ty_goods` WHERE ( is_on_sale=1 and cat_id2 in(59)  )  [ RunTime:0.0001s ]
+NOTIC: [2] implode(): Invalid arguments passed /var/www/html/maicai/Application/Home/Logic/GoodsLogic.class.php 第 319 行.
+SQL: SELECT `shop_price` FROM `ty_goods` WHERE ( goods_id in (0) )  [ RunTime:0.0001s ]
+NOTIC: [2] rsort() expects parameter 1 to be array, null given /var/www/html/maicai/Application/Home/Logic/GoodsLogic.class.php 第 323 行.
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/html/maicai/Application/Home/Logic/GoodsLogic.class.php 第 335 行.
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/html/maicai/Application/Home/Logic/GoodsLogic.class.php 第 335 行.
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/html/maicai/Application/Home/Logic/GoodsLogic.class.php 第 335 行.
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/html/maicai/Application/Home/Logic/GoodsLogic.class.php 第 335 行.
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/html/maicai/Application/Home/Logic/GoodsLogic.class.php 第 335 行.
+NOTIC: [2] implode(): Invalid arguments passed /var/www/html/maicai/Application/Home/Logic/GoodsLogic.class.php 第 37 行.
+SQL: SHOW COLUMNS FROM `ty_brand` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `ty_brand` WHERE ( id in(select brand_id from ty_goods where brand_id > 0 and goods_id in(0)) ) LIMIT 30   [ RunTime:0.0001s ]
+NOTIC: [2] implode(): Invalid arguments passed /var/www/html/maicai/Application/Home/Logic/GoodsLogic.class.php 第 60 行.
+SQL: SHOW COLUMNS FROM `ty_spec_goods_price` [ RunTime:0.0012s ]
+SQL: select group_concat(`key` separator  '_') as `key` from ty_spec_goods_price where goods_id in(0) [ RunTime:0.0001s ]
+NOTIC: [2] implode(): Invalid arguments passed /var/www/html/maicai/Application/Home/Logic/GoodsLogic.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `ty_goods_attr` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `ty_goods_attr` WHERE ( goods_id in(0) and attr_value != '' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_goods_attribute` [ RunTime:0.0012s ]
+SQL: SELECT `attr_id`,`attr_name`,`attr_index` FROM `ty_goods_attribute`  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: goods_list /var/www/html/maicai/Application/WXAPI/Controller/GoodsController.class.php 第 181 行.
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/html/maicai/Application/WXAPI/Controller/GoodsController.class.php 第 181 行.
+NOTIC: [8] Undefined variable: goods_list /var/www/html/maicai/Application/WXAPI/Controller/GoodsController.class.php 第 185 行.
+
+[ 2018-02-02T09:42:34+08:00 ] 117.136.79.85 /index.php/WXAPI/Goods/goodsLists/id/46/sort/shop_price/sort_asc/desc/p/0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000335s ]
+NOTIC: [8] Undefined index: start_price /var/www/html/maicai/Application/WXAPI/Controller/GoodsController.class.php 第 251 行.
+NOTIC: [8] Undefined index: end_price /var/www/html/maicai/Application/WXAPI/Controller/GoodsController.class.php 第 251 行.
+SQL: SHOW COLUMNS FROM `ty_goods` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `ty_goods_category` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ty_goods_category` WHERE ( id = 46 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_goods_category` [ RunTime:0.0006s ]
+SQL: SELECT `id`,`parent_id` FROM `ty_goods_category`  [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `ty_goods_category` WHERE ( parent_id = 46 )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_goods` [ RunTime:0.0010s ]
+SQL: SELECT `goods_id` FROM `ty_goods` WHERE ( is_on_sale=1 and cat_id2 in(46,59)  )  [ RunTime:0.0001s ]
+NOTIC: [2] implode(): Invalid arguments passed /var/www/html/maicai/Application/Home/Logic/GoodsLogic.class.php 第 319 行.
+SQL: SELECT `shop_price` FROM `ty_goods` WHERE ( goods_id in (0) )  [ RunTime:0.0001s ]
+NOTIC: [2] rsort() expects parameter 1 to be array, null given /var/www/html/maicai/Application/Home/Logic/GoodsLogic.class.php 第 323 行.
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/html/maicai/Application/Home/Logic/GoodsLogic.class.php 第 335 行.
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/html/maicai/Application/Home/Logic/GoodsLogic.class.php 第 335 行.
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/html/maicai/Application/Home/Logic/GoodsLogic.class.php 第 335 行.
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/html/maicai/Application/Home/Logic/GoodsLogic.class.php 第 335 行.
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/html/maicai/Application/Home/Logic/GoodsLogic.class.php 第 335 行.
+NOTIC: [2] implode(): Invalid arguments passed /var/www/html/maicai/Application/Home/Logic/GoodsLogic.class.php 第 37 行.
+SQL: SHOW COLUMNS FROM `ty_brand` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ty_brand` WHERE ( id in(select brand_id from ty_goods where brand_id > 0 and goods_id in(0)) ) LIMIT 30   [ RunTime:0.0001s ]
+NOTIC: [2] implode(): Invalid arguments passed /var/www/html/maicai/Application/Home/Logic/GoodsLogic.class.php 第 60 行.
+SQL: SHOW COLUMNS FROM `ty_spec_goods_price` [ RunTime:0.0005s ]
+SQL: select group_concat(`key` separator  '_') as `key` from ty_spec_goods_price where goods_id in(0) [ RunTime:0.0001s ]
+NOTIC: [2] implode(): Invalid arguments passed /var/www/html/maicai/Application/Home/Logic/GoodsLogic.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `ty_goods_attr` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ty_goods_attr` WHERE ( goods_id in(0) and attr_value != '' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_goods_attribute` [ RunTime:0.0005s ]
+SQL: SELECT `attr_id`,`attr_name`,`attr_index` FROM `ty_goods_attribute`  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: goods_list /var/www/html/maicai/Application/WXAPI/Controller/GoodsController.class.php 第 317 行.
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/html/maicai/Application/WXAPI/Controller/GoodsController.class.php 第 317 行.
+NOTIC: [8] Undefined variable: goods_list /var/www/html/maicai/Application/WXAPI/Controller/GoodsController.class.php 第 321 行.
+
+[ 2018-02-02T09:42:37+08:00 ] 117.136.79.85 /index.php/WXAPI/Goods/goodsLists/id/43/sort/shop_price/sort_asc/desc/p/0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000354s ]
+NOTIC: [8] Undefined index: start_price /var/www/html/maicai/Application/WXAPI/Controller/GoodsController.class.php 第 251 行.
+NOTIC: [8] Undefined index: end_price /var/www/html/maicai/Application/WXAPI/Controller/GoodsController.class.php 第 251 行.
+SQL: SHOW COLUMNS FROM `ty_goods` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `ty_goods_category` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ty_goods_category` WHERE ( id = 43 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_goods_category` [ RunTime:0.0006s ]
+SQL: SELECT `id`,`parent_id` FROM `ty_goods_category`  [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `ty_goods_category` WHERE ( parent_id = 43 )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_goods` [ RunTime:0.0011s ]
+SQL: SELECT `shop_price` FROM `ty_goods` WHERE ( goods_id in (38,41,42,43,44,47,48,50,53,57,58) )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_brand` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ty_brand` WHERE ( id in(select brand_id from ty_goods where brand_id > 0 and goods_id in(38,41,42,43,44,47,48,50,53,57,58)) ) LIMIT 30   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_spec_goods_price` [ RunTime:0.0005s ]
+SQL: select group_concat(`key` separator  '_') as `key` from ty_spec_goods_price where goods_id in(38,41,42,43,44,47,48,50,53,57,58) [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_spec` [ RunTime:0.0006s ]
+SQL: SELECT `id`,`name` FROM `ty_spec`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_spec_item` [ RunTime:0.0005s ]
+SQL: SELECT `id`,`spec_id`,`item` FROM `ty_spec_item`  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: spec /var/www/html/maicai/Application/Home/Logic/GoodsLogic.class.php 第 76 行.
+SQL: SHOW COLUMNS FROM `ty_goods_attr` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ty_goods_attr` WHERE ( goods_id in(38,41,42,43,44,47,48,50,53,57,58) and attr_value != '' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_goods_attribute` [ RunTime:0.0005s ]
+SQL: SELECT `attr_id`,`attr_name`,`attr_index` FROM `ty_goods_attribute`  [ RunTime:0.0001s ]
+SQL: SELECT `goods_id`,`cat_id2`,`goods_sn`,`goods_name`,`shop_price`,`comment_count`,`original_img`,`sales_sum` FROM `ty_goods` WHERE ( cat_id1 = 43 and is_on_sale = 1 ) ORDER BY shop_price desc LIMIT 0,5   [ RunTime:0.0001s ]
+
+[ 2018-02-02T09:42:46+08:00 ] 117.136.79.85 /index.php/WXAPI/Goods/goodsLists/id/43/sort/shop_price/sort_asc/desc/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000448s ]
+NOTIC: [8] Undefined index: start_price /var/www/html/maicai/Application/WXAPI/Controller/GoodsController.class.php 第 251 行.
+NOTIC: [8] Undefined index: end_price /var/www/html/maicai/Application/WXAPI/Controller/GoodsController.class.php 第 251 行.
+SQL: SHOW COLUMNS FROM `ty_goods` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `ty_goods_category` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ty_goods_category` WHERE ( id = 43 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_goods_category` [ RunTime:0.0005s ]
+SQL: SELECT `id`,`parent_id` FROM `ty_goods_category`  [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `ty_goods_category` WHERE ( parent_id = 43 )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_goods` [ RunTime:0.0010s ]
+SQL: SELECT `shop_price` FROM `ty_goods` WHERE ( goods_id in (38,41,42,43,44,47,48,50,53,57,58) )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_brand` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ty_brand` WHERE ( id in(select brand_id from ty_goods where brand_id > 0 and goods_id in(38,41,42,43,44,47,48,50,53,57,58)) ) LIMIT 30   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_spec_goods_price` [ RunTime:0.0004s ]
+SQL: select group_concat(`key` separator  '_') as `key` from ty_spec_goods_price where goods_id in(38,41,42,43,44,47,48,50,53,57,58) [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_spec` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`name` FROM `ty_spec`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_spec_item` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`spec_id`,`item` FROM `ty_spec_item`  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: spec /var/www/html/maicai/Application/Home/Logic/GoodsLogic.class.php 第 76 行.
+SQL: SHOW COLUMNS FROM `ty_goods_attr` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ty_goods_attr` WHERE ( goods_id in(38,41,42,43,44,47,48,50,53,57,58) and attr_value != '' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_goods_attribute` [ RunTime:0.0004s ]
+SQL: SELECT `attr_id`,`attr_name`,`attr_index` FROM `ty_goods_attribute`  [ RunTime:0.0001s ]
+SQL: SELECT `goods_id`,`cat_id2`,`goods_sn`,`goods_name`,`shop_price`,`comment_count`,`original_img`,`sales_sum` FROM `ty_goods` WHERE ( cat_id1 = 43 and is_on_sale = 1 ) ORDER BY shop_price desc LIMIT 5,5   [ RunTime:0.0001s ]
+
+[ 2018-02-02T09:42:53+08:00 ] 117.136.79.85 /index.php/WXAPI/Goods/goodsLists/id/43/sort/shop_price/sort_asc/desc/p/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000350s ]
+NOTIC: [8] Undefined index: start_price /var/www/html/maicai/Application/WXAPI/Controller/GoodsController.class.php 第 251 行.
+NOTIC: [8] Undefined index: end_price /var/www/html/maicai/Application/WXAPI/Controller/GoodsController.class.php 第 251 行.
+SQL: SHOW COLUMNS FROM `ty_goods` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `ty_goods_category` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ty_goods_category` WHERE ( id = 43 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_goods_category` [ RunTime:0.0005s ]
+SQL: SELECT `id`,`parent_id` FROM `ty_goods_category`  [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `ty_goods_category` WHERE ( parent_id = 43 )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_goods` [ RunTime:0.0011s ]
+SQL: SELECT `shop_price` FROM `ty_goods` WHERE ( goods_id in (38,41,42,43,44,47,48,50,53,57,58) )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_brand` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ty_brand` WHERE ( id in(select brand_id from ty_goods where brand_id > 0 and goods_id in(38,41,42,43,44,47,48,50,53,57,58)) ) LIMIT 30   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_spec_goods_price` [ RunTime:0.0005s ]
+SQL: select group_concat(`key` separator  '_') as `key` from ty_spec_goods_price where goods_id in(38,41,42,43,44,47,48,50,53,57,58) [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_spec` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`name` FROM `ty_spec`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_spec_item` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`spec_id`,`item` FROM `ty_spec_item`  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: spec /var/www/html/maicai/Application/Home/Logic/GoodsLogic.class.php 第 76 行.
+SQL: SHOW COLUMNS FROM `ty_goods_attr` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ty_goods_attr` WHERE ( goods_id in(38,41,42,43,44,47,48,50,53,57,58) and attr_value != '' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_goods_attribute` [ RunTime:0.0004s ]
+SQL: SELECT `attr_id`,`attr_name`,`attr_index` FROM `ty_goods_attribute`  [ RunTime:0.0001s ]
+SQL: SELECT `goods_id`,`cat_id2`,`goods_sn`,`goods_name`,`shop_price`,`comment_count`,`original_img`,`sales_sum` FROM `ty_goods` WHERE ( cat_id1 = 43 and is_on_sale = 1 ) ORDER BY shop_price desc LIMIT 10,5   [ RunTime:0.0001s ]
+
+[ 2018-02-02T09:45:46+08:00 ] 223.104.63.135 /index.php/WXAPI/Goods/goodsLists/id/43/sort/shop_price/sort_asc/desc/p/0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000502s ]
+NOTIC: [8] Undefined index: start_price /var/www/html/maicai/Application/WXAPI/Controller/GoodsController.class.php 第 251 行.
+NOTIC: [8] Undefined index: end_price /var/www/html/maicai/Application/WXAPI/Controller/GoodsController.class.php 第 251 行.
+SQL: SHOW COLUMNS FROM `ty_goods` [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `ty_goods_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ty_goods_category` WHERE ( id = 43 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_goods_category` [ RunTime:0.0006s ]
+SQL: SELECT `id`,`parent_id` FROM `ty_goods_category`  [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `ty_goods_category` WHERE ( parent_id = 43 )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_goods` [ RunTime:0.0011s ]
+SQL: SELECT `shop_price` FROM `ty_goods` WHERE ( goods_id in (38,41,42,43,44,47,48,50,53,57,58) )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_brand` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ty_brand` WHERE ( id in(select brand_id from ty_goods where brand_id > 0 and goods_id in(38,41,42,43,44,47,48,50,53,57,58)) ) LIMIT 30   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_spec_goods_price` [ RunTime:0.0005s ]
+SQL: select group_concat(`key` separator  '_') as `key` from ty_spec_goods_price where goods_id in(38,41,42,43,44,47,48,50,53,57,58) [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_spec` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`name` FROM `ty_spec`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_spec_item` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`spec_id`,`item` FROM `ty_spec_item`  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: spec /var/www/html/maicai/Application/Home/Logic/GoodsLogic.class.php 第 76 行.
+SQL: SHOW COLUMNS FROM `ty_goods_attr` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ty_goods_attr` WHERE ( goods_id in(38,41,42,43,44,47,48,50,53,57,58) and attr_value != '' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_goods_attribute` [ RunTime:0.0005s ]
+SQL: SELECT `attr_id`,`attr_name`,`attr_index` FROM `ty_goods_attribute`  [ RunTime:0.0001s ]
+SQL: SELECT `goods_id`,`cat_id2`,`goods_sn`,`goods_name`,`shop_price`,`comment_count`,`original_img`,`sales_sum` FROM `ty_goods` WHERE ( cat_id1 = 43 and is_on_sale = 1 ) ORDER BY shop_price desc LIMIT 0,5   [ RunTime:0.0001s ]
+
+[ 2018-02-02T09:45:57+08:00 ] 223.104.63.135 /index.php/WXAPI/Goods/goodsCategoryList/parent_id/46
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000370s ]
+SQL: SHOW COLUMNS FROM `ty_goods_category` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ty_goods_category` WHERE ( parent_id = 46 AND is_show=1 ) ORDER BY parent_id_path,sort_order desc  [ RunTime:0.0001s ]
+
+[ 2018-02-02T09:45:57+08:00 ] 223.104.63.135 /index.php/WXAPI/goods/categoryBanner/banner_name/%E8%94%AC%E8%8F%9C
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000349s ]
+SQL: SHOW COLUMNS FROM `ty_ad_position` [ RunTime:0.0006s ]
+SQL: SELECT `position_id` FROM `ty_ad_position` WHERE `position_name` = '蔬菜' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-02-02T09:45:57+08:00 ] 223.104.63.135 /index.php/WXAPI/Goods/goodsCategoryList/parent_id/45
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000583s ]
+SQL: SHOW COLUMNS FROM `ty_goods_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ty_goods_category` WHERE ( parent_id = 45 AND is_show=1 ) ORDER BY parent_id_path,sort_order desc  [ RunTime:0.0006s ]
+
+[ 2018-02-02T09:45:57+08:00 ] 223.104.63.135 /index.php/WXAPI/goods/categoryBanner/banner_name/%E6%B0%B4%E4%BA%A7%E7%B1%BB
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000524s ]
+SQL: SHOW COLUMNS FROM `ty_ad_position` [ RunTime:0.0005s ]
+SQL: SELECT `position_id` FROM `ty_ad_position` WHERE `position_name` = '水产类' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-02-02T09:45:58+08:00 ] 223.104.63.135 /index.php/WXAPI/Goods/goodsCategoryList/parent_id/44
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000363s ]
+SQL: SHOW COLUMNS FROM `ty_goods_category` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ty_goods_category` WHERE ( parent_id = 44 AND is_show=1 ) ORDER BY parent_id_path,sort_order desc  [ RunTime:0.0001s ]
+
+[ 2018-02-02T09:45:58+08:00 ] 223.104.63.135 /index.php/WXAPI/goods/categoryBanner/banner_name/%E8%9B%8B%E7%B1%BB
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000471s ]
+SQL: SHOW COLUMNS FROM `ty_ad_position` [ RunTime:0.0005s ]
+SQL: SELECT `position_id` FROM `ty_ad_position` WHERE `position_name` = '蛋类' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-02-02T09:45:59+08:00 ] 223.104.63.135 /index.php/WXAPI/Goods/goodsCategoryList/parent_id/47
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000346s ]
+SQL: SHOW COLUMNS FROM `ty_goods_category` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ty_goods_category` WHERE ( parent_id = 47 AND is_show=1 ) ORDER BY parent_id_path,sort_order desc  [ RunTime:0.0001s ]
+
+[ 2018-02-02T09:45:59+08:00 ] 223.104.63.135 /index.php/WXAPI/goods/categoryBanner/banner_name/%E5%B9%B2%E8%B4%A7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000344s ]
+SQL: SHOW COLUMNS FROM `ty_ad_position` [ RunTime:0.0004s ]
+SQL: SELECT `position_id` FROM `ty_ad_position` WHERE `position_name` = '干货' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-02-02T09:45:59+08:00 ] 223.104.63.135 /index.php/WXAPI/Goods/goodsCategoryList/parent_id/48
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000237s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000380s ]
+SQL: SHOW COLUMNS FROM `ty_goods_category` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ty_goods_category` WHERE ( parent_id = 48 AND is_show=1 ) ORDER BY parent_id_path,sort_order desc  [ RunTime:0.0001s ]
+
+[ 2018-02-02T09:45:59+08:00 ] 223.104.63.135 /index.php/WXAPI/goods/categoryBanner/banner_name/%E7%B2%AE%E6%B2%B9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000357s ]
+SQL: SHOW COLUMNS FROM `ty_ad_position` [ RunTime:0.0005s ]
+SQL: SELECT `position_id` FROM `ty_ad_position` WHERE `position_name` = '粮油' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-02-02T09:45:59+08:00 ] 223.104.63.135 /index.php/WXAPI/Goods/goodsCategoryList/parent_id/50
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000370s ]
+SQL: SHOW COLUMNS FROM `ty_goods_category` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ty_goods_category` WHERE ( parent_id = 50 AND is_show=1 ) ORDER BY parent_id_path,sort_order desc  [ RunTime:0.0001s ]
+
+[ 2018-02-02T09:45:59+08:00 ] 223.104.63.135 /index.php/WXAPI/goods/categoryBanner/banner_name/%E5%8A%A0%E5%B7%A5%E7%B1%BB
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000358s ]
+SQL: SHOW COLUMNS FROM `ty_ad_position` [ RunTime:0.0005s ]
+SQL: SELECT `position_id` FROM `ty_ad_position` WHERE `position_name` = '加工类' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-02-02T09:46:00+08:00 ] 223.104.63.135 /index.php/WXAPI/Goods/goodsCategoryList/parent_id/55
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000344s ]
+SQL: SHOW COLUMNS FROM `ty_goods_category` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ty_goods_category` WHERE ( parent_id = 55 AND is_show=1 ) ORDER BY parent_id_path,sort_order desc  [ RunTime:0.0001s ]
+
+[ 2018-02-02T09:46:00+08:00 ] 223.104.63.135 /index.php/WXAPI/goods/categoryBanner/banner_name/%E6%B0%B4%E6%9E%9C
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000358s ]
+SQL: SHOW COLUMNS FROM `ty_ad_position` [ RunTime:0.0005s ]
+SQL: SELECT `position_id` FROM `ty_ad_position` WHERE `position_name` = '水果' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-02-02T10:08:34+08:00 ] 117.136.62.122 /index.php/WXAPI/Index/home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000340s ]
+SQL: SHOW COLUMNS FROM `ty_coupon` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ty_coupon` WHERE `send_start_time` < 1517537314 AND `send_end_time` > 1517537314  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ty_ad` [ RunTime:0.0008s ]
+SQL: SELECT `ad_link`,`ad_name`,`ad_code`,`pid` FROM `ty_ad` WHERE `pid` = 1 AND `enabled` = 1  [ RunTime:0.0001s ]
+SQL: SELECT `ad_link`,`ad_name`,`ad_code`,`pid` FROM `ty_ad` WHERE `pid` = 2 AND `enabled` = 1  [ RunTime:0.0001s ]
+SQL: SELECT `ad_link`,`ad_name`,`ad_code`,`pid` FROM `ty_ad` WHERE `pid` = 3 AND `enabled` = 1  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_article` [ RunTime:0.0006s ]
+SQL: SELECT `article_id`,`content`,`link`,`description` FROM `ty_article` WHERE `article_id` = 2 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `article_id`,`content`,`link`,`description` FROM `ty_article` WHERE `article_id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_article_cat` [ RunTime:0.0006s ]
+SQL: SELECT `cat_name`,`thumb`,`cat_desc` FROM `ty_article_cat` WHERE `parent_id` = 2 AND `show_in_nav` = 1 ORDER BY sort_order  [ RunTime:0.0001s ]
+SQL: SELECT `cat_name`,`thumb`,`cat_desc`,`type` FROM `ty_article_cat` WHERE `parent_id` = 9 AND `show_in_nav` = 1 ORDER BY sort_order  [ RunTime:0.0001s ]
+
+[ 2018-02-02T10:08:35+08:00 ] 117.136.62.122 /index.php/WXAPI/User/getOpenid?url=https%3A%2F%2Fapi.weixin.qq.com%2Fsns%2Fjscode2session%3Fappid%3Dwxf3a9ae58645327d5%26secret%3Dc90e9c7fa14d4df6fbde0970cc2f0fb0%26js_code%3D003j2AI126UeWX0bcVJ12UthI12j2AIF%26grant_type%3Dauthorization_code%26code%3D003j2AI126UeWX0bcVJ12UthI12j2AIF
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000235s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000416s ]
+SQL: SHOW COLUMNS FROM `ty_users` [ RunTime:0.0013s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000414s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000484s ]
+
+[ 2018-02-02T10:08:35+08:00 ] 117.136.62.122 /index.php/WXAPI/User/validateOpenid?openid=o9h__0O5LuSwGooy32rPzJpntVPg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000220s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000334s ]
+SQL: SHOW COLUMNS FROM `ty_users` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `ty_users` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `ty_users` WHERE `open_id` = 'o9h__0O5LuSwGooy32rPzJpntVPg' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000417s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000469s ]
+
+[ 2018-02-02T10:08:38+08:00 ] 117.136.62.122 /index.php/WXAPI/User/register?open_id=o9h__0O5LuSwGooy32rPzJpntVPg&country=China&gender=1&nick_name=%E5%8D%97%E5%9C%9F%C2%B7%E9%83%AD&province=Sichuan&city=Mianyang&head_pic=https://wx.qlogo.cn/mmopen/vi_32/KUo92v6QsF2xGNU7W6v2Thvtv3aTZsNPzkOrVsiaS7yO4vSGnaakRClqnOTmgYqBjSNNd9L1iaBcWc9QhibC7j7iaA/0&fid=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000357s ]
+SQL: SHOW COLUMNS FROM `ty_users` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `ty_users` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ty_config` [ RunTime:0.0004s ]
+SQL: SELECT `value` FROM `ty_config` WHERE `name` = 'distributor' LIMIT 1   [ RunTime:0.0001s ]
+SQL: INSERT INTO `ty_users` (`city`,`open_id`,`nick_name`,`province`,`head_pic`) VALUES ('0','o9h__0O5LuSwGooy32rPzJpntVPg','南土·郭','0','https://wx.qlogo.cn/mmopen/vi_32/KUo92v6QsF2xGNU7W6v2Thvtv3aTZsNPzkOrVsiaS7yO4vSGnaakRClqnOTmgYqBjSNNd9L1iaBcWc9QhibC7j7iaA/0') [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ty_users` WHERE `user_id` = 759 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: v /var/www/html/maicai/Application/WXAPI/Controller/UserController.class.php 第 736 行.
+SQL: UPDATE `ty_users` SET `head_pic`='/Public/head/759.jpg' WHERE `user_id` = 759 [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ty_users` WHERE `user_id` = 759 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ty_users` WHERE `user_id` = 759 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ty_config` WHERE `name` = 'hot_keywords' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_seller_apply` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ty_seller_apply` WHERE `user_id` = 759 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000419s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000467s ]
+
+[ 2018-02-02T10:09:29+08:00 ] 117.136.62.122 /index.php/WXAPI/Goods/goodsLists/id/43/sort/shop_price/sort_asc/desc/p/0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000422s ]
+NOTIC: [8] Undefined index: start_price /var/www/html/maicai/Application/WXAPI/Controller/GoodsController.class.php 第 251 行.
+NOTIC: [8] Undefined index: end_price /var/www/html/maicai/Application/WXAPI/Controller/GoodsController.class.php 第 251 行.
+SQL: SHOW COLUMNS FROM `ty_goods` [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `ty_goods_category` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ty_goods_category` WHERE ( id = 43 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_goods_category` [ RunTime:0.0007s ]
+SQL: SELECT `id`,`parent_id` FROM `ty_goods_category`  [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `ty_goods_category` WHERE ( parent_id = 43 )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_goods` [ RunTime:0.0010s ]
+SQL: SELECT `shop_price` FROM `ty_goods` WHERE ( goods_id in (38,41,42,43,44,47,48,50,53,57,58) )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_brand` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ty_brand` WHERE ( id in(select brand_id from ty_goods where brand_id > 0 and goods_id in(38,41,42,43,44,47,48,50,53,57,58)) ) LIMIT 30   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_spec_goods_price` [ RunTime:0.0005s ]
+SQL: select group_concat(`key` separator  '_') as `key` from ty_spec_goods_price where goods_id in(38,41,42,43,44,47,48,50,53,57,58) [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_spec` [ RunTime:0.0005s ]
+SQL: SELECT `id`,`name` FROM `ty_spec`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_spec_item` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`spec_id`,`item` FROM `ty_spec_item`  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: spec /var/www/html/maicai/Application/Home/Logic/GoodsLogic.class.php 第 76 行.
+SQL: SHOW COLUMNS FROM `ty_goods_attr` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ty_goods_attr` WHERE ( goods_id in(38,41,42,43,44,47,48,50,53,57,58) and attr_value != '' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_goods_attribute` [ RunTime:0.0005s ]
+SQL: SELECT `attr_id`,`attr_name`,`attr_index` FROM `ty_goods_attribute`  [ RunTime:0.0001s ]
+SQL: SELECT `goods_id`,`cat_id2`,`goods_sn`,`goods_name`,`shop_price`,`comment_count`,`original_img`,`sales_sum` FROM `ty_goods` WHERE ( cat_id1 = 43 and is_on_sale = 1 ) ORDER BY shop_price desc LIMIT 0,5   [ RunTime:0.0001s ]
+
+[ 2018-02-02T10:09:32+08:00 ] 117.136.62.122 /index.php/WXAPI/Goods/goodsLists/id/43/sort/shop_price/sort_asc/desc/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000373s ]
+NOTIC: [8] Undefined index: start_price /var/www/html/maicai/Application/WXAPI/Controller/GoodsController.class.php 第 251 行.
+NOTIC: [8] Undefined index: end_price /var/www/html/maicai/Application/WXAPI/Controller/GoodsController.class.php 第 251 行.
+SQL: SHOW COLUMNS FROM `ty_goods` [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `ty_goods_category` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ty_goods_category` WHERE ( id = 43 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_goods_category` [ RunTime:0.0006s ]
+SQL: SELECT `id`,`parent_id` FROM `ty_goods_category`  [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `ty_goods_category` WHERE ( parent_id = 43 )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_goods` [ RunTime:0.0012s ]
+SQL: SELECT `shop_price` FROM `ty_goods` WHERE ( goods_id in (38,41,42,43,44,47,48,50,53,57,58) )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_brand` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ty_brand` WHERE ( id in(select brand_id from ty_goods where brand_id > 0 and goods_id in(38,41,42,43,44,47,48,50,53,57,58)) ) LIMIT 30   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_spec_goods_price` [ RunTime:0.0005s ]
+SQL: select group_concat(`key` separator  '_') as `key` from ty_spec_goods_price where goods_id in(38,41,42,43,44,47,48,50,53,57,58) [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_spec` [ RunTime:0.0005s ]
+SQL: SELECT `id`,`name` FROM `ty_spec`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_spec_item` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`spec_id`,`item` FROM `ty_spec_item`  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: spec /var/www/html/maicai/Application/Home/Logic/GoodsLogic.class.php 第 76 行.
+SQL: SHOW COLUMNS FROM `ty_goods_attr` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ty_goods_attr` WHERE ( goods_id in(38,41,42,43,44,47,48,50,53,57,58) and attr_value != '' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_goods_attribute` [ RunTime:0.0005s ]
+SQL: SELECT `attr_id`,`attr_name`,`attr_index` FROM `ty_goods_attribute`  [ RunTime:0.0001s ]
+SQL: SELECT `goods_id`,`cat_id2`,`goods_sn`,`goods_name`,`shop_price`,`comment_count`,`original_img`,`sales_sum` FROM `ty_goods` WHERE ( cat_id1 = 43 and is_on_sale = 1 ) ORDER BY shop_price desc LIMIT 5,5   [ RunTime:0.0001s ]
+
+[ 2018-02-02T10:09:36+08:00 ] 117.136.62.122 /index.php/WXAPI/Goods/goodsLists/id/43/sort/shop_price/sort_asc/desc/p/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000483s ]
+NOTIC: [8] Undefined index: start_price /var/www/html/maicai/Application/WXAPI/Controller/GoodsController.class.php 第 251 行.
+NOTIC: [8] Undefined index: end_price /var/www/html/maicai/Application/WXAPI/Controller/GoodsController.class.php 第 251 行.
+SQL: SHOW COLUMNS FROM `ty_goods` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `ty_goods_category` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ty_goods_category` WHERE ( id = 43 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_goods_category` [ RunTime:0.0007s ]
+SQL: SELECT `id`,`parent_id` FROM `ty_goods_category`  [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `ty_goods_category` WHERE ( parent_id = 43 )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_goods` [ RunTime:0.0015s ]
+SQL: SELECT `shop_price` FROM `ty_goods` WHERE ( goods_id in (38,41,42,43,44,47,48,50,53,57,58) )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_brand` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ty_brand` WHERE ( id in(select brand_id from ty_goods where brand_id > 0 and goods_id in(38,41,42,43,44,47,48,50,53,57,58)) ) LIMIT 30   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_spec_goods_price` [ RunTime:0.0005s ]
+SQL: select group_concat(`key` separator  '_') as `key` from ty_spec_goods_price where goods_id in(38,41,42,43,44,47,48,50,53,57,58) [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_spec` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`name` FROM `ty_spec`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_spec_item` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`spec_id`,`item` FROM `ty_spec_item`  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: spec /var/www/html/maicai/Application/Home/Logic/GoodsLogic.class.php 第 76 行.
+SQL: SHOW COLUMNS FROM `ty_goods_attr` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ty_goods_attr` WHERE ( goods_id in(38,41,42,43,44,47,48,50,53,57,58) and attr_value != '' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_goods_attribute` [ RunTime:0.0004s ]
+SQL: SELECT `attr_id`,`attr_name`,`attr_index` FROM `ty_goods_attribute`  [ RunTime:0.0001s ]
+SQL: SELECT `goods_id`,`cat_id2`,`goods_sn`,`goods_name`,`shop_price`,`comment_count`,`original_img`,`sales_sum` FROM `ty_goods` WHERE ( cat_id1 = 43 and is_on_sale = 1 ) ORDER BY shop_price desc LIMIT 10,5   [ RunTime:0.0001s ]
+
+[ 2018-02-02T10:09:39+08:00 ] 117.136.62.122 /index.php/WXAPI/Goods/goodsLists/id/46/sort/shop_price/sort_asc/desc/p/0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000346s ]
+NOTIC: [8] Undefined index: start_price /var/www/html/maicai/Application/WXAPI/Controller/GoodsController.class.php 第 251 行.
+NOTIC: [8] Undefined index: end_price /var/www/html/maicai/Application/WXAPI/Controller/GoodsController.class.php 第 251 行.
+SQL: SHOW COLUMNS FROM `ty_goods` [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `ty_goods_category` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ty_goods_category` WHERE ( id = 46 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_goods_category` [ RunTime:0.0005s ]
+SQL: SELECT `id`,`parent_id` FROM `ty_goods_category`  [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `ty_goods_category` WHERE ( parent_id = 46 )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_goods` [ RunTime:0.0011s ]
+SQL: SELECT `goods_id` FROM `ty_goods` WHERE ( is_on_sale=1 and cat_id2 in(46,59)  )  [ RunTime:0.0001s ]
+NOTIC: [2] implode(): Invalid arguments passed /var/www/html/maicai/Application/Home/Logic/GoodsLogic.class.php 第 319 行.
+SQL: SELECT `shop_price` FROM `ty_goods` WHERE ( goods_id in (0) )  [ RunTime:0.0001s ]
+NOTIC: [2] rsort() expects parameter 1 to be array, null given /var/www/html/maicai/Application/Home/Logic/GoodsLogic.class.php 第 323 行.
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/html/maicai/Application/Home/Logic/GoodsLogic.class.php 第 335 行.
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/html/maicai/Application/Home/Logic/GoodsLogic.class.php 第 335 行.
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/html/maicai/Application/Home/Logic/GoodsLogic.class.php 第 335 行.
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/html/maicai/Application/Home/Logic/GoodsLogic.class.php 第 335 行.
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/html/maicai/Application/Home/Logic/GoodsLogic.class.php 第 335 行.
+NOTIC: [2] implode(): Invalid arguments passed /var/www/html/maicai/Application/Home/Logic/GoodsLogic.class.php 第 37 行.
+SQL: SHOW COLUMNS FROM `ty_brand` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ty_brand` WHERE ( id in(select brand_id from ty_goods where brand_id > 0 and goods_id in(0)) ) LIMIT 30   [ RunTime:0.0001s ]
+NOTIC: [2] implode(): Invalid arguments passed /var/www/html/maicai/Application/Home/Logic/GoodsLogic.class.php 第 60 行.
+SQL: SHOW COLUMNS FROM `ty_spec_goods_price` [ RunTime:0.0004s ]
+SQL: select group_concat(`key` separator  '_') as `key` from ty_spec_goods_price where goods_id in(0) [ RunTime:0.0001s ]
+NOTIC: [2] implode(): Invalid arguments passed /var/www/html/maicai/Application/Home/Logic/GoodsLogic.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `ty_goods_attr` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ty_goods_attr` WHERE ( goods_id in(0) and attr_value != '' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_goods_attribute` [ RunTime:0.0005s ]
+SQL: SELECT `attr_id`,`attr_name`,`attr_index` FROM `ty_goods_attribute`  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: goods_list /var/www/html/maicai/Application/WXAPI/Controller/GoodsController.class.php 第 317 行.
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/html/maicai/Application/WXAPI/Controller/GoodsController.class.php 第 317 行.
+NOTIC: [8] Undefined variable: goods_list /var/www/html/maicai/Application/WXAPI/Controller/GoodsController.class.php 第 321 行.
+
+[ 2018-02-02T10:09:47+08:00 ] 117.136.62.122 /index.php/WXAPI/Goods/goodsLists/id/46/sort/shop_price/sort_asc/desc/p/0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000425s ]
+NOTIC: [8] Undefined index: start_price /var/www/html/maicai/Application/WXAPI/Controller/GoodsController.class.php 第 251 行.
+NOTIC: [8] Undefined index: end_price /var/www/html/maicai/Application/WXAPI/Controller/GoodsController.class.php 第 251 行.
+SQL: SHOW COLUMNS FROM `ty_goods` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `ty_goods_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ty_goods_category` WHERE ( id = 46 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_goods_category` [ RunTime:0.0006s ]
+SQL: SELECT `id`,`parent_id` FROM `ty_goods_category`  [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `ty_goods_category` WHERE ( parent_id = 46 )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_goods` [ RunTime:0.0010s ]
+SQL: SELECT `goods_id` FROM `ty_goods` WHERE ( is_on_sale=1 and cat_id2 in(46,59)  )  [ RunTime:0.0001s ]
+NOTIC: [2] implode(): Invalid arguments passed /var/www/html/maicai/Application/Home/Logic/GoodsLogic.class.php 第 319 行.
+SQL: SELECT `shop_price` FROM `ty_goods` WHERE ( goods_id in (0) )  [ RunTime:0.0001s ]
+NOTIC: [2] rsort() expects parameter 1 to be array, null given /var/www/html/maicai/Application/Home/Logic/GoodsLogic.class.php 第 323 行.
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/html/maicai/Application/Home/Logic/GoodsLogic.class.php 第 335 行.
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/html/maicai/Application/Home/Logic/GoodsLogic.class.php 第 335 行.
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/html/maicai/Application/Home/Logic/GoodsLogic.class.php 第 335 行.
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/html/maicai/Application/Home/Logic/GoodsLogic.class.php 第 335 行.
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/html/maicai/Application/Home/Logic/GoodsLogic.class.php 第 335 行.
+NOTIC: [2] implode(): Invalid arguments passed /var/www/html/maicai/Application/Home/Logic/GoodsLogic.class.php 第 37 行.
+SQL: SHOW COLUMNS FROM `ty_brand` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ty_brand` WHERE ( id in(select brand_id from ty_goods where brand_id > 0 and goods_id in(0)) ) LIMIT 30   [ RunTime:0.0001s ]
+NOTIC: [2] implode(): Invalid arguments passed /var/www/html/maicai/Application/Home/Logic/GoodsLogic.class.php 第 60 行.
+SQL: SHOW COLUMNS FROM `ty_spec_goods_price` [ RunTime:0.0004s ]
+SQL: select group_concat(`key` separator  '_') as `key` from ty_spec_goods_price where goods_id in(0) [ RunTime:0.0001s ]
+NOTIC: [2] implode(): Invalid arguments passed /var/www/html/maicai/Application/Home/Logic/GoodsLogic.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `ty_goods_attr` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ty_goods_attr` WHERE ( goods_id in(0) and attr_value != '' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_goods_attribute` [ RunTime:0.0004s ]
+SQL: SELECT `attr_id`,`attr_name`,`attr_index` FROM `ty_goods_attribute`  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: goods_list /var/www/html/maicai/Application/WXAPI/Controller/GoodsController.class.php 第 317 行.
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/html/maicai/Application/WXAPI/Controller/GoodsController.class.php 第 317 行.
+NOTIC: [8] Undefined variable: goods_list /var/www/html/maicai/Application/WXAPI/Controller/GoodsController.class.php 第 321 行.
+
+[ 2018-02-02T10:09:50+08:00 ] 117.136.62.122 /index.php/WXAPI/Goods/goodsLists/id/44/sort/shop_price/sort_asc/desc/p/0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000346s ]
+NOTIC: [8] Undefined index: start_price /var/www/html/maicai/Application/WXAPI/Controller/GoodsController.class.php 第 251 行.
+NOTIC: [8] Undefined index: end_price /var/www/html/maicai/Application/WXAPI/Controller/GoodsController.class.php 第 251 行.
+SQL: SHOW COLUMNS FROM `ty_goods` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `ty_goods_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ty_goods_category` WHERE ( id = 44 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_goods_category` [ RunTime:0.0005s ]
+SQL: SELECT `id`,`parent_id` FROM `ty_goods_category`  [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `ty_goods_category` WHERE ( parent_id = 44 )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_goods` [ RunTime:0.0011s ]
+SQL: SELECT `goods_id` FROM `ty_goods` WHERE ( is_on_sale=1 and cat_id2 in(44,57)  )  [ RunTime:0.0001s ]
+NOTIC: [2] implode(): Invalid arguments passed /var/www/html/maicai/Application/Home/Logic/GoodsLogic.class.php 第 319 行.
+SQL: SELECT `shop_price` FROM `ty_goods` WHERE ( goods_id in (0) )  [ RunTime:0.0001s ]
+NOTIC: [2] rsort() expects parameter 1 to be array, null given /var/www/html/maicai/Application/Home/Logic/GoodsLogic.class.php 第 323 行.
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/html/maicai/Application/Home/Logic/GoodsLogic.class.php 第 335 行.
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/html/maicai/Application/Home/Logic/GoodsLogic.class.php 第 335 行.
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/html/maicai/Application/Home/Logic/GoodsLogic.class.php 第 335 行.
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/html/maicai/Application/Home/Logic/GoodsLogic.class.php 第 335 行.
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/html/maicai/Application/Home/Logic/GoodsLogic.class.php 第 335 行.
+NOTIC: [2] implode(): Invalid arguments passed /var/www/html/maicai/Application/Home/Logic/GoodsLogic.class.php 第 37 行.
+SQL: SHOW COLUMNS FROM `ty_brand` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ty_brand` WHERE ( id in(select brand_id from ty_goods where brand_id > 0 and goods_id in(0)) ) LIMIT 30   [ RunTime:0.0001s ]
+NOTIC: [2] implode(): Invalid arguments passed /var/www/html/maicai/Application/Home/Logic/GoodsLogic.class.php 第 60 行.
+SQL: SHOW COLUMNS FROM `ty_spec_goods_price` [ RunTime:0.0004s ]
+SQL: select group_concat(`key` separator  '_') as `key` from ty_spec_goods_price where goods_id in(0) [ RunTime:0.0001s ]
+NOTIC: [2] implode(): Invalid arguments passed /var/www/html/maicai/Application/Home/Logic/GoodsLogic.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `ty_goods_attr` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ty_goods_attr` WHERE ( goods_id in(0) and attr_value != '' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_goods_attribute` [ RunTime:0.0004s ]
+SQL: SELECT `attr_id`,`attr_name`,`attr_index` FROM `ty_goods_attribute`  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: goods_list /var/www/html/maicai/Application/WXAPI/Controller/GoodsController.class.php 第 317 行.
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/html/maicai/Application/WXAPI/Controller/GoodsController.class.php 第 317 行.
+NOTIC: [8] Undefined variable: goods_list /var/www/html/maicai/Application/WXAPI/Controller/GoodsController.class.php 第 321 行.
+
+[ 2018-02-02T10:10:41+08:00 ] 117.136.62.122 /index.php/WXAPI/Store/getStoreClass
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000348s ]
+SQL: SHOW COLUMNS FROM `ty_store` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `ty_store` WHERE `store_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ty_store_class` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ty_store_class` ORDER BY sc_sort asc  [ RunTime:0.0001s ]
+
+[ 2018-02-02T10:10:41+08:00 ] 117.136.62.122 /index.php/WXAPI/Store/getStores
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000334s ]
+SQL: SHOW COLUMNS FROM `ty_store` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `ty_store` WHERE `store_id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ty_store` WHERE `store_state` = 1  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_goods` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ty_goods` WHERE `store_id` = 3 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ty_goods` WHERE `store_id` = 3 LIMIT 0,4   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ty_goods` WHERE `store_id` = 35 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ty_goods` WHERE `store_id` = 35 LIMIT 0,4   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ty_goods` WHERE `store_id` = 36 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ty_goods` WHERE `store_id` = 36 LIMIT 0,4   [ RunTime:0.0001s ]
+
+[ 2018-02-02T11:51:03+08:00 ] 117.136.89.119 /index.php/WXAPI/Index/home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000382s ]
+SQL: SHOW COLUMNS FROM `ty_coupon` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ty_coupon` WHERE `send_start_time` < 1517543463 AND `send_end_time` > 1517543463  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ty_ad` [ RunTime:0.0006s ]
+SQL: SELECT `ad_link`,`ad_name`,`ad_code`,`pid` FROM `ty_ad` WHERE `pid` = 1 AND `enabled` = 1  [ RunTime:0.0001s ]
+SQL: SELECT `ad_link`,`ad_name`,`ad_code`,`pid` FROM `ty_ad` WHERE `pid` = 2 AND `enabled` = 1  [ RunTime:0.0001s ]
+SQL: SELECT `ad_link`,`ad_name`,`ad_code`,`pid` FROM `ty_ad` WHERE `pid` = 3 AND `enabled` = 1  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_article` [ RunTime:0.0007s ]
+SQL: SELECT `article_id`,`content`,`link`,`description` FROM `ty_article` WHERE `article_id` = 2 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `article_id`,`content`,`link`,`description` FROM `ty_article` WHERE `article_id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_article_cat` [ RunTime:0.0006s ]
+SQL: SELECT `cat_name`,`thumb`,`cat_desc` FROM `ty_article_cat` WHERE `parent_id` = 2 AND `show_in_nav` = 1 ORDER BY sort_order  [ RunTime:0.0001s ]
+SQL: SELECT `cat_name`,`thumb`,`cat_desc`,`type` FROM `ty_article_cat` WHERE `parent_id` = 9 AND `show_in_nav` = 1 ORDER BY sort_order  [ RunTime:0.0001s ]
+
+[ 2018-02-02T11:51:04+08:00 ] 117.136.89.119 /index.php/WXAPI/User/getOpenid?url=https%3A%2F%2Fapi.weixin.qq.com%2Fsns%2Fjscode2session%3Fappid%3Dwxf3a9ae58645327d5%26secret%3Dc90e9c7fa14d4df6fbde0970cc2f0fb0%26js_code%3D013tBU871EWCtS1p1b971gWu871tBU8e%26grant_type%3Dauthorization_code%26code%3D013tBU871EWCtS1p1b971gWu871tBU8e
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000332s ]
+SQL: SHOW COLUMNS FROM `ty_users` [ RunTime:0.0012s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000493s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000562s ]
+
+[ 2018-02-02T11:51:04+08:00 ] 117.136.89.119 /index.php/WXAPI/User/validateOpenid?openid=o9h__0IkYsaQJwmMX4G_yD17XMe8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000370s ]
+SQL: SHOW COLUMNS FROM `ty_users` [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `ty_users` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `ty_users` WHERE `open_id` = 'o9h__0IkYsaQJwmMX4G_yD17XMe8' LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000396s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000437s ]
+
+[ 2018-02-02T11:51:09+08:00 ] 117.136.89.119 /index.php/WXAPI/User/register?open_id=o9h__0IkYsaQJwmMX4G_yD17XMe8&country=&gender=0&nick_name=%E6%9D%8E%E4%BA%91%E8%BE%89&province=&city=&head_pic=https://wx.qlogo.cn/mmopen/vi_32/Yx9WVic4UrrgndemFbdEkkGMjvLFPD9IF7x6ywHCLiaSzca3U84sak62Nhs5BeLUSiamLQf2uH1ibicywv8FnrgpMlQ/0&fid=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000380s ]
+SQL: SHOW COLUMNS FROM `ty_users` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `ty_users` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `ty_config` [ RunTime:0.0005s ]
+SQL: SELECT `value` FROM `ty_config` WHERE `name` = 'distributor' LIMIT 1   [ RunTime:0.0001s ]
+SQL: INSERT INTO `ty_users` (`city`,`open_id`,`nick_name`,`province`,`head_pic`) VALUES ('0','o9h__0IkYsaQJwmMX4G_yD17XMe8','李云辉','0','https://wx.qlogo.cn/mmopen/vi_32/Yx9WVic4UrrgndemFbdEkkGMjvLFPD9IF7x6ywHCLiaSzca3U84sak62Nhs5BeLUSiamLQf2uH1ibicywv8FnrgpMlQ/0') [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ty_users` WHERE `user_id` = 760 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: v /var/www/html/maicai/Application/WXAPI/Controller/UserController.class.php 第 736 行.
+SQL: UPDATE `ty_users` SET `head_pic`='/Public/head/760.jpg' WHERE `user_id` = 760 [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ty_users` WHERE `user_id` = 760 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ty_users` WHERE `user_id` = 760 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ty_config` WHERE `name` = 'hot_keywords' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_seller_apply` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ty_seller_apply` WHERE `user_id` = 760 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000367s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000429s ]
+
+[ 2018-02-02T11:51:56+08:00 ] 117.136.89.119 /index.php/WXAPI/Store/storeGoods?store_id=3&p=0&sort=shop_price&sort_asc=desc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000502s ]
+SQL: SHOW COLUMNS FROM `ty_store` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `ty_store` WHERE `store_id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `store_id`,`store_name`,`store_address`,`store_logo` FROM `ty_store` WHERE `store_id` = 3 AND `store_state` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_goods` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `ty_goods` [ RunTime:0.0011s ]
+SQL: SELECT `shop_price` FROM `ty_goods` WHERE ( goods_id in (38,41,42,43,44,47,48,50,53,57,58) )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_brand` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ty_brand` WHERE ( id in(select brand_id from ty_goods where brand_id > 0 and goods_id in(38,41,42,43,44,47,48,50,53,57,58)) ) LIMIT 30   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_spec_goods_price` [ RunTime:0.0005s ]
+SQL: select group_concat(`key` separator  '_') as `key` from ty_spec_goods_price where goods_id in(38,41,42,43,44,47,48,50,53,57,58) [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_spec` [ RunTime:0.0006s ]
+SQL: SELECT `id`,`name` FROM `ty_spec`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_spec_item` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`spec_id`,`item` FROM `ty_spec_item`  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: spec /var/www/html/maicai/Application/Home/Logic/GoodsLogic.class.php 第 76 行.
+SQL: SHOW COLUMNS FROM `ty_goods_attr` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ty_goods_attr` WHERE ( goods_id in(38,41,42,43,44,47,48,50,53,57,58) and attr_value != '' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_goods_attribute` [ RunTime:0.0005s ]
+SQL: SELECT `attr_id`,`attr_name`,`attr_index` FROM `ty_goods_attribute`  [ RunTime:0.0001s ]
+SQL: SELECT `goods_id`,`cat_id2`,`goods_sn`,`goods_name`,`shop_price`,`comment_count`,`original_img`,`sales_sum` FROM `ty_goods` WHERE ( store_id = 3 and is_on_sale = 1 ) ORDER BY shop_price desc LIMIT 0,5   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_goods_category` [ RunTime:0.0006s ]
+
+[ 2018-02-02T11:52:00+08:00 ] 117.136.89.119 /index.php/WXAPI/Store/storeGoods?store_id=3&p=1&sort=shop_price&sort_asc=desc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000229s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000339s ]
+SQL: SHOW COLUMNS FROM `ty_store` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `ty_store` WHERE `store_id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `store_id`,`store_name`,`store_address`,`store_logo` FROM `ty_store` WHERE `store_id` = 3 AND `store_state` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_goods` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `ty_goods` [ RunTime:0.0010s ]
+SQL: SELECT `shop_price` FROM `ty_goods` WHERE ( goods_id in (38,41,42,43,44,47,48,50,53,57,58) )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_brand` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ty_brand` WHERE ( id in(select brand_id from ty_goods where brand_id > 0 and goods_id in(38,41,42,43,44,47,48,50,53,57,58)) ) LIMIT 30   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_spec_goods_price` [ RunTime:0.0004s ]
+SQL: select group_concat(`key` separator  '_') as `key` from ty_spec_goods_price where goods_id in(38,41,42,43,44,47,48,50,53,57,58) [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_spec` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`name` FROM `ty_spec`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_spec_item` [ RunTime:0.0004s ]
+SQL: SELECT `id`,`spec_id`,`item` FROM `ty_spec_item`  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: spec /var/www/html/maicai/Application/Home/Logic/GoodsLogic.class.php 第 76 行.
+SQL: SHOW COLUMNS FROM `ty_goods_attr` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ty_goods_attr` WHERE ( goods_id in(38,41,42,43,44,47,48,50,53,57,58) and attr_value != '' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_goods_attribute` [ RunTime:0.0005s ]
+SQL: SELECT `attr_id`,`attr_name`,`attr_index` FROM `ty_goods_attribute`  [ RunTime:0.0001s ]
+SQL: SELECT `goods_id`,`cat_id2`,`goods_sn`,`goods_name`,`shop_price`,`comment_count`,`original_img`,`sales_sum` FROM `ty_goods` WHERE ( store_id = 3 and is_on_sale = 1 ) ORDER BY shop_price desc LIMIT 5,5   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_goods_category` [ RunTime:0.0006s ]
+
+[ 2018-02-02T14:18:19+08:00 ] 223.104.21.3 /index.php/WXAPI/Index/home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000231s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000428s ]
+SQL: SHOW COLUMNS FROM `ty_coupon` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ty_coupon` WHERE `send_start_time` < 1517552299 AND `send_end_time` > 1517552299  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ty_ad` [ RunTime:0.0007s ]
+SQL: SELECT `ad_link`,`ad_name`,`ad_code`,`pid` FROM `ty_ad` WHERE `pid` = 1 AND `enabled` = 1  [ RunTime:0.0001s ]
+SQL: SELECT `ad_link`,`ad_name`,`ad_code`,`pid` FROM `ty_ad` WHERE `pid` = 2 AND `enabled` = 1  [ RunTime:0.0001s ]
+SQL: SELECT `ad_link`,`ad_name`,`ad_code`,`pid` FROM `ty_ad` WHERE `pid` = 3 AND `enabled` = 1  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_article` [ RunTime:0.0009s ]
+SQL: SELECT `article_id`,`content`,`link`,`description` FROM `ty_article` WHERE `article_id` = 2 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `article_id`,`content`,`link`,`description` FROM `ty_article` WHERE `article_id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_article_cat` [ RunTime:0.0007s ]
+SQL: SELECT `cat_name`,`thumb`,`cat_desc` FROM `ty_article_cat` WHERE `parent_id` = 2 AND `show_in_nav` = 1 ORDER BY sort_order  [ RunTime:0.0001s ]
+SQL: SELECT `cat_name`,`thumb`,`cat_desc`,`type` FROM `ty_article_cat` WHERE `parent_id` = 9 AND `show_in_nav` = 1 ORDER BY sort_order  [ RunTime:0.0001s ]
+
+[ 2018-02-02T14:18:20+08:00 ] 223.104.21.3 /index.php/WXAPI/User/getOpenid?url=https%3A%2F%2Fapi.weixin.qq.com%2Fsns%2Fjscode2session%3Fappid%3Dwxf3a9ae58645327d5%26secret%3Dc90e9c7fa14d4df6fbde0970cc2f0fb0%26js_code%3D013ohYk8073TMH1Gogl80Ljgl80ohYku%26grant_type%3Dauthorization_code%26code%3D013ohYk8073TMH1Gogl80Ljgl80ohYku
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000372s ]
+SQL: SHOW COLUMNS FROM `ty_users` [ RunTime:0.0014s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000489s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000588s ]
+
+[ 2018-02-02T14:18:20+08:00 ] 223.104.21.3 /index.php/WXAPI/User/validateOpenid?openid=o9h__0E-3WmQ6dkqIFA9kc-6xbxw
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000379s ]
+SQL: SHOW COLUMNS FROM `ty_users` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `ty_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ty_users` WHERE `open_id` = 'o9h__0E-3WmQ6dkqIFA9kc-6xbxw' LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000333s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000373s ]
+
+[ 2018-02-02T14:18:22+08:00 ] 223.104.21.3 /index.php/WXAPI/User/register?open_id=o9h__0E-3WmQ6dkqIFA9kc-6xbxw&country=Andorra&gender=1&nick_name=%E9%9D%9E%E6%B4%B2%E9%85%8B%E9%95%BF&province=&city=&head_pic=https://wx.qlogo.cn/mmopen/vi_32/ichGNIqcIoV6iaygnPjlNRtCulrbu1tlz2FN4iciaQJ0Zm0euVBL0KH40ia5WvAHEkUwcAjD7BDBB5TG3hbD7U1IyyQ/0&fid=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000235s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000448s ]
+SQL: SHOW COLUMNS FROM `ty_users` [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `ty_users` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `ty_config` [ RunTime:0.0006s ]
+SQL: SELECT `value` FROM `ty_config` WHERE `name` = 'distributor' LIMIT 1   [ RunTime:0.0001s ]
+SQL: INSERT INTO `ty_users` (`city`,`open_id`,`nick_name`,`province`,`head_pic`) VALUES ('0','o9h__0E-3WmQ6dkqIFA9kc-6xbxw','非洲酋长','0','https://wx.qlogo.cn/mmopen/vi_32/ichGNIqcIoV6iaygnPjlNRtCulrbu1tlz2FN4iciaQJ0Zm0euVBL0KH40ia5WvAHEkUwcAjD7BDBB5TG3hbD7U1IyyQ/0') [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ty_users` WHERE `user_id` = 761 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: v /var/www/html/maicai/Application/WXAPI/Controller/UserController.class.php 第 736 行.
+SQL: UPDATE `ty_users` SET `head_pic`='/Public/head/761.jpg' WHERE `user_id` = 761 [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ty_users` WHERE `user_id` = 761 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ty_users` WHERE `user_id` = 761 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ty_config` WHERE `name` = 'hot_keywords' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_seller_apply` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ty_seller_apply` WHERE `user_id` = 761 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000506s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000563s ]
+
+[ 2018-02-02T14:48:34+08:00 ] 116.30.212.245 /index.php/WXAPI/Index/home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000368s ]
+SQL: SHOW COLUMNS FROM `ty_coupon` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ty_coupon` WHERE `send_start_time` < 1517554114 AND `send_end_time` > 1517554114  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ty_ad` [ RunTime:0.0009s ]
+SQL: SELECT `ad_link`,`ad_name`,`ad_code`,`pid` FROM `ty_ad` WHERE `pid` = 1 AND `enabled` = 1  [ RunTime:0.0001s ]
+SQL: SELECT `ad_link`,`ad_name`,`ad_code`,`pid` FROM `ty_ad` WHERE `pid` = 2 AND `enabled` = 1  [ RunTime:0.0001s ]
+SQL: SELECT `ad_link`,`ad_name`,`ad_code`,`pid` FROM `ty_ad` WHERE `pid` = 3 AND `enabled` = 1  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_article` [ RunTime:0.0008s ]
+SQL: SELECT `article_id`,`content`,`link`,`description` FROM `ty_article` WHERE `article_id` = 2 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `article_id`,`content`,`link`,`description` FROM `ty_article` WHERE `article_id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_article_cat` [ RunTime:0.0005s ]
+SQL: SELECT `cat_name`,`thumb`,`cat_desc` FROM `ty_article_cat` WHERE `parent_id` = 2 AND `show_in_nav` = 1 ORDER BY sort_order  [ RunTime:0.0001s ]
+SQL: SELECT `cat_name`,`thumb`,`cat_desc`,`type` FROM `ty_article_cat` WHERE `parent_id` = 9 AND `show_in_nav` = 1 ORDER BY sort_order  [ RunTime:0.0001s ]
+
+[ 2018-02-02T14:48:34+08:00 ] 116.30.212.245 /index.php/WXAPI/User/getOpenid?url=https%3A%2F%2Fapi.weixin.qq.com%2Fsns%2Fjscode2session%3Fappid%3Dwxf3a9ae58645327d5%26secret%3Dc90e9c7fa14d4df6fbde0970cc2f0fb0%26js_code%3D013LsS8Q08l2Nb2HJ86Q0kWQ8Q0LsS88%26grant_type%3Dauthorization_code%26code%3D013LsS8Q08l2Nb2HJ86Q0kWQ8Q0LsS88
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000380s ]
+SQL: SHOW COLUMNS FROM `ty_users` [ RunTime:0.0014s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000411s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000480s ]
+
+[ 2018-02-02T14:48:34+08:00 ] 116.30.212.245 /index.php/WXAPI/User/validateOpenid?openid=o9h__0EGGyuETH5lF_4K0uSfcEk4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000355s ]
+SQL: SHOW COLUMNS FROM `ty_users` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `ty_users` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `ty_users` WHERE `open_id` = 'o9h__0EGGyuETH5lF_4K0uSfcEk4' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `ty_config` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ty_config` WHERE `name` = 'hot_keywords' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_seller_apply` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ty_seller_apply` WHERE `user_id` = 756 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000344s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000383s ]
+
+[ 2018-02-02T14:48:39+08:00 ] 116.30.212.245 /index.php/WXAPI/User/getHotKeywords
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000237s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000452s ]
+SQL: SHOW COLUMNS FROM `ty_users` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `ty_config` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ty_config` WHERE `name` = 'hot_keywords' LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000329s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000368s ]
+
+[ 2018-02-02T14:48:40+08:00 ] 116.30.212.245 /index.php/WXAPI/User/getHotKeywords
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000231s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000490s ]
+SQL: SHOW COLUMNS FROM `ty_users` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `ty_config` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ty_config` WHERE `name` = 'hot_keywords' LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000552s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000611s ]
+
+[ 2018-02-02T14:48:58+08:00 ] 116.30.212.245 /index.php/WXAPI/Goods/search/keywords/undefined/p/0/sort/shop_price/sort_asc/desc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000346s ]
+SQL: SHOW COLUMNS FROM `ty_goods` [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `ty_goods` [ RunTime:0.0011s ]
+SQL: SELECT `goods_id` FROM `ty_goods` WHERE ( is_on_sale=1 and goods_name like '%undefined%'   )  [ RunTime:0.0002s ]
+NOTIC: [2] implode(): Invalid arguments passed /var/www/html/maicai/Application/Home/Logic/GoodsLogic.class.php 第 319 行.
+SQL: SELECT `shop_price` FROM `ty_goods` WHERE ( goods_id in (0) )  [ RunTime:0.0001s ]
+NOTIC: [2] rsort() expects parameter 1 to be array, null given /var/www/html/maicai/Application/Home/Logic/GoodsLogic.class.php 第 323 行.
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/html/maicai/Application/Home/Logic/GoodsLogic.class.php 第 335 行.
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/html/maicai/Application/Home/Logic/GoodsLogic.class.php 第 335 行.
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/html/maicai/Application/Home/Logic/GoodsLogic.class.php 第 335 行.
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/html/maicai/Application/Home/Logic/GoodsLogic.class.php 第 335 行.
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/html/maicai/Application/Home/Logic/GoodsLogic.class.php 第 335 行.
+NOTIC: [2] implode(): Invalid arguments passed /var/www/html/maicai/Application/Home/Logic/GoodsLogic.class.php 第 37 行.
+SQL: SHOW COLUMNS FROM `ty_brand` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ty_brand` WHERE ( id in(select brand_id from ty_goods where brand_id > 0 and goods_id in(0)) ) LIMIT 30   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_goods_category` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: goods_list /var/www/html/maicai/Application/WXAPI/Controller/GoodsController.class.php 第 427 行.
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/html/maicai/Application/WXAPI/Controller/GoodsController.class.php 第 427 行.
+NOTIC: [8] Undefined variable: goods_list /var/www/html/maicai/Application/WXAPI/Controller/GoodsController.class.php 第 431 行.
+
+[ 2018-02-02T14:55:46+08:00 ] 116.30.212.245 /index.php/WXAPI/Index/home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000396s ]
+SQL: SHOW COLUMNS FROM `ty_coupon` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ty_coupon` WHERE `send_start_time` < 1517554546 AND `send_end_time` > 1517554546  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ty_ad` [ RunTime:0.0007s ]
+SQL: SELECT `ad_link`,`ad_name`,`ad_code`,`pid` FROM `ty_ad` WHERE `pid` = 1 AND `enabled` = 1  [ RunTime:0.0001s ]
+SQL: SELECT `ad_link`,`ad_name`,`ad_code`,`pid` FROM `ty_ad` WHERE `pid` = 2 AND `enabled` = 1  [ RunTime:0.0001s ]
+SQL: SELECT `ad_link`,`ad_name`,`ad_code`,`pid` FROM `ty_ad` WHERE `pid` = 3 AND `enabled` = 1  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_article` [ RunTime:0.0008s ]
+SQL: SELECT `article_id`,`content`,`link`,`description` FROM `ty_article` WHERE `article_id` = 2 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `article_id`,`content`,`link`,`description` FROM `ty_article` WHERE `article_id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_article_cat` [ RunTime:0.0006s ]
+SQL: SELECT `cat_name`,`thumb`,`cat_desc` FROM `ty_article_cat` WHERE `parent_id` = 2 AND `show_in_nav` = 1 ORDER BY sort_order  [ RunTime:0.0001s ]
+SQL: SELECT `cat_name`,`thumb`,`cat_desc`,`type` FROM `ty_article_cat` WHERE `parent_id` = 9 AND `show_in_nav` = 1 ORDER BY sort_order  [ RunTime:0.0001s ]
+
+[ 2018-02-02T14:55:46+08:00 ] 116.30.212.245 /index.php/WXAPI/User/getOpenid?url=https%3A%2F%2Fapi.weixin.qq.com%2Fsns%2Fjscode2session%3Fappid%3Dwxf3a9ae58645327d5%26secret%3Dc90e9c7fa14d4df6fbde0970cc2f0fb0%26js_code%3D003B5uno0rxIKr1Rttoo0iekno0B5unS%26grant_type%3Dauthorization_code%26code%3D003B5uno0rxIKr1Rttoo0iekno0B5unS
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000381s ]
+SQL: SHOW COLUMNS FROM `ty_users` [ RunTime:0.0013s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000435s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000507s ]
+
+[ 2018-02-02T14:55:46+08:00 ] 116.30.212.245 /index.php/WXAPI/User/validateOpenid?openid=o9h__0EGGyuETH5lF_4K0uSfcEk4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000364s ]
+SQL: SHOW COLUMNS FROM `ty_users` [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `ty_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ty_users` WHERE `open_id` = 'o9h__0EGGyuETH5lF_4K0uSfcEk4' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_config` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ty_config` WHERE `name` = 'hot_keywords' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_seller_apply` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ty_seller_apply` WHERE `user_id` = 756 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000329s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000366s ]
+
+[ 2018-02-02T16:30:13+08:00 ] 222.209.58.5 /index.php/WXAPI/Index/home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000347s ]
+SQL: SHOW COLUMNS FROM `ty_coupon` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ty_coupon` WHERE `send_start_time` < 1517560213 AND `send_end_time` > 1517560213  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ty_ad` [ RunTime:0.0007s ]
+SQL: SELECT `ad_link`,`ad_name`,`ad_code`,`pid` FROM `ty_ad` WHERE `pid` = 1 AND `enabled` = 1  [ RunTime:0.0001s ]
+SQL: SELECT `ad_link`,`ad_name`,`ad_code`,`pid` FROM `ty_ad` WHERE `pid` = 2 AND `enabled` = 1  [ RunTime:0.0001s ]
+SQL: SELECT `ad_link`,`ad_name`,`ad_code`,`pid` FROM `ty_ad` WHERE `pid` = 3 AND `enabled` = 1  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_article` [ RunTime:0.0006s ]
+SQL: SELECT `article_id`,`content`,`link`,`description` FROM `ty_article` WHERE `article_id` = 2 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `article_id`,`content`,`link`,`description` FROM `ty_article` WHERE `article_id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_article_cat` [ RunTime:0.0005s ]
+SQL: SELECT `cat_name`,`thumb`,`cat_desc` FROM `ty_article_cat` WHERE `parent_id` = 2 AND `show_in_nav` = 1 ORDER BY sort_order  [ RunTime:0.0001s ]
+SQL: SELECT `cat_name`,`thumb`,`cat_desc`,`type` FROM `ty_article_cat` WHERE `parent_id` = 9 AND `show_in_nav` = 1 ORDER BY sort_order  [ RunTime:0.0001s ]
+
+[ 2018-02-02T16:30:13+08:00 ] 222.209.58.5 /index.php/WXAPI/User/getOpenid?url=https%3A%2F%2Fapi.weixin.qq.com%2Fsns%2Fjscode2session%3Fappid%3Dwxf3a9ae58645327d5%26secret%3Dc90e9c7fa14d4df6fbde0970cc2f0fb0%26js_code%3D003g1H2818PLOT1L93581ByI281g1H2m%26grant_type%3Dauthorization_code%26code%3D003g1H2818PLOT1L93581ByI281g1H2m
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001040s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000584s ]
+SQL: SHOW COLUMNS FROM `ty_users` [ RunTime:0.0013s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000485s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000567s ]
+
+[ 2018-02-02T16:30:14+08:00 ] 222.209.58.5 /index.php/WXAPI/User/validateOpenid?openid=o9h__0FG5hhkyGfziL3WM3_zlEZk
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000394s ]
+SQL: SHOW COLUMNS FROM `ty_users` [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `ty_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ty_users` WHERE `open_id` = 'o9h__0FG5hhkyGfziL3WM3_zlEZk' LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000332s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000372s ]
+
+[ 2018-02-02T16:30:18+08:00 ] 222.209.58.5 /index.php/WXAPI/User/register?open_id=o9h__0FG5hhkyGfziL3WM3_zlEZk&country=China&gender=2&nick_name=tutu安娜&province=Sichuan&city=Chengdu&head_pic=https://wx.qlogo.cn/mmopen/vi_32/Ucm4qoWrLE5ibAg93Zylzxg4QP6Dh66F4p9paWvcr7Kuc67u9kYpMcWZxcNLLQ80OPrvvPve8eGOr3Z9gWP2cag/0&fid=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000543s ]
+SQL: SHOW COLUMNS FROM `ty_users` [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `ty_users` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `ty_config` [ RunTime:0.0005s ]
+SQL: SELECT `value` FROM `ty_config` WHERE `name` = 'distributor' LIMIT 1   [ RunTime:0.0001s ]
+SQL: INSERT INTO `ty_users` (`city`,`open_id`,`nick_name`,`province`,`head_pic`) VALUES ('0','o9h__0FG5hhkyGfziL3WM3_zlEZk','tutu安娜','0','https://wx.qlogo.cn/mmopen/vi_32/Ucm4qoWrLE5ibAg93Zylzxg4QP6Dh66F4p9paWvcr7Kuc67u9kYpMcWZxcNLLQ80OPrvvPve8eGOr3Z9gWP2cag/0') [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ty_users` WHERE `user_id` = 762 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: v /var/www/html/maicai/Application/WXAPI/Controller/UserController.class.php 第 736 行.
+SQL: UPDATE `ty_users` SET `head_pic`='/Public/head/762.jpg' WHERE `user_id` = 762 [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ty_users` WHERE `user_id` = 762 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ty_users` WHERE `user_id` = 762 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ty_config` WHERE `name` = 'hot_keywords' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_seller_apply` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ty_seller_apply` WHERE `user_id` = 762 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000394s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000434s ]
+
+[ 2018-02-02T16:30:19+08:00 ] 222.209.58.5 /index.php/WXAPI/Goods/goodsLists/id/46/sort/shop_price/sort_asc/desc/p/0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000512s ]
+NOTIC: [8] Undefined index: start_price /var/www/html/maicai/Application/WXAPI/Controller/GoodsController.class.php 第 251 行.
+NOTIC: [8] Undefined index: end_price /var/www/html/maicai/Application/WXAPI/Controller/GoodsController.class.php 第 251 行.
+SQL: SHOW COLUMNS FROM `ty_goods` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `ty_goods_category` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ty_goods_category` WHERE ( id = 46 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_goods_category` [ RunTime:0.0005s ]
+SQL: SELECT `id`,`parent_id` FROM `ty_goods_category`  [ RunTime:0.0001s ]
+SQL: SELECT `id` FROM `ty_goods_category` WHERE ( parent_id = 46 )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_goods` [ RunTime:0.0011s ]
+SQL: SELECT `goods_id` FROM `ty_goods` WHERE ( is_on_sale=1 and cat_id2 in(46,59)  )  [ RunTime:0.0001s ]
+NOTIC: [2] implode(): Invalid arguments passed /var/www/html/maicai/Application/Home/Logic/GoodsLogic.class.php 第 319 行.
+SQL: SELECT `shop_price` FROM `ty_goods` WHERE ( goods_id in (0) )  [ RunTime:0.0001s ]
+NOTIC: [2] rsort() expects parameter 1 to be array, null given /var/www/html/maicai/Application/Home/Logic/GoodsLogic.class.php 第 323 行.
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/html/maicai/Application/Home/Logic/GoodsLogic.class.php 第 335 行.
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/html/maicai/Application/Home/Logic/GoodsLogic.class.php 第 335 行.
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/html/maicai/Application/Home/Logic/GoodsLogic.class.php 第 335 行.
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/html/maicai/Application/Home/Logic/GoodsLogic.class.php 第 335 行.
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/html/maicai/Application/Home/Logic/GoodsLogic.class.php 第 335 行.
+NOTIC: [2] implode(): Invalid arguments passed /var/www/html/maicai/Application/Home/Logic/GoodsLogic.class.php 第 37 行.
+SQL: SHOW COLUMNS FROM `ty_brand` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ty_brand` WHERE ( id in(select brand_id from ty_goods where brand_id > 0 and goods_id in(0)) ) LIMIT 30   [ RunTime:0.0001s ]
+NOTIC: [2] implode(): Invalid arguments passed /var/www/html/maicai/Application/Home/Logic/GoodsLogic.class.php 第 60 行.
+SQL: SHOW COLUMNS FROM `ty_spec_goods_price` [ RunTime:0.0019s ]
+SQL: select group_concat(`key` separator  '_') as `key` from ty_spec_goods_price where goods_id in(0) [ RunTime:0.0001s ]
+NOTIC: [2] implode(): Invalid arguments passed /var/www/html/maicai/Application/Home/Logic/GoodsLogic.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `ty_goods_attr` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `ty_goods_attr` WHERE ( goods_id in(0) and attr_value != '' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_goods_attribute` [ RunTime:0.0011s ]
+SQL: SELECT `attr_id`,`attr_name`,`attr_index` FROM `ty_goods_attribute`  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: goods_list /var/www/html/maicai/Application/WXAPI/Controller/GoodsController.class.php 第 317 行.
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/html/maicai/Application/WXAPI/Controller/GoodsController.class.php 第 317 行.
+NOTIC: [8] Undefined variable: goods_list /var/www/html/maicai/Application/WXAPI/Controller/GoodsController.class.php 第 321 行.
+
+[ 2018-02-02T17:07:34+08:00 ] 113.69.41.120 /index.php/WXAPI/Index/home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000345s ]
+SQL: SHOW COLUMNS FROM `ty_coupon` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ty_coupon` WHERE `send_start_time` < 1517562454 AND `send_end_time` > 1517562454  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ty_ad` [ RunTime:0.0006s ]
+SQL: SELECT `ad_link`,`ad_name`,`ad_code`,`pid` FROM `ty_ad` WHERE `pid` = 1 AND `enabled` = 1  [ RunTime:0.0001s ]
+SQL: SELECT `ad_link`,`ad_name`,`ad_code`,`pid` FROM `ty_ad` WHERE `pid` = 2 AND `enabled` = 1  [ RunTime:0.0001s ]
+SQL: SELECT `ad_link`,`ad_name`,`ad_code`,`pid` FROM `ty_ad` WHERE `pid` = 3 AND `enabled` = 1  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_article` [ RunTime:0.0006s ]
+SQL: SELECT `article_id`,`content`,`link`,`description` FROM `ty_article` WHERE `article_id` = 2 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `article_id`,`content`,`link`,`description` FROM `ty_article` WHERE `article_id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_article_cat` [ RunTime:0.0005s ]
+SQL: SELECT `cat_name`,`thumb`,`cat_desc` FROM `ty_article_cat` WHERE `parent_id` = 2 AND `show_in_nav` = 1 ORDER BY sort_order  [ RunTime:0.0001s ]
+SQL: SELECT `cat_name`,`thumb`,`cat_desc`,`type` FROM `ty_article_cat` WHERE `parent_id` = 9 AND `show_in_nav` = 1 ORDER BY sort_order  [ RunTime:0.0001s ]
+
+[ 2018-02-02T17:07:34+08:00 ] 113.69.41.120 /index.php/WXAPI/User/getOpenid?url=https%3A%2F%2Fapi.weixin.qq.com%2Fsns%2Fjscode2session%3Fappid%3Dwxf3a9ae58645327d5%26secret%3Dc90e9c7fa14d4df6fbde0970cc2f0fb0%26js_code%3D013UeHWi0NQHZm1Q1fUi0lZlWi0UeHWp%26grant_type%3Dauthorization_code%26code%3D013UeHWi0NQHZm1Q1fUi0lZlWi0UeHWp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000237s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000358s ]
+SQL: SHOW COLUMNS FROM `ty_users` [ RunTime:0.0017s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000401s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000470s ]
+
+[ 2018-02-02T17:07:34+08:00 ] 113.69.41.120 /index.php/WXAPI/User/validateOpenid?openid=o9h__0JRFDR44dzsr0ce5uQHQe4Q
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000340s ]
+SQL: SHOW COLUMNS FROM `ty_users` [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `ty_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ty_users` WHERE `open_id` = 'o9h__0JRFDR44dzsr0ce5uQHQe4Q' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ty_config` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ty_config` WHERE `name` = 'hot_keywords' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_seller_apply` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ty_seller_apply` WHERE `user_id` = 3 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000353s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000396s ]
+

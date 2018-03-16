@@ -1,0 +1,3 @@
+<?php
+//000000000001a:3:{i:0;a:4:{s:7:"ad_link";s:2:"13";s:7:"ad_name";s:7:"轮图1";s:7:"ad_code";s:46:"/Public/upload/ad/2017/08-02/598182f0e46e2.jpg";s:3:"pid";s:1:"1";}i:1;a:4:{s:7:"ad_link";s:2:"16";s:7:"ad_name";s:7:"轮图2";s:7:"ad_code";s:46:"/Public/upload/ad/2017/08-02/5981831e4bc69.png";s:3:"pid";s:1:"1";}i:2;a:4:{s:7:"ad_link";s:1:"5";s:7:"ad_name";s:4:"轮4";s:7:"ad_code";s:46:"/Public/upload/ad/2018/03-05/5a9ce5135554d.jpg";s:3:"pid";s:1:"1";}}
+?>

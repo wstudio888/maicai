@@ -1,0 +1,2170 @@
+[ 2018-03-15T09:22:17+08:00 ] 127.0.0.1 /admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ty_config` [ RunTime:0.0630s ]
+SQL: SELECT * FROM `ty_config`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ty_admin` [ RunTime:0.0210s ]
+SQL: SELECT * FROM `ty_admin` WHERE ( admin_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ty_order` [ RunTime:0.0210s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ty_order` WHERE ( order_status=0 and (pay_status=1 or pay_code='cod') ) LIMIT 1   [ RunTime:0.0030s ]
+INFO: [ view_begin ] --START--
+INFO: Run Home\Behaviors\testBehavior [ RunTime:0.002000s ]
+INFO: [ view_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: upgradeMsg E:\phpweb\maicai\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 50 行.
+NOTIC: [8] Undefined variable: upgradeMsg E:\phpweb\maicai\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 53 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-15T09:22:17+08:00 ] 127.0.0.1 /Admin/Index/welcome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ty_config` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ty_config`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: welcome E:\phpweb\maicai\Application\Admin\Common\function.php 第 71 行.
+SQL: SELECT VERSION() as version [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: version E:\phpweb\maicai\Application\Admin\Controller\IndexController.class.php 第 65 行.
+SQL: SHOW COLUMNS FROM `ty_order` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ty_order` WHERE ( order_status=0 and (pay_status=1 or pay_code='cod') ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ty_order` WHERE ( add_time>1520990537 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ty_goods` [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ty_goods` WHERE ( 1=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ty_article` [ RunTime:0.0110s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ty_article` WHERE ( 1=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ty_users` [ RunTime:0.0100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ty_users` WHERE ( 1=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ty_users` WHERE ( last_login>1520990537 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ty_users` WHERE ( reg_time>1520990537 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ty_comment` [ RunTime:0.0200s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ty_comment` WHERE ( is_show=0 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ty_store_apply` [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ty_store_apply` WHERE ( apply_state=0 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ty_store_bind_class` [ RunTime:0.0170s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ty_store_bind_class` WHERE ( state=0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ty_brand` [ RunTime:0.0150s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ty_brand` WHERE ( status=0 and store_id>0 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_begin ] --START--
+INFO: Run Home\Behaviors\testBehavior [ RunTime:0.000000s ]
+INFO: [ view_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-15T09:22:17+08:00 ] 127.0.0.1 /Admin/System/login_task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ty_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ty_config`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: login_task E:\phpweb\maicai\Application\Admin\Common\function.php 第 71 行.
+SQL: SHOW COLUMNS FROM `ty_cart` [ RunTime:0.0140s ]
+SQL: DELETE FROM `ty_cart` WHERE ( user_id = 0 and  add_time < 1521073337 ) [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ty_order` [ RunTime:0.0020s ]
+SQL: SELECT `order_id` FROM `ty_order` WHERE ( order_status = 1 and shipping_status = 1 and (1521076937 - shipping_time) >  86400 )  [ RunTime:0.0000s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\phpweb\maicai\Application\Admin\Controller\SystemController.class.php 第 249 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-15T09:22:23+08:00 ] 127.0.0.1 /Admin/Store/store_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ty_config` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ty_config`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: store_list E:\phpweb\maicai\Application\Admin\Common\function.php 第 71 行.
+SQL: SHOW COLUMNS FROM `ty_store` [ RunTime:0.0380s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ty_store` WHERE `is_own_shop` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ty_store` WHERE `is_own_shop` = 0 ORDER BY store_id DESC LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ty_store_grade` [ RunTime:0.0040s ]
+SQL: SELECT `sg_id`,`sg_name` FROM `ty_store_grade`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ty_store_class` [ RunTime:0.0230s ]
+SQL: SELECT `sc_id`,`sc_name` FROM `ty_store_class`  [ RunTime:0.0000s ]
+INFO: [ view_begin ] --START--
+INFO: Run Home\Behaviors\testBehavior [ RunTime:0.002000s ]
+INFO: [ view_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pid E:\phpweb\maicai\Application\Runtime\Cache\Admin\18e672ab47455c17877a783eee2aeab6.php 第 111 行.
+NOTIC: [8] Use of undefined constant grade_id - assumed 'grade_id' E:\phpweb\maicai\Application\Runtime\Cache\Admin\18e672ab47455c17877a783eee2aeab6.php 第 164 行.
+NOTIC: [8] Undefined offset: 0 E:\phpweb\maicai\Application\Runtime\Cache\Admin\18e672ab47455c17877a783eee2aeab6.php 第 164 行.
+NOTIC: [8] Use of undefined constant sc_id - assumed 'sc_id' E:\phpweb\maicai\Application\Runtime\Cache\Admin\18e672ab47455c17877a783eee2aeab6.php 第 165 行.
+NOTIC: [8] Undefined index:  E:\phpweb\maicai\Application\Runtime\Cache\Admin\18e672ab47455c17877a783eee2aeab6.php 第 165 行.
+NOTIC: [8] Use of undefined constant store_state - assumed 'store_state' E:\phpweb\maicai\Application\Runtime\Cache\Admin\18e672ab47455c17877a783eee2aeab6.php 第 167 行.
+NOTIC: [8] Use of undefined constant store_recommend - assumed 'store_recommend' E:\phpweb\maicai\Application\Runtime\Cache\Admin\18e672ab47455c17877a783eee2aeab6.php 第 168 行.
+NOTIC: [8] Use of undefined constant grade_id - assumed 'grade_id' E:\phpweb\maicai\Application\Runtime\Cache\Admin\18e672ab47455c17877a783eee2aeab6.php 第 164 行.
+NOTIC: [8] Use of undefined constant sc_id - assumed 'sc_id' E:\phpweb\maicai\Application\Runtime\Cache\Admin\18e672ab47455c17877a783eee2aeab6.php 第 165 行.
+NOTIC: [8] Use of undefined constant store_state - assumed 'store_state' E:\phpweb\maicai\Application\Runtime\Cache\Admin\18e672ab47455c17877a783eee2aeab6.php 第 167 行.
+NOTIC: [8] Use of undefined constant store_recommend - assumed 'store_recommend' E:\phpweb\maicai\Application\Runtime\Cache\Admin\18e672ab47455c17877a783eee2aeab6.php 第 168 行.
+NOTIC: [8] Use of undefined constant grade_id - assumed 'grade_id' E:\phpweb\maicai\Application\Runtime\Cache\Admin\18e672ab47455c17877a783eee2aeab6.php 第 164 行.
+NOTIC: [8] Use of undefined constant sc_id - assumed 'sc_id' E:\phpweb\maicai\Application\Runtime\Cache\Admin\18e672ab47455c17877a783eee2aeab6.php 第 165 行.
+NOTIC: [8] Use of undefined constant store_state - assumed 'store_state' E:\phpweb\maicai\Application\Runtime\Cache\Admin\18e672ab47455c17877a783eee2aeab6.php 第 167 行.
+NOTIC: [8] Use of undefined constant store_recommend - assumed 'store_recommend' E:\phpweb\maicai\Application\Runtime\Cache\Admin\18e672ab47455c17877a783eee2aeab6.php 第 168 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-15T09:31:17+08:00 ] 127.0.0.1 /Admin/Store/store_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ty_config` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ty_config`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: store_list E:\phpweb\maicai\Application\Admin\Common\function.php 第 71 行.
+SQL: SHOW COLUMNS FROM `ty_store` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ty_store` WHERE `is_own_shop` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ty_store` WHERE `is_own_shop` = 0 ORDER BY store_id DESC LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ty_store_grade` [ RunTime:0.0020s ]
+SQL: SELECT `sg_id`,`sg_name` FROM `ty_store_grade`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ty_store_class` [ RunTime:0.0020s ]
+SQL: SELECT `sc_id`,`sc_name` FROM `ty_store_class`  [ RunTime:0.0000s ]
+INFO: [ view_begin ] --START--
+INFO: Run Home\Behaviors\testBehavior [ RunTime:0.001000s ]
+INFO: [ view_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pid E:\phpweb\maicai\Application\Runtime\Cache\Admin\18e672ab47455c17877a783eee2aeab6.php 第 111 行.
+NOTIC: [8] Use of undefined constant grade_id - assumed 'grade_id' E:\phpweb\maicai\Application\Runtime\Cache\Admin\18e672ab47455c17877a783eee2aeab6.php 第 164 行.
+NOTIC: [8] Undefined offset: 0 E:\phpweb\maicai\Application\Runtime\Cache\Admin\18e672ab47455c17877a783eee2aeab6.php 第 164 行.
+NOTIC: [8] Use of undefined constant sc_id - assumed 'sc_id' E:\phpweb\maicai\Application\Runtime\Cache\Admin\18e672ab47455c17877a783eee2aeab6.php 第 165 行.
+NOTIC: [8] Undefined index:  E:\phpweb\maicai\Application\Runtime\Cache\Admin\18e672ab47455c17877a783eee2aeab6.php 第 165 行.
+NOTIC: [8] Use of undefined constant store_state - assumed 'store_state' E:\phpweb\maicai\Application\Runtime\Cache\Admin\18e672ab47455c17877a783eee2aeab6.php 第 167 行.
+NOTIC: [8] Use of undefined constant store_recommend - assumed 'store_recommend' E:\phpweb\maicai\Application\Runtime\Cache\Admin\18e672ab47455c17877a783eee2aeab6.php 第 168 行.
+NOTIC: [8] Use of undefined constant grade_id - assumed 'grade_id' E:\phpweb\maicai\Application\Runtime\Cache\Admin\18e672ab47455c17877a783eee2aeab6.php 第 164 行.
+NOTIC: [8] Use of undefined constant sc_id - assumed 'sc_id' E:\phpweb\maicai\Application\Runtime\Cache\Admin\18e672ab47455c17877a783eee2aeab6.php 第 165 行.
+NOTIC: [8] Use of undefined constant store_state - assumed 'store_state' E:\phpweb\maicai\Application\Runtime\Cache\Admin\18e672ab47455c17877a783eee2aeab6.php 第 167 行.
+NOTIC: [8] Use of undefined constant store_recommend - assumed 'store_recommend' E:\phpweb\maicai\Application\Runtime\Cache\Admin\18e672ab47455c17877a783eee2aeab6.php 第 168 行.
+NOTIC: [8] Use of undefined constant grade_id - assumed 'grade_id' E:\phpweb\maicai\Application\Runtime\Cache\Admin\18e672ab47455c17877a783eee2aeab6.php 第 164 行.
+NOTIC: [8] Use of undefined constant sc_id - assumed 'sc_id' E:\phpweb\maicai\Application\Runtime\Cache\Admin\18e672ab47455c17877a783eee2aeab6.php 第 165 行.
+NOTIC: [8] Use of undefined constant store_state - assumed 'store_state' E:\phpweb\maicai\Application\Runtime\Cache\Admin\18e672ab47455c17877a783eee2aeab6.php 第 167 行.
+NOTIC: [8] Use of undefined constant store_recommend - assumed 'store_recommend' E:\phpweb\maicai\Application\Runtime\Cache\Admin\18e672ab47455c17877a783eee2aeab6.php 第 168 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-15T09:31:19+08:00 ] 127.0.0.1 /Admin/Store/store_article_list/store_id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ty_config` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ty_config`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ty_store_article` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ty_store_article` WHERE (  1 = 1  and store_id = 3 ) ORDER BY article_id desc LIMIT 0,20   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ty_store_article` WHERE (  1 = 1  and store_id = 3 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: cat_id E:\phpweb\maicai\Application\Admin\Controller\StoreController.class.php 第 551 行.
+INFO: [ view_begin ] --START--
+INFO: Run Home\Behaviors\testBehavior [ RunTime:0.000000s ]
+INFO: [ view_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant is_open - assumed 'is_open' E:\phpweb\maicai\Application\Runtime\Cache\Admin\4bf8a1def1139063ee7e40ba0de4f998.php 第 124 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-15T09:31:20+08:00 ] 127.0.0.1 /Admin/Store/store_article_edit/article_id/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ty_config` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ty_config`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: store_article_edit E:\phpweb\maicai\Application\Admin\Common\function.php 第 71 行.
+
+[ 2018-03-15T09:34:01+08:00 ] 127.0.0.1 /admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ty_config` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ty_config`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ty_admin` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ty_admin` WHERE ( admin_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ty_order` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ty_order` WHERE ( order_status=0 and (pay_status=1 or pay_code='cod') ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_begin ] --START--
+INFO: Run Home\Behaviors\testBehavior [ RunTime:0.001000s ]
+INFO: [ view_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: upgradeMsg E:\phpweb\maicai\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 50 行.
+NOTIC: [8] Undefined variable: seller E:\phpweb\maicai\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 77 行.
+NOTIC: [8] Use of undefined constant STORE_ID - assumed 'STORE_ID' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 82 行.
+NOTIC: [8] Undefined variable: seller E:\phpweb\maicai\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 83 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-15T09:34:01+08:00 ] 127.0.0.1 /Admin/Index/welcome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ty_config` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ty_config`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: welcome E:\phpweb\maicai\Application\Admin\Common\function.php 第 71 行.
+SQL: SELECT VERSION() as version [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: version E:\phpweb\maicai\Application\Admin\Controller\IndexController.class.php 第 65 行.
+SQL: SHOW COLUMNS FROM `ty_order` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ty_order` WHERE ( order_status=0 and (pay_status=1 or pay_code='cod') ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ty_order` WHERE ( add_time>1520991241 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ty_goods` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ty_goods` WHERE ( 1=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ty_article` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ty_article` WHERE ( 1=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ty_users` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ty_users` WHERE ( 1=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ty_users` WHERE ( last_login>1520991241 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ty_users` WHERE ( reg_time>1520991241 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ty_comment` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ty_comment` WHERE ( is_show=0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ty_store_apply` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ty_store_apply` WHERE ( apply_state=0 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ty_store_bind_class` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ty_store_bind_class` WHERE ( state=0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ty_brand` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ty_brand` WHERE ( status=0 and store_id>0 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_begin ] --START--
+INFO: Run Home\Behaviors\testBehavior [ RunTime:0.000000s ]
+INFO: [ view_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-15T09:34:02+08:00 ] 127.0.0.1 /Admin/System/login_task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ty_config` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ty_config`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: login_task E:\phpweb\maicai\Application\Admin\Common\function.php 第 71 行.
+SQL: SHOW COLUMNS FROM `ty_cart` [ RunTime:0.0020s ]
+SQL: DELETE FROM `ty_cart` WHERE ( user_id = 0 and  add_time < 1521074042 ) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ty_order` [ RunTime:0.0010s ]
+SQL: SELECT `order_id` FROM `ty_order` WHERE ( order_status = 1 and shipping_status = 1 and (1521077642 - shipping_time) >  86400 )  [ RunTime:0.0000s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\phpweb\maicai\Application\Admin\Controller\SystemController.class.php 第 249 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-15T09:34:06+08:00 ] 127.0.0.1 /Admin/Store/store_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ty_config` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ty_config`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: store_list E:\phpweb\maicai\Application\Admin\Common\function.php 第 71 行.
+SQL: SHOW COLUMNS FROM `ty_store` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ty_store` WHERE `is_own_shop` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ty_store` WHERE `is_own_shop` = 0 ORDER BY store_id DESC LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ty_store_grade` [ RunTime:0.0020s ]
+SQL: SELECT `sg_id`,`sg_name` FROM `ty_store_grade`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ty_store_class` [ RunTime:0.0020s ]
+SQL: SELECT `sc_id`,`sc_name` FROM `ty_store_class`  [ RunTime:0.0000s ]
+INFO: [ view_begin ] --START--
+INFO: Run Home\Behaviors\testBehavior [ RunTime:0.001000s ]
+INFO: [ view_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: pid E:\phpweb\maicai\Application\Runtime\Cache\Admin\18e672ab47455c17877a783eee2aeab6.php 第 111 行.
+NOTIC: [8] Use of undefined constant grade_id - assumed 'grade_id' E:\phpweb\maicai\Application\Runtime\Cache\Admin\18e672ab47455c17877a783eee2aeab6.php 第 164 行.
+NOTIC: [8] Undefined offset: 0 E:\phpweb\maicai\Application\Runtime\Cache\Admin\18e672ab47455c17877a783eee2aeab6.php 第 164 行.
+NOTIC: [8] Use of undefined constant sc_id - assumed 'sc_id' E:\phpweb\maicai\Application\Runtime\Cache\Admin\18e672ab47455c17877a783eee2aeab6.php 第 165 行.
+NOTIC: [8] Undefined index:  E:\phpweb\maicai\Application\Runtime\Cache\Admin\18e672ab47455c17877a783eee2aeab6.php 第 165 行.
+NOTIC: [8] Use of undefined constant store_state - assumed 'store_state' E:\phpweb\maicai\Application\Runtime\Cache\Admin\18e672ab47455c17877a783eee2aeab6.php 第 167 行.
+NOTIC: [8] Use of undefined constant store_recommend - assumed 'store_recommend' E:\phpweb\maicai\Application\Runtime\Cache\Admin\18e672ab47455c17877a783eee2aeab6.php 第 168 行.
+NOTIC: [8] Use of undefined constant grade_id - assumed 'grade_id' E:\phpweb\maicai\Application\Runtime\Cache\Admin\18e672ab47455c17877a783eee2aeab6.php 第 164 行.
+NOTIC: [8] Use of undefined constant sc_id - assumed 'sc_id' E:\phpweb\maicai\Application\Runtime\Cache\Admin\18e672ab47455c17877a783eee2aeab6.php 第 165 行.
+NOTIC: [8] Use of undefined constant store_state - assumed 'store_state' E:\phpweb\maicai\Application\Runtime\Cache\Admin\18e672ab47455c17877a783eee2aeab6.php 第 167 行.
+NOTIC: [8] Use of undefined constant store_recommend - assumed 'store_recommend' E:\phpweb\maicai\Application\Runtime\Cache\Admin\18e672ab47455c17877a783eee2aeab6.php 第 168 行.
+NOTIC: [8] Use of undefined constant grade_id - assumed 'grade_id' E:\phpweb\maicai\Application\Runtime\Cache\Admin\18e672ab47455c17877a783eee2aeab6.php 第 164 行.
+NOTIC: [8] Use of undefined constant sc_id - assumed 'sc_id' E:\phpweb\maicai\Application\Runtime\Cache\Admin\18e672ab47455c17877a783eee2aeab6.php 第 165 行.
+NOTIC: [8] Use of undefined constant store_state - assumed 'store_state' E:\phpweb\maicai\Application\Runtime\Cache\Admin\18e672ab47455c17877a783eee2aeab6.php 第 167 行.
+NOTIC: [8] Use of undefined constant store_recommend - assumed 'store_recommend' E:\phpweb\maicai\Application\Runtime\Cache\Admin\18e672ab47455c17877a783eee2aeab6.php 第 168 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-15T09:34:07+08:00 ] 127.0.0.1 /Admin/Store/store_article_list/store_id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ty_config` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ty_config`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ty_store_article` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ty_store_article` WHERE (  1 = 1  and store_id = 3 ) ORDER BY article_id desc LIMIT 0,20   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ty_store_article` WHERE (  1 = 1  and store_id = 3 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: cat_id E:\phpweb\maicai\Application\Admin\Controller\StoreController.class.php 第 552 行.
+INFO: [ view_begin ] --START--
+INFO: Run Home\Behaviors\testBehavior [ RunTime:0.000000s ]
+INFO: [ view_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant is_open - assumed 'is_open' E:\phpweb\maicai\Application\Runtime\Cache\Admin\4bf8a1def1139063ee7e40ba0de4f998.php 第 124 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-15T09:34:19+08:00 ] 127.0.0.1 /Admin/Store/store_article_edit/article_id/6/store_id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ty_config` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ty_config`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: store_article_edit E:\phpweb\maicai\Application\Admin\Common\function.php 第 71 行.
+SQL: SHOW COLUMNS FROM `ty_store_article` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ty_store_article` WHERE ( article_id=6 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_begin ] --START--
+INFO: Run Home\Behaviors\testBehavior [ RunTime:0.001000s ]
+INFO: [ view_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: URL_home E:\phpweb\maicai\Application\Runtime\Cache\Admin\b7d1fa3e93e7ddc27118864a4fa5e449.php 第 84 行.
+NOTIC: [8] Undefined variable: store_id E:\phpweb\maicai\Application\Runtime\Cache\Admin\b7d1fa3e93e7ddc27118864a4fa5e449.php 第 109 行.
+NOTIC: [8] Use of undefined constant is_open - assumed 'is_open' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b7d1fa3e93e7ddc27118864a4fa5e449.php 第 152 行.
+NOTIC: [8] Use of undefined constant is_open - assumed 'is_open' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b7d1fa3e93e7ddc27118864a4fa5e449.php 第 155 行.
+NOTIC: [8] Undefined variable: article_main_system_id E:\phpweb\maicai\Application\Runtime\Cache\Admin\b7d1fa3e93e7ddc27118864a4fa5e449.php 第 263 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-15T09:35:26+08:00 ] 127.0.0.1 /admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ty_config` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ty_config`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ty_admin` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ty_admin` WHERE ( admin_id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ty_order` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ty_order` WHERE ( order_status=0 and (pay_status=1 or pay_code='cod') ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_begin ] --START--
+INFO: Run Home\Behaviors\testBehavior [ RunTime:0.000000s ]
+INFO: [ view_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: upgradeMsg E:\phpweb\maicai\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 50 行.
+NOTIC: [8] Undefined variable: seller E:\phpweb\maicai\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 77 行.
+NOTIC: [8] Use of undefined constant STORE_ID - assumed 'STORE_ID' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 82 行.
+NOTIC: [8] Undefined variable: seller E:\phpweb\maicai\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 83 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-15T09:35:27+08:00 ] 127.0.0.1 /Admin/Index/welcome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ty_config` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ty_config`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: welcome E:\phpweb\maicai\Application\Admin\Common\function.php 第 71 行.
+SQL: SELECT VERSION() as version [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: version E:\phpweb\maicai\Application\Admin\Controller\IndexController.class.php 第 65 行.
+SQL: SHOW COLUMNS FROM `ty_order` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ty_order` WHERE ( order_status=0 and (pay_status=1 or pay_code='cod') ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ty_order` WHERE ( add_time>1520991327 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ty_goods` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ty_goods` WHERE ( 1=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ty_article` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ty_article` WHERE ( 1=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ty_users` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ty_users` WHERE ( 1=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ty_users` WHERE ( last_login>1520991327 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ty_users` WHERE ( reg_time>1520991327 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ty_comment` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ty_comment` WHERE ( is_show=0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ty_store_apply` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ty_store_apply` WHERE ( apply_state=0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ty_store_bind_class` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ty_store_bind_class` WHERE ( state=0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ty_brand` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ty_brand` WHERE ( status=0 and store_id>0 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_begin ] --START--
+INFO: Run Home\Behaviors\testBehavior [ RunTime:0.001000s ]
+INFO: [ view_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-15T09:35:27+08:00 ] 127.0.0.1 /Admin/System/login_task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ty_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ty_config`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: login_task E:\phpweb\maicai\Application\Admin\Common\function.php 第 71 行.
+SQL: SHOW COLUMNS FROM `ty_cart` [ RunTime:0.0030s ]
+SQL: DELETE FROM `ty_cart` WHERE ( user_id = 0 and  add_time < 1521074127 ) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ty_order` [ RunTime:0.0010s ]
+SQL: SELECT `order_id` FROM `ty_order` WHERE ( order_status = 1 and shipping_status = 1 and (1521077727 - shipping_time) >  86400 )  [ RunTime:0.0000s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\phpweb\maicai\Application\Admin\Controller\SystemController.class.php 第 249 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-15T09:35:28+08:00 ] 127.0.0.1 /Admin/Store/store_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ty_config` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ty_config`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: store_list E:\phpweb\maicai\Application\Admin\Common\function.php 第 71 行.
+SQL: SHOW COLUMNS FROM `ty_store` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ty_store` WHERE `is_own_shop` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ty_store` WHERE `is_own_shop` = 0 ORDER BY store_id DESC LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ty_store_grade` [ RunTime:0.0030s ]
+SQL: SELECT `sg_id`,`sg_name` FROM `ty_store_grade`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ty_store_class` [ RunTime:0.0030s ]
+SQL: SELECT `sc_id`,`sc_name` FROM `ty_store_class`  [ RunTime:0.0000s ]
+INFO: [ view_begin ] --START--
+INFO: Run Home\Behaviors\testBehavior [ RunTime:0.001000s ]
+INFO: [ view_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: pid E:\phpweb\maicai\Application\Runtime\Cache\Admin\18e672ab47455c17877a783eee2aeab6.php 第 111 行.
+NOTIC: [8] Use of undefined constant grade_id - assumed 'grade_id' E:\phpweb\maicai\Application\Runtime\Cache\Admin\18e672ab47455c17877a783eee2aeab6.php 第 164 行.
+NOTIC: [8] Undefined offset: 0 E:\phpweb\maicai\Application\Runtime\Cache\Admin\18e672ab47455c17877a783eee2aeab6.php 第 164 行.
+NOTIC: [8] Use of undefined constant sc_id - assumed 'sc_id' E:\phpweb\maicai\Application\Runtime\Cache\Admin\18e672ab47455c17877a783eee2aeab6.php 第 165 行.
+NOTIC: [8] Undefined index:  E:\phpweb\maicai\Application\Runtime\Cache\Admin\18e672ab47455c17877a783eee2aeab6.php 第 165 行.
+NOTIC: [8] Use of undefined constant store_state - assumed 'store_state' E:\phpweb\maicai\Application\Runtime\Cache\Admin\18e672ab47455c17877a783eee2aeab6.php 第 167 行.
+NOTIC: [8] Use of undefined constant store_recommend - assumed 'store_recommend' E:\phpweb\maicai\Application\Runtime\Cache\Admin\18e672ab47455c17877a783eee2aeab6.php 第 168 行.
+NOTIC: [8] Use of undefined constant grade_id - assumed 'grade_id' E:\phpweb\maicai\Application\Runtime\Cache\Admin\18e672ab47455c17877a783eee2aeab6.php 第 164 行.
+NOTIC: [8] Use of undefined constant sc_id - assumed 'sc_id' E:\phpweb\maicai\Application\Runtime\Cache\Admin\18e672ab47455c17877a783eee2aeab6.php 第 165 行.
+NOTIC: [8] Use of undefined constant store_state - assumed 'store_state' E:\phpweb\maicai\Application\Runtime\Cache\Admin\18e672ab47455c17877a783eee2aeab6.php 第 167 行.
+NOTIC: [8] Use of undefined constant store_recommend - assumed 'store_recommend' E:\phpweb\maicai\Application\Runtime\Cache\Admin\18e672ab47455c17877a783eee2aeab6.php 第 168 行.
+NOTIC: [8] Use of undefined constant grade_id - assumed 'grade_id' E:\phpweb\maicai\Application\Runtime\Cache\Admin\18e672ab47455c17877a783eee2aeab6.php 第 164 行.
+NOTIC: [8] Use of undefined constant sc_id - assumed 'sc_id' E:\phpweb\maicai\Application\Runtime\Cache\Admin\18e672ab47455c17877a783eee2aeab6.php 第 165 行.
+NOTIC: [8] Use of undefined constant store_state - assumed 'store_state' E:\phpweb\maicai\Application\Runtime\Cache\Admin\18e672ab47455c17877a783eee2aeab6.php 第 167 行.
+NOTIC: [8] Use of undefined constant store_recommend - assumed 'store_recommend' E:\phpweb\maicai\Application\Runtime\Cache\Admin\18e672ab47455c17877a783eee2aeab6.php 第 168 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-15T09:35:29+08:00 ] 127.0.0.1 /Admin/Store/store_article_list/store_id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ty_config` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ty_config`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ty_store_article` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ty_store_article` WHERE (  1 = 1  and store_id = 3 ) ORDER BY article_id desc LIMIT 0,20   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ty_store_article` WHERE (  1 = 1  and store_id = 3 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: cat_id E:\phpweb\maicai\Application\Admin\Controller\StoreController.class.php 第 552 行.
+INFO: [ view_begin ] --START--
+INFO: Run Home\Behaviors\testBehavior [ RunTime:0.001000s ]
+INFO: [ view_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant is_open - assumed 'is_open' E:\phpweb\maicai\Application\Runtime\Cache\Admin\4bf8a1def1139063ee7e40ba0de4f998.php 第 124 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-15T09:35:33+08:00 ] 127.0.0.1 /Admin/Store/store_article_edit/article_id/6/store_id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ty_config` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ty_config`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: store_article_edit E:\phpweb\maicai\Application\Admin\Common\function.php 第 71 行.
+SQL: SHOW COLUMNS FROM `ty_store_article` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ty_store_article` WHERE ( article_id=6 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_begin ] --START--
+INFO: Run Home\Behaviors\testBehavior [ RunTime:0.001000s ]
+INFO: [ view_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: URL_home E:\phpweb\maicai\Application\Runtime\Cache\Admin\b7d1fa3e93e7ddc27118864a4fa5e449.php 第 84 行.
+NOTIC: [8] Use of undefined constant is_open - assumed 'is_open' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b7d1fa3e93e7ddc27118864a4fa5e449.php 第 152 行.
+NOTIC: [8] Use of undefined constant is_open - assumed 'is_open' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b7d1fa3e93e7ddc27118864a4fa5e449.php 第 155 行.
+NOTIC: [8] Undefined variable: article_main_system_id E:\phpweb\maicai\Application\Runtime\Cache\Admin\b7d1fa3e93e7ddc27118864a4fa5e449.php 第 263 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-15T09:35:37+08:00 ] 127.0.0.1 /Admin/Store/store_article_list/store_id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ty_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ty_config`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ty_store_article` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ty_store_article` WHERE (  1 = 1  and store_id = 3 ) ORDER BY article_id desc LIMIT 0,20   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ty_store_article` WHERE (  1 = 1  and store_id = 3 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: cat_id E:\phpweb\maicai\Application\Admin\Controller\StoreController.class.php 第 552 行.
+INFO: [ view_begin ] --START--
+INFO: Run Home\Behaviors\testBehavior [ RunTime:0.001000s ]
+INFO: [ view_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant is_open - assumed 'is_open' E:\phpweb\maicai\Application\Runtime\Cache\Admin\4bf8a1def1139063ee7e40ba0de4f998.php 第 124 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-15T09:35:39+08:00 ] 127.0.0.1 /Admin/Store/store_article_edit/article_id/6/store_id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ty_config` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ty_config`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: store_article_edit E:\phpweb\maicai\Application\Admin\Common\function.php 第 71 行.
+SQL: SHOW COLUMNS FROM `ty_store_article` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ty_store_article` WHERE ( article_id=6 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_begin ] --START--
+INFO: Run Home\Behaviors\testBehavior [ RunTime:0.001000s ]
+INFO: [ view_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: URL_home E:\phpweb\maicai\Application\Runtime\Cache\Admin\b7d1fa3e93e7ddc27118864a4fa5e449.php 第 84 行.
+NOTIC: [8] Use of undefined constant is_open - assumed 'is_open' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b7d1fa3e93e7ddc27118864a4fa5e449.php 第 152 行.
+NOTIC: [8] Use of undefined constant is_open - assumed 'is_open' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b7d1fa3e93e7ddc27118864a4fa5e449.php 第 155 行.
+NOTIC: [8] Undefined variable: article_main_system_id E:\phpweb\maicai\Application\Runtime\Cache\Admin\b7d1fa3e93e7ddc27118864a4fa5e449.php 第 263 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-15T09:35:42+08:00 ] 127.0.0.1 /Admin/Store/store_article_list/store_id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ty_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ty_config`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ty_store_article` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ty_store_article` WHERE (  1 = 1  and store_id = 3 ) ORDER BY article_id desc LIMIT 0,20   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ty_store_article` WHERE (  1 = 1  and store_id = 3 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: cat_id E:\phpweb\maicai\Application\Admin\Controller\StoreController.class.php 第 552 行.
+INFO: [ view_begin ] --START--
+INFO: Run Home\Behaviors\testBehavior [ RunTime:0.001000s ]
+INFO: [ view_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant is_open - assumed 'is_open' E:\phpweb\maicai\Application\Runtime\Cache\Admin\4bf8a1def1139063ee7e40ba0de4f998.php 第 124 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-15T14:19:48+08:00 ] 127.0.0.1 /admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_begin ] --START--
+INFO: Run Home\Behaviors\testBehavior [ RunTime:0.002000s ]
+INFO: [ view_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+
+[ 2018-03-15T14:19:49+08:00 ] 127.0.0.1 /Admin/Admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ty_config` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ty_config`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: login E:\phpweb\maicai\Application\Admin\Common\function.php 第 71 行.
+INFO: [ view_begin ] --START--
+INFO: Run Home\Behaviors\testBehavior [ RunTime:0.001000s ]
+INFO: [ view_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-15T14:19:49+08:00 ] 127.0.0.1 /Admin/Admin/vertify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ty_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ty_config`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: vertify E:\phpweb\maicai\Application\Admin\Common\function.php 第 71 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-15T14:19:56+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Admin&a=login&t=0.6015548657884036
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ty_config` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ty_config`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: login E:\phpweb\maicai\Application\Admin\Common\function.php 第 71 行.
+SQL: SHOW COLUMNS FROM `ty_admin` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ty_admin` INNER JOIN ty_admin_role ON ty_admin.role_id=ty_admin_role.role_id  WHERE `user_name` = 'admin' AND `password` = '519475228fe35ad067744465c42a19b2' LIMIT 1   [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `ty_admin_log` [ RunTime:0.0240s ]
+SQL: SELECT `log_time` FROM `ty_admin_log` WHERE ( admin_id = 1 and log_info = '后台登录' ) ORDER BY log_id desc LIMIT 1   [ RunTime:0.0070s ]
+SQL: INSERT INTO `ty_admin_log` (`log_time`,`admin_id`,`log_info`,`log_ip`,`log_url`,`log_type`) VALUES ('1521094796','1','后台登录','127.0.0.1','/Admin/Admin/login','0') [ RunTime:0.0010s ]
+
+[ 2018-03-15T14:19:56+08:00 ] 127.0.0.1 /Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ty_config` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ty_config`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ty_admin` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ty_admin` WHERE ( admin_id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ty_order` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ty_order` WHERE ( order_status=0 and (pay_status=1 or pay_code='cod') ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_begin ] --START--
+INFO: Run Home\Behaviors\testBehavior [ RunTime:0.002000s ]
+INFO: [ view_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: upgradeMsg E:\phpweb\maicai\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 50 行.
+NOTIC: [8] Undefined variable: seller E:\phpweb\maicai\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 77 行.
+NOTIC: [8] Use of undefined constant STORE_ID - assumed 'STORE_ID' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 82 行.
+NOTIC: [8] Undefined variable: seller E:\phpweb\maicai\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 83 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.002001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-15T14:19:57+08:00 ] 127.0.0.1 /Admin/Index/welcome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ty_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ty_config`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: welcome E:\phpweb\maicai\Application\Admin\Common\function.php 第 71 行.
+SQL: SELECT VERSION() as version [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: version E:\phpweb\maicai\Application\Admin\Controller\IndexController.class.php 第 65 行.
+SQL: SHOW COLUMNS FROM `ty_order` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ty_order` WHERE ( order_status=0 and (pay_status=1 or pay_code='cod') ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ty_order` WHERE ( add_time>1521008397 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ty_goods` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ty_goods` WHERE ( 1=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ty_article` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ty_article` WHERE ( 1=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ty_users` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ty_users` WHERE ( 1=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ty_users` WHERE ( last_login>1521008397 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ty_users` WHERE ( reg_time>1521008397 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ty_comment` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ty_comment` WHERE ( is_show=0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ty_store_apply` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ty_store_apply` WHERE ( apply_state=0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ty_store_bind_class` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ty_store_bind_class` WHERE ( state=0 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ty_brand` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ty_brand` WHERE ( status=0 and store_id>0 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_begin ] --START--
+INFO: Run Home\Behaviors\testBehavior [ RunTime:0.001000s ]
+INFO: [ view_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-15T14:19:57+08:00 ] 127.0.0.1 /Admin/System/login_task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ty_config` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ty_config`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: login_task E:\phpweb\maicai\Application\Admin\Common\function.php 第 71 行.
+SQL: SHOW COLUMNS FROM `ty_cart` [ RunTime:0.0030s ]
+SQL: DELETE FROM `ty_cart` WHERE ( user_id = 0 and  add_time < 1521091197 ) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ty_order` [ RunTime:0.0010s ]
+SQL: SELECT `order_id` FROM `ty_order` WHERE ( order_status = 1 and shipping_status = 1 and (1521094797 - shipping_time) >  86400 )  [ RunTime:0.0000s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\phpweb\maicai\Application\Admin\Controller\SystemController.class.php 第 249 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-03-15T14:20:51+08:00 ] 127.0.0.1 /Admin/Promotion/prom_goods_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ty_config` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ty_config`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: prom_goods_list E:\phpweb\maicai\Application\Admin\Common\function.php 第 71 行.
+SQL: SHOW COLUMNS FROM `ty_user_level` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `ty_user_level`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ty_prom_goods` [ RunTime:0.0170s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ty_prom_goods` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ty_prom_goods` LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: prom_list E:\phpweb\maicai\Application\Admin\Controller\PromotionController.class.php 第 60 行.
+INFO: [ view_begin ] --START--
+INFO: Run Home\Behaviors\testBehavior [ RunTime:0.002000s ]
+INFO: [ view_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-15T14:20:52+08:00 ] 127.0.0.1 /Admin/Promotion/prom_order_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `ty_config` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ty_config`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: prom_order_list E:\phpweb\maicai\Application\Admin\Common\function.php 第 71 行.
+SQL: SHOW COLUMNS FROM `ty_user_level` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ty_user_level`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ty_prom_order` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ty_prom_order` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ty_prom_order` LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: prom_list E:\phpweb\maicai\Application\Admin\Controller\PromotionController.class.php 第 159 行.
+INFO: [ view_begin ] --START--
+INFO: Run Home\Behaviors\testBehavior [ RunTime:0.002000s ]
+INFO: [ view_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2018-03-15T14:20:53+08:00 ] 127.0.0.1 /Admin/Coupon/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ty_config` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ty_config`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ty_coupon` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ty_coupon` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ty_coupon` ORDER BY add_time desc LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ty_store` [ RunTime:0.0010s ]
+SQL: SELECT `store_id`,`store_name` FROM `ty_store` WHERE `store_id` IN ('3','3')  [ RunTime:0.0000s ]
+INFO: [ view_begin ] --START--
+INFO: Run Home\Behaviors\testBehavior [ RunTime:0.001000s ]
+INFO: [ view_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant store_id - assumed 'store_id' E:\phpweb\maicai\Application\Runtime\Cache\Admin\38613d26be0d7580d78b3110a175a584.php 第 129 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' E:\phpweb\maicai\Application\Runtime\Cache\Admin\38613d26be0d7580d78b3110a175a584.php 第 130 行.
+NOTIC: [8] Use of undefined constant store_id - assumed 'store_id' E:\phpweb\maicai\Application\Runtime\Cache\Admin\38613d26be0d7580d78b3110a175a584.php 第 129 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' E:\phpweb\maicai\Application\Runtime\Cache\Admin\38613d26be0d7580d78b3110a175a584.php 第 130 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-15T14:21:00+08:00 ] 127.0.0.1 /Admin/System/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ty_config` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ty_config`  [ RunTime:0.0000s ]
+INFO: [ view_begin ] --START--
+INFO: Run Home\Behaviors\testBehavior [ RunTime:0.001000s ]
+INFO: [ view_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-15T14:21:00+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Api&a=getRegion&level=1&parent_id=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ty_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ty_config`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: admin/api E:\phpweb\maicai\Application\Admin\Common\function.php 第 70 行.
+NOTIC: [8] Undefined index: admin/api E:\phpweb\maicai\Application\Admin\Common\function.php 第 71 行.
+SQL: SHOW COLUMNS FROM `ty_region` [ RunTime:0.0360s ]
+SQL: SELECT * FROM `ty_region` WHERE ( parent_id=0 )  [ RunTime:0.2810s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-15T14:21:03+08:00 ] 127.0.0.1 /Admin/System/index/inc_type/basic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ty_config` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ty_config`  [ RunTime:0.0000s ]
+INFO: [ view_begin ] --START--
+INFO: Run Home\Behaviors\testBehavior [ RunTime:0.001000s ]
+INFO: [ view_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant file_size - assumed 'file_size' E:\phpweb\maicai\Application\Runtime\Cache\Admin\dd180a00c48425e3c711579b566d9ec4.php 第 115 行.
+NOTIC: [8] Use of undefined constant file_size - assumed 'file_size' E:\phpweb\maicai\Application\Runtime\Cache\Admin\dd180a00c48425e3c711579b566d9ec4.php 第 116 行.
+NOTIC: [8] Use of undefined constant file_size - assumed 'file_size' E:\phpweb\maicai\Application\Runtime\Cache\Admin\dd180a00c48425e3c711579b566d9ec4.php 第 117 行.
+NOTIC: [8] Use of undefined constant file_size - assumed 'file_size' E:\phpweb\maicai\Application\Runtime\Cache\Admin\dd180a00c48425e3c711579b566d9ec4.php 第 118 行.
+NOTIC: [8] Use of undefined constant file_size - assumed 'file_size' E:\phpweb\maicai\Application\Runtime\Cache\Admin\dd180a00c48425e3c711579b566d9ec4.php 第 119 行.
+NOTIC: [8] Use of undefined constant file_size - assumed 'file_size' E:\phpweb\maicai\Application\Runtime\Cache\Admin\dd180a00c48425e3c711579b566d9ec4.php 第 120 行.
+NOTIC: [8] Use of undefined constant file_size - assumed 'file_size' E:\phpweb\maicai\Application\Runtime\Cache\Admin\dd180a00c48425e3c711579b566d9ec4.php 第 121 行.
+NOTIC: [8] Use of undefined constant is_remind - assumed 'is_remind' E:\phpweb\maicai\Application\Runtime\Cache\Admin\dd180a00c48425e3c711579b566d9ec4.php 第 147 行.
+NOTIC: [8] Use of undefined constant is_remind - assumed 'is_remind' E:\phpweb\maicai\Application\Runtime\Cache\Admin\dd180a00c48425e3c711579b566d9ec4.php 第 148 行.
+NOTIC: [8] Use of undefined constant app_test - assumed 'app_test' E:\phpweb\maicai\Application\Runtime\Cache\Admin\dd180a00c48425e3c711579b566d9ec4.php 第 172 行.
+NOTIC: [8] Use of undefined constant app_test - assumed 'app_test' E:\phpweb\maicai\Application\Runtime\Cache\Admin\dd180a00c48425e3c711579b566d9ec4.php 第 173 行.
+NOTIC: [8] Use of undefined constant distributor - assumed 'distributor' E:\phpweb\maicai\Application\Runtime\Cache\Admin\dd180a00c48425e3c711579b566d9ec4.php 第 187 行.
+NOTIC: [8] Use of undefined constant distributor - assumed 'distributor' E:\phpweb\maicai\Application\Runtime\Cache\Admin\dd180a00c48425e3c711579b566d9ec4.php 第 188 行.
+NOTIC: [8] Undefined index: classa E:\phpweb\maicai\Application\Runtime\Cache\Admin\dd180a00c48425e3c711579b566d9ec4.php 第 195 行.
+NOTIC: [8] Undefined index: classb E:\phpweb\maicai\Application\Runtime\Cache\Admin\dd180a00c48425e3c711579b566d9ec4.php 第 202 行.
+NOTIC: [8] Undefined index: classc E:\phpweb\maicai\Application\Runtime\Cache\Admin\dd180a00c48425e3c711579b566d9ec4.php 第 209 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-15T14:21:04+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Api&a=getRegion&level=1&parent_id=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ty_config` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ty_config`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: admin/api E:\phpweb\maicai\Application\Admin\Common\function.php 第 70 行.
+NOTIC: [8] Undefined index: admin/api E:\phpweb\maicai\Application\Admin\Common\function.php 第 71 行.
+SQL: SHOW COLUMNS FROM `ty_region` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ty_region` WHERE ( parent_id=0 )  [ RunTime:0.0520s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-15T14:21:07+08:00 ] 127.0.0.1 /Admin/System/index/inc_type/sms
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ty_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ty_config`  [ RunTime:0.0000s ]
+INFO: [ view_begin ] --START--
+INFO: Run Home\Behaviors\testBehavior [ RunTime:0.002000s ]
+INFO: [ view_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-15T14:21:07+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Api&a=getRegion&level=1&parent_id=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ty_config` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ty_config`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: admin/api E:\phpweb\maicai\Application\Admin\Common\function.php 第 70 行.
+NOTIC: [8] Undefined index: admin/api E:\phpweb\maicai\Application\Admin\Common\function.php 第 71 行.
+SQL: SHOW COLUMNS FROM `ty_region` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ty_region` WHERE ( parent_id=0 )  [ RunTime:0.0510s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-15T14:21:09+08:00 ] 127.0.0.1 /Admin/System/index/inc_type/shopping
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ty_config` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ty_config`  [ RunTime:0.0000s ]
+INFO: [ view_begin ] --START--
+INFO: Run Home\Behaviors\testBehavior [ RunTime:0.002000s ]
+INFO: [ view_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant point_rate - assumed 'point_rate' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 117 行.
+NOTIC: [8] Use of undefined constant point_rate - assumed 'point_rate' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 118 行.
+NOTIC: [8] Use of undefined constant point_rate - assumed 'point_rate' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 119 行.
+NOTIC: [8] Use of undefined constant auto_confirm_date - assumed 'auto_confirm_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 126 行.
+NOTIC: [8] Use of undefined constant auto_confirm_date - assumed 'auto_confirm_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 126 行.
+NOTIC: [8] Use of undefined constant auto_confirm_date - assumed 'auto_confirm_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 126 行.
+NOTIC: [8] Use of undefined constant auto_confirm_date - assumed 'auto_confirm_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 126 行.
+NOTIC: [8] Use of undefined constant auto_confirm_date - assumed 'auto_confirm_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 126 行.
+NOTIC: [8] Use of undefined constant auto_confirm_date - assumed 'auto_confirm_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 126 行.
+NOTIC: [8] Use of undefined constant auto_confirm_date - assumed 'auto_confirm_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 126 行.
+NOTIC: [8] Use of undefined constant auto_confirm_date - assumed 'auto_confirm_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 126 行.
+NOTIC: [8] Use of undefined constant auto_confirm_date - assumed 'auto_confirm_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 126 行.
+NOTIC: [8] Use of undefined constant auto_confirm_date - assumed 'auto_confirm_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 126 行.
+NOTIC: [8] Use of undefined constant auto_confirm_date - assumed 'auto_confirm_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 126 行.
+NOTIC: [8] Use of undefined constant auto_confirm_date - assumed 'auto_confirm_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 126 行.
+NOTIC: [8] Use of undefined constant auto_confirm_date - assumed 'auto_confirm_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 126 行.
+NOTIC: [8] Use of undefined constant auto_confirm_date - assumed 'auto_confirm_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 126 行.
+NOTIC: [8] Use of undefined constant auto_confirm_date - assumed 'auto_confirm_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 126 行.
+NOTIC: [8] Use of undefined constant auto_confirm_date - assumed 'auto_confirm_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 126 行.
+NOTIC: [8] Use of undefined constant auto_confirm_date - assumed 'auto_confirm_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 126 行.
+NOTIC: [8] Use of undefined constant auto_confirm_date - assumed 'auto_confirm_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 126 行.
+NOTIC: [8] Use of undefined constant auto_confirm_date - assumed 'auto_confirm_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 126 行.
+NOTIC: [8] Use of undefined constant auto_confirm_date - assumed 'auto_confirm_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 126 行.
+NOTIC: [8] Use of undefined constant auto_confirm_date - assumed 'auto_confirm_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 126 行.
+NOTIC: [8] Use of undefined constant auto_confirm_date - assumed 'auto_confirm_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 126 行.
+NOTIC: [8] Use of undefined constant auto_confirm_date - assumed 'auto_confirm_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 126 行.
+NOTIC: [8] Use of undefined constant auto_confirm_date - assumed 'auto_confirm_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 126 行.
+NOTIC: [8] Use of undefined constant auto_confirm_date - assumed 'auto_confirm_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 126 行.
+NOTIC: [8] Use of undefined constant auto_confirm_date - assumed 'auto_confirm_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 126 行.
+NOTIC: [8] Use of undefined constant auto_confirm_date - assumed 'auto_confirm_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 126 行.
+NOTIC: [8] Use of undefined constant auto_confirm_date - assumed 'auto_confirm_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 126 行.
+NOTIC: [8] Use of undefined constant auto_confirm_date - assumed 'auto_confirm_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 126 行.
+NOTIC: [8] Use of undefined constant auto_confirm_date - assumed 'auto_confirm_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 126 行.
+NOTIC: [8] Use of undefined constant pay_date - assumed 'pay_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 136 行.
+NOTIC: [8] Undefined index: pay_date E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 136 行.
+NOTIC: [8] Use of undefined constant pay_date - assumed 'pay_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 136 行.
+NOTIC: [8] Undefined index: pay_date E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 136 行.
+NOTIC: [8] Use of undefined constant pay_date - assumed 'pay_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 136 行.
+NOTIC: [8] Undefined index: pay_date E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 136 行.
+NOTIC: [8] Use of undefined constant pay_date - assumed 'pay_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 136 行.
+NOTIC: [8] Undefined index: pay_date E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 136 行.
+NOTIC: [8] Use of undefined constant pay_date - assumed 'pay_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 136 行.
+NOTIC: [8] Undefined index: pay_date E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 136 行.
+NOTIC: [8] Use of undefined constant pay_date - assumed 'pay_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 136 行.
+NOTIC: [8] Undefined index: pay_date E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 136 行.
+NOTIC: [8] Use of undefined constant pay_date - assumed 'pay_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 136 行.
+NOTIC: [8] Undefined index: pay_date E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 136 行.
+NOTIC: [8] Use of undefined constant pay_date - assumed 'pay_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 136 行.
+NOTIC: [8] Undefined index: pay_date E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 136 行.
+NOTIC: [8] Use of undefined constant pay_date - assumed 'pay_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 136 行.
+NOTIC: [8] Undefined index: pay_date E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 136 行.
+NOTIC: [8] Use of undefined constant pay_date - assumed 'pay_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 136 行.
+NOTIC: [8] Undefined index: pay_date E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 136 行.
+NOTIC: [8] Use of undefined constant pay_date - assumed 'pay_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 136 行.
+NOTIC: [8] Undefined index: pay_date E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 136 行.
+NOTIC: [8] Use of undefined constant pay_date - assumed 'pay_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 136 行.
+NOTIC: [8] Undefined index: pay_date E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 136 行.
+NOTIC: [8] Use of undefined constant pay_date - assumed 'pay_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 136 行.
+NOTIC: [8] Undefined index: pay_date E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 136 行.
+NOTIC: [8] Use of undefined constant pay_date - assumed 'pay_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 136 行.
+NOTIC: [8] Undefined index: pay_date E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 136 行.
+NOTIC: [8] Use of undefined constant pay_date - assumed 'pay_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 136 行.
+NOTIC: [8] Undefined index: pay_date E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 136 行.
+NOTIC: [8] Use of undefined constant pay_date - assumed 'pay_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 136 行.
+NOTIC: [8] Undefined index: pay_date E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 136 行.
+NOTIC: [8] Use of undefined constant pay_date - assumed 'pay_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 136 行.
+NOTIC: [8] Undefined index: pay_date E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 136 行.
+NOTIC: [8] Use of undefined constant pay_date - assumed 'pay_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 136 行.
+NOTIC: [8] Undefined index: pay_date E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 136 行.
+NOTIC: [8] Use of undefined constant pay_date - assumed 'pay_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 136 行.
+NOTIC: [8] Undefined index: pay_date E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 136 行.
+NOTIC: [8] Use of undefined constant pay_date - assumed 'pay_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 136 行.
+NOTIC: [8] Undefined index: pay_date E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 136 行.
+NOTIC: [8] Use of undefined constant pay_date - assumed 'pay_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 136 行.
+NOTIC: [8] Undefined index: pay_date E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 136 行.
+NOTIC: [8] Use of undefined constant pay_date - assumed 'pay_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 136 行.
+NOTIC: [8] Undefined index: pay_date E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 136 行.
+NOTIC: [8] Use of undefined constant pay_date - assumed 'pay_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 136 行.
+NOTIC: [8] Undefined index: pay_date E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 136 行.
+NOTIC: [8] Use of undefined constant pay_date - assumed 'pay_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 136 行.
+NOTIC: [8] Undefined index: pay_date E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 136 行.
+NOTIC: [8] Use of undefined constant pay_date - assumed 'pay_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 136 行.
+NOTIC: [8] Undefined index: pay_date E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 136 行.
+NOTIC: [8] Use of undefined constant pay_date - assumed 'pay_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 136 行.
+NOTIC: [8] Undefined index: pay_date E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 136 行.
+NOTIC: [8] Use of undefined constant pay_date - assumed 'pay_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 136 行.
+NOTIC: [8] Undefined index: pay_date E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 136 行.
+NOTIC: [8] Use of undefined constant pay_date - assumed 'pay_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 136 行.
+NOTIC: [8] Undefined index: pay_date E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 136 行.
+NOTIC: [8] Use of undefined constant pay_date - assumed 'pay_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 136 行.
+NOTIC: [8] Undefined index: pay_date E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 136 行.
+NOTIC: [8] Use of undefined constant pay_date - assumed 'pay_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 136 行.
+NOTIC: [8] Undefined index: pay_date E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 136 行.
+NOTIC: [8] Use of undefined constant auto_transfer_date - assumed 'auto_transfer_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 147 行.
+NOTIC: [8] Use of undefined constant auto_transfer_date - assumed 'auto_transfer_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 147 行.
+NOTIC: [8] Use of undefined constant auto_transfer_date - assumed 'auto_transfer_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 147 行.
+NOTIC: [8] Use of undefined constant auto_transfer_date - assumed 'auto_transfer_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 147 行.
+NOTIC: [8] Use of undefined constant auto_transfer_date - assumed 'auto_transfer_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 147 行.
+NOTIC: [8] Use of undefined constant auto_transfer_date - assumed 'auto_transfer_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 147 行.
+NOTIC: [8] Use of undefined constant auto_transfer_date - assumed 'auto_transfer_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 147 行.
+NOTIC: [8] Use of undefined constant auto_transfer_date - assumed 'auto_transfer_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 147 行.
+NOTIC: [8] Use of undefined constant auto_transfer_date - assumed 'auto_transfer_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 147 行.
+NOTIC: [8] Use of undefined constant auto_transfer_date - assumed 'auto_transfer_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 147 行.
+NOTIC: [8] Use of undefined constant auto_transfer_date - assumed 'auto_transfer_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 147 行.
+NOTIC: [8] Use of undefined constant auto_transfer_date - assumed 'auto_transfer_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 147 行.
+NOTIC: [8] Use of undefined constant auto_transfer_date - assumed 'auto_transfer_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 147 行.
+NOTIC: [8] Use of undefined constant auto_transfer_date - assumed 'auto_transfer_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 147 行.
+NOTIC: [8] Use of undefined constant auto_transfer_date - assumed 'auto_transfer_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 147 行.
+NOTIC: [8] Use of undefined constant auto_transfer_date - assumed 'auto_transfer_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 147 行.
+NOTIC: [8] Use of undefined constant auto_transfer_date - assumed 'auto_transfer_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 147 行.
+NOTIC: [8] Use of undefined constant auto_transfer_date - assumed 'auto_transfer_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 147 行.
+NOTIC: [8] Use of undefined constant auto_transfer_date - assumed 'auto_transfer_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 147 行.
+NOTIC: [8] Use of undefined constant auto_transfer_date - assumed 'auto_transfer_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 147 行.
+NOTIC: [8] Use of undefined constant auto_transfer_date - assumed 'auto_transfer_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 147 行.
+NOTIC: [8] Use of undefined constant auto_transfer_date - assumed 'auto_transfer_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 147 行.
+NOTIC: [8] Use of undefined constant auto_transfer_date - assumed 'auto_transfer_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 147 行.
+NOTIC: [8] Use of undefined constant auto_transfer_date - assumed 'auto_transfer_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 147 行.
+NOTIC: [8] Use of undefined constant auto_transfer_date - assumed 'auto_transfer_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 147 行.
+NOTIC: [8] Use of undefined constant auto_transfer_date - assumed 'auto_transfer_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 147 行.
+NOTIC: [8] Use of undefined constant auto_transfer_date - assumed 'auto_transfer_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 147 行.
+NOTIC: [8] Use of undefined constant auto_transfer_date - assumed 'auto_transfer_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 147 行.
+NOTIC: [8] Use of undefined constant auto_transfer_date - assumed 'auto_transfer_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 147 行.
+NOTIC: [8] Use of undefined constant auto_transfer_date - assumed 'auto_transfer_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 147 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-15T14:21:09+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Api&a=getRegion&level=1&parent_id=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ty_config` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ty_config`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: admin/api E:\phpweb\maicai\Application\Admin\Common\function.php 第 70 行.
+NOTIC: [8] Undefined index: admin/api E:\phpweb\maicai\Application\Admin\Common\function.php 第 71 行.
+SQL: SHOW COLUMNS FROM `ty_region` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ty_region` WHERE ( parent_id=0 )  [ RunTime:0.0520s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-15T14:21:10+08:00 ] 127.0.0.1 /Admin/System/index/inc_type/water
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ty_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ty_config`  [ RunTime:0.0010s ]
+INFO: [ view_begin ] --START--
+INFO: Run Home\Behaviors\testBehavior [ RunTime:0.003000s ]
+INFO: [ view_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-15T14:21:10+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Api&a=getRegion&level=1&parent_id=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ty_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ty_config`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: admin/api E:\phpweb\maicai\Application\Admin\Common\function.php 第 70 行.
+NOTIC: [8] Undefined index: admin/api E:\phpweb\maicai\Application\Admin\Common\function.php 第 71 行.
+SQL: SHOW COLUMNS FROM `ty_region` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ty_region` WHERE ( parent_id=0 )  [ RunTime:0.0510s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-15T14:21:12+08:00 ] 127.0.0.1 /Admin/System/index/inc_type/smtp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ty_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ty_config`  [ RunTime:0.0000s ]
+INFO: [ view_begin ] --START--
+INFO: Run Home\Behaviors\testBehavior [ RunTime:0.002000s ]
+INFO: [ view_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: smtp_server E:\phpweb\maicai\Application\Runtime\Cache\Admin\9a5a08e391279da6098a36a1b52617e8.php 第 105 行.
+NOTIC: [8] Undefined index: smtp_user E:\phpweb\maicai\Application\Runtime\Cache\Admin\9a5a08e391279da6098a36a1b52617e8.php 第 119 行.
+NOTIC: [8] Undefined index: smtp_pwd E:\phpweb\maicai\Application\Runtime\Cache\Admin\9a5a08e391279da6098a36a1b52617e8.php 第 125 行.
+NOTIC: [8] Undefined index: regis_smtp_enable E:\phpweb\maicai\Application\Runtime\Cache\Admin\9a5a08e391279da6098a36a1b52617e8.php 第 132 行.
+NOTIC: [8] Undefined index: regis_smtp_enable E:\phpweb\maicai\Application\Runtime\Cache\Admin\9a5a08e391279da6098a36a1b52617e8.php 第 133 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-15T14:21:12+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Api&a=getRegion&level=1&parent_id=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ty_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ty_config`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: admin/api E:\phpweb\maicai\Application\Admin\Common\function.php 第 70 行.
+NOTIC: [8] Undefined index: admin/api E:\phpweb\maicai\Application\Admin\Common\function.php 第 71 行.
+SQL: SHOW COLUMNS FROM `ty_region` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ty_region` WHERE ( parent_id=0 )  [ RunTime:0.0510s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-15T14:21:16+08:00 ] 127.0.0.1 /Admin/System/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ty_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ty_config`  [ RunTime:0.0000s ]
+INFO: [ view_begin ] --START--
+INFO: Run Home\Behaviors\testBehavior [ RunTime:0.001000s ]
+INFO: [ view_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-15T14:21:17+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Api&a=getRegion&level=1&parent_id=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ty_config` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ty_config`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: admin/api E:\phpweb\maicai\Application\Admin\Common\function.php 第 70 行.
+NOTIC: [8] Undefined index: admin/api E:\phpweb\maicai\Application\Admin\Common\function.php 第 71 行.
+SQL: SHOW COLUMNS FROM `ty_region` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ty_region` WHERE ( parent_id=0 )  [ RunTime:0.0530s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-15T14:21:20+08:00 ] 127.0.0.1 /Admin/System/index/inc_type/basic
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ty_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ty_config`  [ RunTime:0.0000s ]
+INFO: [ view_begin ] --START--
+INFO: Run Home\Behaviors\testBehavior [ RunTime:0.002000s ]
+INFO: [ view_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant file_size - assumed 'file_size' E:\phpweb\maicai\Application\Runtime\Cache\Admin\dd180a00c48425e3c711579b566d9ec4.php 第 115 行.
+NOTIC: [8] Use of undefined constant file_size - assumed 'file_size' E:\phpweb\maicai\Application\Runtime\Cache\Admin\dd180a00c48425e3c711579b566d9ec4.php 第 116 行.
+NOTIC: [8] Use of undefined constant file_size - assumed 'file_size' E:\phpweb\maicai\Application\Runtime\Cache\Admin\dd180a00c48425e3c711579b566d9ec4.php 第 117 行.
+NOTIC: [8] Use of undefined constant file_size - assumed 'file_size' E:\phpweb\maicai\Application\Runtime\Cache\Admin\dd180a00c48425e3c711579b566d9ec4.php 第 118 行.
+NOTIC: [8] Use of undefined constant file_size - assumed 'file_size' E:\phpweb\maicai\Application\Runtime\Cache\Admin\dd180a00c48425e3c711579b566d9ec4.php 第 119 行.
+NOTIC: [8] Use of undefined constant file_size - assumed 'file_size' E:\phpweb\maicai\Application\Runtime\Cache\Admin\dd180a00c48425e3c711579b566d9ec4.php 第 120 行.
+NOTIC: [8] Use of undefined constant file_size - assumed 'file_size' E:\phpweb\maicai\Application\Runtime\Cache\Admin\dd180a00c48425e3c711579b566d9ec4.php 第 121 行.
+NOTIC: [8] Use of undefined constant is_remind - assumed 'is_remind' E:\phpweb\maicai\Application\Runtime\Cache\Admin\dd180a00c48425e3c711579b566d9ec4.php 第 147 行.
+NOTIC: [8] Use of undefined constant is_remind - assumed 'is_remind' E:\phpweb\maicai\Application\Runtime\Cache\Admin\dd180a00c48425e3c711579b566d9ec4.php 第 148 行.
+NOTIC: [8] Use of undefined constant app_test - assumed 'app_test' E:\phpweb\maicai\Application\Runtime\Cache\Admin\dd180a00c48425e3c711579b566d9ec4.php 第 172 行.
+NOTIC: [8] Use of undefined constant app_test - assumed 'app_test' E:\phpweb\maicai\Application\Runtime\Cache\Admin\dd180a00c48425e3c711579b566d9ec4.php 第 173 行.
+NOTIC: [8] Use of undefined constant distributor - assumed 'distributor' E:\phpweb\maicai\Application\Runtime\Cache\Admin\dd180a00c48425e3c711579b566d9ec4.php 第 187 行.
+NOTIC: [8] Use of undefined constant distributor - assumed 'distributor' E:\phpweb\maicai\Application\Runtime\Cache\Admin\dd180a00c48425e3c711579b566d9ec4.php 第 188 行.
+NOTIC: [8] Undefined index: classa E:\phpweb\maicai\Application\Runtime\Cache\Admin\dd180a00c48425e3c711579b566d9ec4.php 第 195 行.
+NOTIC: [8] Undefined index: classb E:\phpweb\maicai\Application\Runtime\Cache\Admin\dd180a00c48425e3c711579b566d9ec4.php 第 202 行.
+NOTIC: [8] Undefined index: classc E:\phpweb\maicai\Application\Runtime\Cache\Admin\dd180a00c48425e3c711579b566d9ec4.php 第 209 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-15T14:21:20+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Api&a=getRegion&level=1&parent_id=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ty_config` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ty_config`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: admin/api E:\phpweb\maicai\Application\Admin\Common\function.php 第 70 行.
+NOTIC: [8] Undefined index: admin/api E:\phpweb\maicai\Application\Admin\Common\function.php 第 71 行.
+SQL: SHOW COLUMNS FROM `ty_region` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ty_region` WHERE ( parent_id=0 )  [ RunTime:0.0510s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-15T14:21:21+08:00 ] 127.0.0.1 /Admin/System/index/inc_type/sms
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ty_config` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ty_config`  [ RunTime:0.0000s ]
+INFO: [ view_begin ] --START--
+INFO: Run Home\Behaviors\testBehavior [ RunTime:0.002000s ]
+INFO: [ view_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-15T14:21:21+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Api&a=getRegion&level=1&parent_id=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ty_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ty_config`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: admin/api E:\phpweb\maicai\Application\Admin\Common\function.php 第 70 行.
+NOTIC: [8] Undefined index: admin/api E:\phpweb\maicai\Application\Admin\Common\function.php 第 71 行.
+SQL: SHOW COLUMNS FROM `ty_region` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ty_region` WHERE ( parent_id=0 )  [ RunTime:0.0490s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-15T14:21:22+08:00 ] 127.0.0.1 /Admin/System/index/inc_type/shopping
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ty_config` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ty_config`  [ RunTime:0.0000s ]
+INFO: [ view_begin ] --START--
+INFO: Run Home\Behaviors\testBehavior [ RunTime:0.002000s ]
+INFO: [ view_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant point_rate - assumed 'point_rate' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 117 行.
+NOTIC: [8] Use of undefined constant point_rate - assumed 'point_rate' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 118 行.
+NOTIC: [8] Use of undefined constant point_rate - assumed 'point_rate' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 119 行.
+NOTIC: [8] Use of undefined constant auto_confirm_date - assumed 'auto_confirm_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 126 行.
+NOTIC: [8] Use of undefined constant auto_confirm_date - assumed 'auto_confirm_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 126 行.
+NOTIC: [8] Use of undefined constant auto_confirm_date - assumed 'auto_confirm_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 126 行.
+NOTIC: [8] Use of undefined constant auto_confirm_date - assumed 'auto_confirm_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 126 行.
+NOTIC: [8] Use of undefined constant auto_confirm_date - assumed 'auto_confirm_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 126 行.
+NOTIC: [8] Use of undefined constant auto_confirm_date - assumed 'auto_confirm_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 126 行.
+NOTIC: [8] Use of undefined constant auto_confirm_date - assumed 'auto_confirm_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 126 行.
+NOTIC: [8] Use of undefined constant auto_confirm_date - assumed 'auto_confirm_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 126 行.
+NOTIC: [8] Use of undefined constant auto_confirm_date - assumed 'auto_confirm_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 126 行.
+NOTIC: [8] Use of undefined constant auto_confirm_date - assumed 'auto_confirm_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 126 行.
+NOTIC: [8] Use of undefined constant auto_confirm_date - assumed 'auto_confirm_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 126 行.
+NOTIC: [8] Use of undefined constant auto_confirm_date - assumed 'auto_confirm_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 126 行.
+NOTIC: [8] Use of undefined constant auto_confirm_date - assumed 'auto_confirm_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 126 行.
+NOTIC: [8] Use of undefined constant auto_confirm_date - assumed 'auto_confirm_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 126 行.
+NOTIC: [8] Use of undefined constant auto_confirm_date - assumed 'auto_confirm_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 126 行.
+NOTIC: [8] Use of undefined constant auto_confirm_date - assumed 'auto_confirm_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 126 行.
+NOTIC: [8] Use of undefined constant auto_confirm_date - assumed 'auto_confirm_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 126 行.
+NOTIC: [8] Use of undefined constant auto_confirm_date - assumed 'auto_confirm_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 126 行.
+NOTIC: [8] Use of undefined constant auto_confirm_date - assumed 'auto_confirm_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 126 行.
+NOTIC: [8] Use of undefined constant auto_confirm_date - assumed 'auto_confirm_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 126 行.
+NOTIC: [8] Use of undefined constant auto_confirm_date - assumed 'auto_confirm_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 126 行.
+NOTIC: [8] Use of undefined constant auto_confirm_date - assumed 'auto_confirm_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 126 行.
+NOTIC: [8] Use of undefined constant auto_confirm_date - assumed 'auto_confirm_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 126 行.
+NOTIC: [8] Use of undefined constant auto_confirm_date - assumed 'auto_confirm_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 126 行.
+NOTIC: [8] Use of undefined constant auto_confirm_date - assumed 'auto_confirm_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 126 行.
+NOTIC: [8] Use of undefined constant auto_confirm_date - assumed 'auto_confirm_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 126 行.
+NOTIC: [8] Use of undefined constant auto_confirm_date - assumed 'auto_confirm_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 126 行.
+NOTIC: [8] Use of undefined constant auto_confirm_date - assumed 'auto_confirm_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 126 行.
+NOTIC: [8] Use of undefined constant auto_confirm_date - assumed 'auto_confirm_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 126 行.
+NOTIC: [8] Use of undefined constant auto_confirm_date - assumed 'auto_confirm_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 126 行.
+NOTIC: [8] Use of undefined constant pay_date - assumed 'pay_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 136 行.
+NOTIC: [8] Undefined index: pay_date E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 136 行.
+NOTIC: [8] Use of undefined constant pay_date - assumed 'pay_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 136 行.
+NOTIC: [8] Undefined index: pay_date E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 136 行.
+NOTIC: [8] Use of undefined constant pay_date - assumed 'pay_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 136 行.
+NOTIC: [8] Undefined index: pay_date E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 136 行.
+NOTIC: [8] Use of undefined constant pay_date - assumed 'pay_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 136 行.
+NOTIC: [8] Undefined index: pay_date E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 136 行.
+NOTIC: [8] Use of undefined constant pay_date - assumed 'pay_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 136 行.
+NOTIC: [8] Undefined index: pay_date E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 136 行.
+NOTIC: [8] Use of undefined constant pay_date - assumed 'pay_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 136 行.
+NOTIC: [8] Undefined index: pay_date E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 136 行.
+NOTIC: [8] Use of undefined constant pay_date - assumed 'pay_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 136 行.
+NOTIC: [8] Undefined index: pay_date E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 136 行.
+NOTIC: [8] Use of undefined constant pay_date - assumed 'pay_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 136 行.
+NOTIC: [8] Undefined index: pay_date E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 136 行.
+NOTIC: [8] Use of undefined constant pay_date - assumed 'pay_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 136 行.
+NOTIC: [8] Undefined index: pay_date E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 136 行.
+NOTIC: [8] Use of undefined constant pay_date - assumed 'pay_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 136 行.
+NOTIC: [8] Undefined index: pay_date E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 136 行.
+NOTIC: [8] Use of undefined constant pay_date - assumed 'pay_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 136 行.
+NOTIC: [8] Undefined index: pay_date E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 136 行.
+NOTIC: [8] Use of undefined constant pay_date - assumed 'pay_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 136 行.
+NOTIC: [8] Undefined index: pay_date E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 136 行.
+NOTIC: [8] Use of undefined constant pay_date - assumed 'pay_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 136 行.
+NOTIC: [8] Undefined index: pay_date E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 136 行.
+NOTIC: [8] Use of undefined constant pay_date - assumed 'pay_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 136 行.
+NOTIC: [8] Undefined index: pay_date E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 136 行.
+NOTIC: [8] Use of undefined constant pay_date - assumed 'pay_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 136 行.
+NOTIC: [8] Undefined index: pay_date E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 136 行.
+NOTIC: [8] Use of undefined constant pay_date - assumed 'pay_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 136 行.
+NOTIC: [8] Undefined index: pay_date E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 136 行.
+NOTIC: [8] Use of undefined constant pay_date - assumed 'pay_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 136 行.
+NOTIC: [8] Undefined index: pay_date E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 136 行.
+NOTIC: [8] Use of undefined constant pay_date - assumed 'pay_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 136 行.
+NOTIC: [8] Undefined index: pay_date E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 136 行.
+NOTIC: [8] Use of undefined constant pay_date - assumed 'pay_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 136 行.
+NOTIC: [8] Undefined index: pay_date E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 136 行.
+NOTIC: [8] Use of undefined constant pay_date - assumed 'pay_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 136 行.
+NOTIC: [8] Undefined index: pay_date E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 136 行.
+NOTIC: [8] Use of undefined constant pay_date - assumed 'pay_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 136 行.
+NOTIC: [8] Undefined index: pay_date E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 136 行.
+NOTIC: [8] Use of undefined constant pay_date - assumed 'pay_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 136 行.
+NOTIC: [8] Undefined index: pay_date E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 136 行.
+NOTIC: [8] Use of undefined constant pay_date - assumed 'pay_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 136 行.
+NOTIC: [8] Undefined index: pay_date E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 136 行.
+NOTIC: [8] Use of undefined constant pay_date - assumed 'pay_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 136 行.
+NOTIC: [8] Undefined index: pay_date E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 136 行.
+NOTIC: [8] Use of undefined constant pay_date - assumed 'pay_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 136 行.
+NOTIC: [8] Undefined index: pay_date E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 136 行.
+NOTIC: [8] Use of undefined constant pay_date - assumed 'pay_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 136 行.
+NOTIC: [8] Undefined index: pay_date E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 136 行.
+NOTIC: [8] Use of undefined constant pay_date - assumed 'pay_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 136 行.
+NOTIC: [8] Undefined index: pay_date E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 136 行.
+NOTIC: [8] Use of undefined constant pay_date - assumed 'pay_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 136 行.
+NOTIC: [8] Undefined index: pay_date E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 136 行.
+NOTIC: [8] Use of undefined constant pay_date - assumed 'pay_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 136 行.
+NOTIC: [8] Undefined index: pay_date E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 136 行.
+NOTIC: [8] Use of undefined constant pay_date - assumed 'pay_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 136 行.
+NOTIC: [8] Undefined index: pay_date E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 136 行.
+NOTIC: [8] Use of undefined constant auto_transfer_date - assumed 'auto_transfer_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 147 行.
+NOTIC: [8] Use of undefined constant auto_transfer_date - assumed 'auto_transfer_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 147 行.
+NOTIC: [8] Use of undefined constant auto_transfer_date - assumed 'auto_transfer_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 147 行.
+NOTIC: [8] Use of undefined constant auto_transfer_date - assumed 'auto_transfer_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 147 行.
+NOTIC: [8] Use of undefined constant auto_transfer_date - assumed 'auto_transfer_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 147 行.
+NOTIC: [8] Use of undefined constant auto_transfer_date - assumed 'auto_transfer_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 147 行.
+NOTIC: [8] Use of undefined constant auto_transfer_date - assumed 'auto_transfer_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 147 行.
+NOTIC: [8] Use of undefined constant auto_transfer_date - assumed 'auto_transfer_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 147 行.
+NOTIC: [8] Use of undefined constant auto_transfer_date - assumed 'auto_transfer_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 147 行.
+NOTIC: [8] Use of undefined constant auto_transfer_date - assumed 'auto_transfer_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 147 行.
+NOTIC: [8] Use of undefined constant auto_transfer_date - assumed 'auto_transfer_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 147 行.
+NOTIC: [8] Use of undefined constant auto_transfer_date - assumed 'auto_transfer_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 147 行.
+NOTIC: [8] Use of undefined constant auto_transfer_date - assumed 'auto_transfer_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 147 行.
+NOTIC: [8] Use of undefined constant auto_transfer_date - assumed 'auto_transfer_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 147 行.
+NOTIC: [8] Use of undefined constant auto_transfer_date - assumed 'auto_transfer_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 147 行.
+NOTIC: [8] Use of undefined constant auto_transfer_date - assumed 'auto_transfer_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 147 行.
+NOTIC: [8] Use of undefined constant auto_transfer_date - assumed 'auto_transfer_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 147 行.
+NOTIC: [8] Use of undefined constant auto_transfer_date - assumed 'auto_transfer_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 147 行.
+NOTIC: [8] Use of undefined constant auto_transfer_date - assumed 'auto_transfer_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 147 行.
+NOTIC: [8] Use of undefined constant auto_transfer_date - assumed 'auto_transfer_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 147 行.
+NOTIC: [8] Use of undefined constant auto_transfer_date - assumed 'auto_transfer_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 147 行.
+NOTIC: [8] Use of undefined constant auto_transfer_date - assumed 'auto_transfer_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 147 行.
+NOTIC: [8] Use of undefined constant auto_transfer_date - assumed 'auto_transfer_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 147 行.
+NOTIC: [8] Use of undefined constant auto_transfer_date - assumed 'auto_transfer_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 147 行.
+NOTIC: [8] Use of undefined constant auto_transfer_date - assumed 'auto_transfer_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 147 行.
+NOTIC: [8] Use of undefined constant auto_transfer_date - assumed 'auto_transfer_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 147 行.
+NOTIC: [8] Use of undefined constant auto_transfer_date - assumed 'auto_transfer_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 147 行.
+NOTIC: [8] Use of undefined constant auto_transfer_date - assumed 'auto_transfer_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 147 行.
+NOTIC: [8] Use of undefined constant auto_transfer_date - assumed 'auto_transfer_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 147 行.
+NOTIC: [8] Use of undefined constant auto_transfer_date - assumed 'auto_transfer_date' E:\phpweb\maicai\Application\Runtime\Cache\Admin\b8a6a5f0d49105a5691fc6ebbc2900ad.php 第 147 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-15T14:21:22+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Api&a=getRegion&level=1&parent_id=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ty_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ty_config`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: admin/api E:\phpweb\maicai\Application\Admin\Common\function.php 第 70 行.
+NOTIC: [8] Undefined index: admin/api E:\phpweb\maicai\Application\Admin\Common\function.php 第 71 行.
+SQL: SHOW COLUMNS FROM `ty_region` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ty_region` WHERE ( parent_id=0 )  [ RunTime:0.0520s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-15T14:21:23+08:00 ] 127.0.0.1 /Admin/System/index/inc_type/smtp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ty_config` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ty_config`  [ RunTime:0.0000s ]
+INFO: [ view_begin ] --START--
+INFO: Run Home\Behaviors\testBehavior [ RunTime:0.002001s ]
+INFO: [ view_begin ] --END-- [ RunTime:0.002001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: smtp_server E:\phpweb\maicai\Application\Runtime\Cache\Admin\9a5a08e391279da6098a36a1b52617e8.php 第 105 行.
+NOTIC: [8] Undefined index: smtp_user E:\phpweb\maicai\Application\Runtime\Cache\Admin\9a5a08e391279da6098a36a1b52617e8.php 第 119 行.
+NOTIC: [8] Undefined index: smtp_pwd E:\phpweb\maicai\Application\Runtime\Cache\Admin\9a5a08e391279da6098a36a1b52617e8.php 第 125 行.
+NOTIC: [8] Undefined index: regis_smtp_enable E:\phpweb\maicai\Application\Runtime\Cache\Admin\9a5a08e391279da6098a36a1b52617e8.php 第 132 行.
+NOTIC: [8] Undefined index: regis_smtp_enable E:\phpweb\maicai\Application\Runtime\Cache\Admin\9a5a08e391279da6098a36a1b52617e8.php 第 133 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-15T14:21:23+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Api&a=getRegion&level=1&parent_id=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ty_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ty_config`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: admin/api E:\phpweb\maicai\Application\Admin\Common\function.php 第 70 行.
+NOTIC: [8] Undefined index: admin/api E:\phpweb\maicai\Application\Admin\Common\function.php 第 71 行.
+SQL: SHOW COLUMNS FROM `ty_region` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ty_region` WHERE ( parent_id=0 )  [ RunTime:0.0510s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-15T14:21:24+08:00 ] 127.0.0.1 /Admin/System/index/inc_type/water
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ty_config` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ty_config`  [ RunTime:0.0000s ]
+INFO: [ view_begin ] --START--
+INFO: Run Home\Behaviors\testBehavior [ RunTime:0.002000s ]
+INFO: [ view_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-15T14:21:24+08:00 ] 127.0.0.1 /index.php?m=Admin&c=Api&a=getRegion&level=1&parent_id=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ty_config` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ty_config`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: admin/api E:\phpweb\maicai\Application\Admin\Common\function.php 第 70 行.
+NOTIC: [8] Undefined index: admin/api E:\phpweb\maicai\Application\Admin\Common\function.php 第 71 行.
+SQL: SHOW COLUMNS FROM `ty_region` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ty_region` WHERE ( parent_id=0 )  [ RunTime:0.0500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-15T14:23:08+08:00 ] 127.0.0.1 /Admin/Article/articleList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ty_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ty_config`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: articleList E:\phpweb\maicai\Application\Admin\Common\function.php 第 71 行.
+SQL: SHOW COLUMNS FROM `ty_article` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ty_article` WHERE (  1 = 1  ) ORDER BY article_id desc LIMIT 0,20   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ty_article` WHERE (  1 = 1  ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ty_article_cat` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ty_article_cat` [ RunTime:0.0000s ]
+SQL: SELECT c.*, COUNT(s.cat_id) AS has_children FROM ty_article_cat AS c LEFT JOIN ty_article_cat AS s ON s.parent_id=c.cat_id  where 1=1   GROUP BY c.cat_id  ORDER BY parent_id, sort_order [ RunTime:0.0010s ]
+INFO: [ view_begin ] --START--
+INFO: Run Home\Behaviors\testBehavior [ RunTime:0.001000s ]
+INFO: [ view_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' E:\phpweb\maicai\Application\Runtime\Cache\Admin\8f8f9e924fef2f7f19573b72163671c0.php 第 98 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' E:\phpweb\maicai\Application\Runtime\Cache\Admin\8f8f9e924fef2f7f19573b72163671c0.php 第 98 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' E:\phpweb\maicai\Application\Runtime\Cache\Admin\8f8f9e924fef2f7f19573b72163671c0.php 第 98 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' E:\phpweb\maicai\Application\Runtime\Cache\Admin\8f8f9e924fef2f7f19573b72163671c0.php 第 98 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' E:\phpweb\maicai\Application\Runtime\Cache\Admin\8f8f9e924fef2f7f19573b72163671c0.php 第 98 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' E:\phpweb\maicai\Application\Runtime\Cache\Admin\8f8f9e924fef2f7f19573b72163671c0.php 第 98 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' E:\phpweb\maicai\Application\Runtime\Cache\Admin\8f8f9e924fef2f7f19573b72163671c0.php 第 98 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' E:\phpweb\maicai\Application\Runtime\Cache\Admin\8f8f9e924fef2f7f19573b72163671c0.php 第 98 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' E:\phpweb\maicai\Application\Runtime\Cache\Admin\8f8f9e924fef2f7f19573b72163671c0.php 第 98 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' E:\phpweb\maicai\Application\Runtime\Cache\Admin\8f8f9e924fef2f7f19573b72163671c0.php 第 98 行.
+NOTIC: [8] Undefined index: kewords E:\phpweb\maicai\Application\Runtime\Cache\Admin\8f8f9e924fef2f7f19573b72163671c0.php 第 128 行.
+NOTIC: [8] Use of undefined constant is_open - assumed 'is_open' E:\phpweb\maicai\Application\Runtime\Cache\Admin\8f8f9e924fef2f7f19573b72163671c0.php 第 130 行.
+NOTIC: [8] Undefined index: kewords E:\phpweb\maicai\Application\Runtime\Cache\Admin\8f8f9e924fef2f7f19573b72163671c0.php 第 128 行.
+NOTIC: [8] Use of undefined constant is_open - assumed 'is_open' E:\phpweb\maicai\Application\Runtime\Cache\Admin\8f8f9e924fef2f7f19573b72163671c0.php 第 130 行.
+NOTIC: [8] Undefined index: kewords E:\phpweb\maicai\Application\Runtime\Cache\Admin\8f8f9e924fef2f7f19573b72163671c0.php 第 128 行.
+NOTIC: [8] Use of undefined constant is_open - assumed 'is_open' E:\phpweb\maicai\Application\Runtime\Cache\Admin\8f8f9e924fef2f7f19573b72163671c0.php 第 130 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-15T14:23:18+08:00 ] 127.0.0.1 /Admin/Promotion/prom_goods_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ty_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ty_config`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: prom_goods_list E:\phpweb\maicai\Application\Admin\Common\function.php 第 71 行.
+SQL: SHOW COLUMNS FROM `ty_user_level` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ty_user_level`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ty_prom_goods` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ty_prom_goods` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ty_prom_goods` LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: prom_list E:\phpweb\maicai\Application\Admin\Controller\PromotionController.class.php 第 60 行.
+INFO: [ view_begin ] --START--
+INFO: Run Home\Behaviors\testBehavior [ RunTime:0.001000s ]
+INFO: [ view_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-15T14:23:19+08:00 ] 127.0.0.1 /Admin/Promotion/prom_order_list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `ty_config` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ty_config`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: prom_order_list E:\phpweb\maicai\Application\Admin\Common\function.php 第 71 行.
+SQL: SHOW COLUMNS FROM `ty_user_level` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ty_user_level`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ty_prom_order` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ty_prom_order` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ty_prom_order` LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: prom_list E:\phpweb\maicai\Application\Admin\Controller\PromotionController.class.php 第 159 行.
+INFO: [ view_begin ] --START--
+INFO: Run Home\Behaviors\testBehavior [ RunTime:0.001000s ]
+INFO: [ view_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2018-03-15T14:23:19+08:00 ] 127.0.0.1 /Admin/Coupon/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ty_config` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ty_config`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ty_coupon` [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ty_coupon` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `ty_coupon` ORDER BY add_time desc LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ty_store` [ RunTime:0.0010s ]
+SQL: SELECT `store_id`,`store_name` FROM `ty_store` WHERE `store_id` IN ('3','3')  [ RunTime:0.0010s ]
+INFO: [ view_begin ] --START--
+INFO: Run Home\Behaviors\testBehavior [ RunTime:0.001000s ]
+INFO: [ view_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant store_id - assumed 'store_id' E:\phpweb\maicai\Application\Runtime\Cache\Admin\38613d26be0d7580d78b3110a175a584.php 第 129 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' E:\phpweb\maicai\Application\Runtime\Cache\Admin\38613d26be0d7580d78b3110a175a584.php 第 130 行.
+NOTIC: [8] Use of undefined constant store_id - assumed 'store_id' E:\phpweb\maicai\Application\Runtime\Cache\Admin\38613d26be0d7580d78b3110a175a584.php 第 129 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' E:\phpweb\maicai\Application\Runtime\Cache\Admin\38613d26be0d7580d78b3110a175a584.php 第 130 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-15T14:23:21+08:00 ] 127.0.0.1 /Admin/Ad/adList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ty_config` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ty_config`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ty_ad` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ty_ad` WHERE ( 1=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ty_ad` WHERE ( 1=1 ) ORDER BY pid desc LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `ty_ad_position` [ RunTime:0.0210s ]
+SQL: SELECT `position_id`,`position_name`,`is_open` FROM `ty_ad_position`  [ RunTime:0.0000s ]
+INFO: [ view_begin ] --START--
+INFO: Run Home\Behaviors\testBehavior [ RunTime:0.001000s ]
+INFO: [ view_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: level E:\phpweb\maicai\ThinkPHP\Library\Think\Template\TagLib\Tpshop.class.php 第 155 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+SQL: select * from `ty_goods_category` where `level` = 1 [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\phpweb\maicai\Application\Runtime\Cache\Admin\9dcb80a295485a90dd49f9b2b975f801.php 第 121 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\phpweb\maicai\Application\Runtime\Cache\Admin\9dcb80a295485a90dd49f9b2b975f801.php 第 121 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\phpweb\maicai\Application\Runtime\Cache\Admin\9dcb80a295485a90dd49f9b2b975f801.php 第 121 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\phpweb\maicai\Application\Runtime\Cache\Admin\9dcb80a295485a90dd49f9b2b975f801.php 第 121 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\phpweb\maicai\Application\Runtime\Cache\Admin\9dcb80a295485a90dd49f9b2b975f801.php 第 121 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\phpweb\maicai\Application\Runtime\Cache\Admin\9dcb80a295485a90dd49f9b2b975f801.php 第 121 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\phpweb\maicai\Application\Runtime\Cache\Admin\9dcb80a295485a90dd49f9b2b975f801.php 第 121 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\phpweb\maicai\Application\Runtime\Cache\Admin\9dcb80a295485a90dd49f9b2b975f801.php 第 121 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\phpweb\maicai\Application\Runtime\Cache\Admin\9dcb80a295485a90dd49f9b2b975f801.php 第 121 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\phpweb\maicai\Application\Runtime\Cache\Admin\9dcb80a295485a90dd49f9b2b975f801.php 第 121 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\phpweb\maicai\Application\Runtime\Cache\Admin\9dcb80a295485a90dd49f9b2b975f801.php 第 121 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\phpweb\maicai\Application\Runtime\Cache\Admin\9dcb80a295485a90dd49f9b2b975f801.php 第 121 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\phpweb\maicai\Application\Runtime\Cache\Admin\9dcb80a295485a90dd49f9b2b975f801.php 第 121 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\phpweb\maicai\Application\Runtime\Cache\Admin\9dcb80a295485a90dd49f9b2b975f801.php 第 121 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\phpweb\maicai\Application\Runtime\Cache\Admin\9dcb80a295485a90dd49f9b2b975f801.php 第 121 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\phpweb\maicai\Application\Runtime\Cache\Admin\9dcb80a295485a90dd49f9b2b975f801.php 第 121 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\phpweb\maicai\Application\Runtime\Cache\Admin\9dcb80a295485a90dd49f9b2b975f801.php 第 121 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\phpweb\maicai\Application\Runtime\Cache\Admin\9dcb80a295485a90dd49f9b2b975f801.php 第 121 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\phpweb\maicai\Application\Runtime\Cache\Admin\9dcb80a295485a90dd49f9b2b975f801.php 第 121 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\phpweb\maicai\Application\Runtime\Cache\Admin\9dcb80a295485a90dd49f9b2b975f801.php 第 121 行.
+NOTIC: [8] Use of undefined constant ad_id - assumed 'ad_id' E:\phpweb\maicai\Application\Runtime\Cache\Admin\9dcb80a295485a90dd49f9b2b975f801.php 第 148 行.
+NOTIC: [8] Use of undefined constant pid - assumed 'pid' E:\phpweb\maicai\Application\Runtime\Cache\Admin\9dcb80a295485a90dd49f9b2b975f801.php 第 149 行.
+NOTIC: [8] Use of undefined constant position_name - assumed 'position_name' E:\phpweb\maicai\Application\Runtime\Cache\Admin\9dcb80a295485a90dd49f9b2b975f801.php 第 149 行.
+NOTIC: [8] Use of undefined constant target - assumed 'target' E:\phpweb\maicai\Application\Runtime\Cache\Admin\9dcb80a295485a90dd49f9b2b975f801.php 第 154 行.
+NOTIC: [8] Use of undefined constant enabled - assumed 'enabled' E:\phpweb\maicai\Application\Runtime\Cache\Admin\9dcb80a295485a90dd49f9b2b975f801.php 第 157 行.
+NOTIC: [8] Use of undefined constant ad_id - assumed 'ad_id' E:\phpweb\maicai\Application\Runtime\Cache\Admin\9dcb80a295485a90dd49f9b2b975f801.php 第 148 行.
+NOTIC: [8] Use of undefined constant pid - assumed 'pid' E:\phpweb\maicai\Application\Runtime\Cache\Admin\9dcb80a295485a90dd49f9b2b975f801.php 第 149 行.
+NOTIC: [8] Use of undefined constant position_name - assumed 'position_name' E:\phpweb\maicai\Application\Runtime\Cache\Admin\9dcb80a295485a90dd49f9b2b975f801.php 第 149 行.
+NOTIC: [8] Use of undefined constant target - assumed 'target' E:\phpweb\maicai\Application\Runtime\Cache\Admin\9dcb80a295485a90dd49f9b2b975f801.php 第 154 行.
+NOTIC: [8] Use of undefined constant enabled - assumed 'enabled' E:\phpweb\maicai\Application\Runtime\Cache\Admin\9dcb80a295485a90dd49f9b2b975f801.php 第 157 行.
+NOTIC: [8] Use of undefined constant ad_id - assumed 'ad_id' E:\phpweb\maicai\Application\Runtime\Cache\Admin\9dcb80a295485a90dd49f9b2b975f801.php 第 148 行.
+NOTIC: [8] Use of undefined constant pid - assumed 'pid' E:\phpweb\maicai\Application\Runtime\Cache\Admin\9dcb80a295485a90dd49f9b2b975f801.php 第 149 行.
+NOTIC: [8] Use of undefined constant position_name - assumed 'position_name' E:\phpweb\maicai\Application\Runtime\Cache\Admin\9dcb80a295485a90dd49f9b2b975f801.php 第 149 行.
+NOTIC: [8] Use of undefined constant target - assumed 'target' E:\phpweb\maicai\Application\Runtime\Cache\Admin\9dcb80a295485a90dd49f9b2b975f801.php 第 154 行.
+NOTIC: [8] Use of undefined constant enabled - assumed 'enabled' E:\phpweb\maicai\Application\Runtime\Cache\Admin\9dcb80a295485a90dd49f9b2b975f801.php 第 157 行.
+NOTIC: [8] Use of undefined constant ad_id - assumed 'ad_id' E:\phpweb\maicai\Application\Runtime\Cache\Admin\9dcb80a295485a90dd49f9b2b975f801.php 第 148 行.
+NOTIC: [8] Use of undefined constant pid - assumed 'pid' E:\phpweb\maicai\Application\Runtime\Cache\Admin\9dcb80a295485a90dd49f9b2b975f801.php 第 149 行.
+NOTIC: [8] Use of undefined constant position_name - assumed 'position_name' E:\phpweb\maicai\Application\Runtime\Cache\Admin\9dcb80a295485a90dd49f9b2b975f801.php 第 149 行.
+NOTIC: [8] Use of undefined constant target - assumed 'target' E:\phpweb\maicai\Application\Runtime\Cache\Admin\9dcb80a295485a90dd49f9b2b975f801.php 第 154 行.
+NOTIC: [8] Use of undefined constant enabled - assumed 'enabled' E:\phpweb\maicai\Application\Runtime\Cache\Admin\9dcb80a295485a90dd49f9b2b975f801.php 第 157 行.
+NOTIC: [8] Use of undefined constant ad_id - assumed 'ad_id' E:\phpweb\maicai\Application\Runtime\Cache\Admin\9dcb80a295485a90dd49f9b2b975f801.php 第 148 行.
+NOTIC: [8] Use of undefined constant pid - assumed 'pid' E:\phpweb\maicai\Application\Runtime\Cache\Admin\9dcb80a295485a90dd49f9b2b975f801.php 第 149 行.
+NOTIC: [8] Use of undefined constant position_name - assumed 'position_name' E:\phpweb\maicai\Application\Runtime\Cache\Admin\9dcb80a295485a90dd49f9b2b975f801.php 第 149 行.
+NOTIC: [8] Use of undefined constant target - assumed 'target' E:\phpweb\maicai\Application\Runtime\Cache\Admin\9dcb80a295485a90dd49f9b2b975f801.php 第 154 行.
+NOTIC: [8] Use of undefined constant enabled - assumed 'enabled' E:\phpweb\maicai\Application\Runtime\Cache\Admin\9dcb80a295485a90dd49f9b2b975f801.php 第 157 行.
+NOTIC: [8] Use of undefined constant ad_id - assumed 'ad_id' E:\phpweb\maicai\Application\Runtime\Cache\Admin\9dcb80a295485a90dd49f9b2b975f801.php 第 148 行.
+NOTIC: [8] Use of undefined constant pid - assumed 'pid' E:\phpweb\maicai\Application\Runtime\Cache\Admin\9dcb80a295485a90dd49f9b2b975f801.php 第 149 行.
+NOTIC: [8] Use of undefined constant position_name - assumed 'position_name' E:\phpweb\maicai\Application\Runtime\Cache\Admin\9dcb80a295485a90dd49f9b2b975f801.php 第 149 行.
+NOTIC: [8] Use of undefined constant target - assumed 'target' E:\phpweb\maicai\Application\Runtime\Cache\Admin\9dcb80a295485a90dd49f9b2b975f801.php 第 154 行.
+NOTIC: [8] Use of undefined constant enabled - assumed 'enabled' E:\phpweb\maicai\Application\Runtime\Cache\Admin\9dcb80a295485a90dd49f9b2b975f801.php 第 157 行.
+NOTIC: [8] Use of undefined constant ad_id - assumed 'ad_id' E:\phpweb\maicai\Application\Runtime\Cache\Admin\9dcb80a295485a90dd49f9b2b975f801.php 第 148 行.
+NOTIC: [8] Use of undefined constant pid - assumed 'pid' E:\phpweb\maicai\Application\Runtime\Cache\Admin\9dcb80a295485a90dd49f9b2b975f801.php 第 149 行.
+NOTIC: [8] Use of undefined constant position_name - assumed 'position_name' E:\phpweb\maicai\Application\Runtime\Cache\Admin\9dcb80a295485a90dd49f9b2b975f801.php 第 149 行.
+NOTIC: [8] Use of undefined constant target - assumed 'target' E:\phpweb\maicai\Application\Runtime\Cache\Admin\9dcb80a295485a90dd49f9b2b975f801.php 第 154 行.
+NOTIC: [8] Use of undefined constant enabled - assumed 'enabled' E:\phpweb\maicai\Application\Runtime\Cache\Admin\9dcb80a295485a90dd49f9b2b975f801.php 第 157 行.
+NOTIC: [8] Use of undefined constant ad_id - assumed 'ad_id' E:\phpweb\maicai\Application\Runtime\Cache\Admin\9dcb80a295485a90dd49f9b2b975f801.php 第 148 行.
+NOTIC: [8] Use of undefined constant pid - assumed 'pid' E:\phpweb\maicai\Application\Runtime\Cache\Admin\9dcb80a295485a90dd49f9b2b975f801.php 第 149 行.
+NOTIC: [8] Use of undefined constant position_name - assumed 'position_name' E:\phpweb\maicai\Application\Runtime\Cache\Admin\9dcb80a295485a90dd49f9b2b975f801.php 第 149 行.
+NOTIC: [8] Use of undefined constant target - assumed 'target' E:\phpweb\maicai\Application\Runtime\Cache\Admin\9dcb80a295485a90dd49f9b2b975f801.php 第 154 行.
+NOTIC: [8] Use of undefined constant enabled - assumed 'enabled' E:\phpweb\maicai\Application\Runtime\Cache\Admin\9dcb80a295485a90dd49f9b2b975f801.php 第 157 行.
+NOTIC: [8] Use of undefined constant ad_id - assumed 'ad_id' E:\phpweb\maicai\Application\Runtime\Cache\Admin\9dcb80a295485a90dd49f9b2b975f801.php 第 148 行.
+NOTIC: [8] Use of undefined constant pid - assumed 'pid' E:\phpweb\maicai\Application\Runtime\Cache\Admin\9dcb80a295485a90dd49f9b2b975f801.php 第 149 行.
+NOTIC: [8] Use of undefined constant position_name - assumed 'position_name' E:\phpweb\maicai\Application\Runtime\Cache\Admin\9dcb80a295485a90dd49f9b2b975f801.php 第 149 行.
+NOTIC: [8] Use of undefined constant target - assumed 'target' E:\phpweb\maicai\Application\Runtime\Cache\Admin\9dcb80a295485a90dd49f9b2b975f801.php 第 154 行.
+NOTIC: [8] Use of undefined constant enabled - assumed 'enabled' E:\phpweb\maicai\Application\Runtime\Cache\Admin\9dcb80a295485a90dd49f9b2b975f801.php 第 157 行.
+NOTIC: [8] Use of undefined constant ad_id - assumed 'ad_id' E:\phpweb\maicai\Application\Runtime\Cache\Admin\9dcb80a295485a90dd49f9b2b975f801.php 第 148 行.
+NOTIC: [8] Use of undefined constant pid - assumed 'pid' E:\phpweb\maicai\Application\Runtime\Cache\Admin\9dcb80a295485a90dd49f9b2b975f801.php 第 149 行.
+NOTIC: [8] Use of undefined constant position_name - assumed 'position_name' E:\phpweb\maicai\Application\Runtime\Cache\Admin\9dcb80a295485a90dd49f9b2b975f801.php 第 149 行.
+NOTIC: [8] Use of undefined constant target - assumed 'target' E:\phpweb\maicai\Application\Runtime\Cache\Admin\9dcb80a295485a90dd49f9b2b975f801.php 第 154 行.
+NOTIC: [8] Use of undefined constant enabled - assumed 'enabled' E:\phpweb\maicai\Application\Runtime\Cache\Admin\9dcb80a295485a90dd49f9b2b975f801.php 第 157 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-15T14:24:43+08:00 ] 127.0.0.1 /Admin/Article/categoryList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ty_config` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ty_config`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: categoryList E:\phpweb\maicai\Application\Admin\Common\function.php 第 71 行.
+SQL: SHOW COLUMNS FROM `ty_article_cat` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ty_article_cat` [ RunTime:0.0000s ]
+SQL: SELECT c.*, COUNT(s.cat_id) AS has_children FROM ty_article_cat AS c LEFT JOIN ty_article_cat AS s ON s.parent_id=c.cat_id  where 1=1   GROUP BY c.cat_id  ORDER BY parent_id, sort_order [ RunTime:0.0010s ]
+INFO: [ view_begin ] --START--
+INFO: Run Home\Behaviors\testBehavior [ RunTime:0.001000s ]
+INFO: [ view_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\phpweb\maicai\Application\Runtime\Cache\Admin\acfa4e51b277156860932c3efee2792e.php 第 126 行.
+NOTIC: [8] Undefined index: is_leaf E:\phpweb\maicai\Application\Runtime\Cache\Admin\acfa4e51b277156860932c3efee2792e.php 第 127 行.
+NOTIC: [8] Use of undefined constant cat_type - assumed 'cat_type' E:\phpweb\maicai\Application\Runtime\Cache\Admin\acfa4e51b277156860932c3efee2792e.php 第 129 行.
+NOTIC: [8] Use of undefined constant show_in_nav - assumed 'show_in_nav' E:\phpweb\maicai\Application\Runtime\Cache\Admin\acfa4e51b277156860932c3efee2792e.php 第 132 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\phpweb\maicai\Application\Runtime\Cache\Admin\acfa4e51b277156860932c3efee2792e.php 第 126 行.
+NOTIC: [8] Undefined index: is_leaf E:\phpweb\maicai\Application\Runtime\Cache\Admin\acfa4e51b277156860932c3efee2792e.php 第 127 行.
+NOTIC: [8] Use of undefined constant cat_type - assumed 'cat_type' E:\phpweb\maicai\Application\Runtime\Cache\Admin\acfa4e51b277156860932c3efee2792e.php 第 129 行.
+NOTIC: [8] Use of undefined constant show_in_nav - assumed 'show_in_nav' E:\phpweb\maicai\Application\Runtime\Cache\Admin\acfa4e51b277156860932c3efee2792e.php 第 132 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\phpweb\maicai\Application\Runtime\Cache\Admin\acfa4e51b277156860932c3efee2792e.php 第 126 行.
+NOTIC: [8] Undefined index: is_leaf E:\phpweb\maicai\Application\Runtime\Cache\Admin\acfa4e51b277156860932c3efee2792e.php 第 127 行.
+NOTIC: [8] Use of undefined constant cat_type - assumed 'cat_type' E:\phpweb\maicai\Application\Runtime\Cache\Admin\acfa4e51b277156860932c3efee2792e.php 第 129 行.
+NOTIC: [8] Use of undefined constant show_in_nav - assumed 'show_in_nav' E:\phpweb\maicai\Application\Runtime\Cache\Admin\acfa4e51b277156860932c3efee2792e.php 第 132 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\phpweb\maicai\Application\Runtime\Cache\Admin\acfa4e51b277156860932c3efee2792e.php 第 126 行.
+NOTIC: [8] Undefined index: is_leaf E:\phpweb\maicai\Application\Runtime\Cache\Admin\acfa4e51b277156860932c3efee2792e.php 第 127 行.
+NOTIC: [8] Use of undefined constant cat_type - assumed 'cat_type' E:\phpweb\maicai\Application\Runtime\Cache\Admin\acfa4e51b277156860932c3efee2792e.php 第 129 行.
+NOTIC: [8] Use of undefined constant show_in_nav - assumed 'show_in_nav' E:\phpweb\maicai\Application\Runtime\Cache\Admin\acfa4e51b277156860932c3efee2792e.php 第 132 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\phpweb\maicai\Application\Runtime\Cache\Admin\acfa4e51b277156860932c3efee2792e.php 第 126 行.
+NOTIC: [8] Undefined index: is_leaf E:\phpweb\maicai\Application\Runtime\Cache\Admin\acfa4e51b277156860932c3efee2792e.php 第 127 行.
+NOTIC: [8] Use of undefined constant cat_type - assumed 'cat_type' E:\phpweb\maicai\Application\Runtime\Cache\Admin\acfa4e51b277156860932c3efee2792e.php 第 129 行.
+NOTIC: [8] Use of undefined constant show_in_nav - assumed 'show_in_nav' E:\phpweb\maicai\Application\Runtime\Cache\Admin\acfa4e51b277156860932c3efee2792e.php 第 132 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\phpweb\maicai\Application\Runtime\Cache\Admin\acfa4e51b277156860932c3efee2792e.php 第 126 行.
+NOTIC: [8] Undefined index: is_leaf E:\phpweb\maicai\Application\Runtime\Cache\Admin\acfa4e51b277156860932c3efee2792e.php 第 127 行.
+NOTIC: [8] Use of undefined constant cat_type - assumed 'cat_type' E:\phpweb\maicai\Application\Runtime\Cache\Admin\acfa4e51b277156860932c3efee2792e.php 第 129 行.
+NOTIC: [8] Use of undefined constant show_in_nav - assumed 'show_in_nav' E:\phpweb\maicai\Application\Runtime\Cache\Admin\acfa4e51b277156860932c3efee2792e.php 第 132 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\phpweb\maicai\Application\Runtime\Cache\Admin\acfa4e51b277156860932c3efee2792e.php 第 126 行.
+NOTIC: [8] Undefined index: is_leaf E:\phpweb\maicai\Application\Runtime\Cache\Admin\acfa4e51b277156860932c3efee2792e.php 第 127 行.
+NOTIC: [8] Use of undefined constant cat_type - assumed 'cat_type' E:\phpweb\maicai\Application\Runtime\Cache\Admin\acfa4e51b277156860932c3efee2792e.php 第 129 行.
+NOTIC: [8] Use of undefined constant show_in_nav - assumed 'show_in_nav' E:\phpweb\maicai\Application\Runtime\Cache\Admin\acfa4e51b277156860932c3efee2792e.php 第 132 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\phpweb\maicai\Application\Runtime\Cache\Admin\acfa4e51b277156860932c3efee2792e.php 第 126 行.
+NOTIC: [8] Undefined index: is_leaf E:\phpweb\maicai\Application\Runtime\Cache\Admin\acfa4e51b277156860932c3efee2792e.php 第 127 行.
+NOTIC: [8] Use of undefined constant cat_type - assumed 'cat_type' E:\phpweb\maicai\Application\Runtime\Cache\Admin\acfa4e51b277156860932c3efee2792e.php 第 129 行.
+NOTIC: [8] Use of undefined constant show_in_nav - assumed 'show_in_nav' E:\phpweb\maicai\Application\Runtime\Cache\Admin\acfa4e51b277156860932c3efee2792e.php 第 132 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\phpweb\maicai\Application\Runtime\Cache\Admin\acfa4e51b277156860932c3efee2792e.php 第 126 行.
+NOTIC: [8] Undefined index: is_leaf E:\phpweb\maicai\Application\Runtime\Cache\Admin\acfa4e51b277156860932c3efee2792e.php 第 127 行.
+NOTIC: [8] Use of undefined constant cat_type - assumed 'cat_type' E:\phpweb\maicai\Application\Runtime\Cache\Admin\acfa4e51b277156860932c3efee2792e.php 第 129 行.
+NOTIC: [8] Use of undefined constant show_in_nav - assumed 'show_in_nav' E:\phpweb\maicai\Application\Runtime\Cache\Admin\acfa4e51b277156860932c3efee2792e.php 第 132 行.
+NOTIC: [8] Use of undefined constant level - assumed 'level' E:\phpweb\maicai\Application\Runtime\Cache\Admin\acfa4e51b277156860932c3efee2792e.php 第 126 行.
+NOTIC: [8] Undefined index: is_leaf E:\phpweb\maicai\Application\Runtime\Cache\Admin\acfa4e51b277156860932c3efee2792e.php 第 127 行.
+NOTIC: [8] Use of undefined constant cat_type - assumed 'cat_type' E:\phpweb\maicai\Application\Runtime\Cache\Admin\acfa4e51b277156860932c3efee2792e.php 第 129 行.
+NOTIC: [8] Use of undefined constant show_in_nav - assumed 'show_in_nav' E:\phpweb\maicai\Application\Runtime\Cache\Admin\acfa4e51b277156860932c3efee2792e.php 第 132 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

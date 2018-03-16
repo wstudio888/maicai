@@ -1,0 +1,14 @@
+
+<image class="logo" src="{{logo}}"  ></image>
+<text class="desc">
+	{{main}}
+</text> 
+<view class="detail-box">
+    <image wx:for="{{img}}" wx:key="" mode="widthFix" src="{{item}}"></image>
+</view>
+
+
+<!-- 返回顶部按钮 -->
+<import src="/template/toTop/toTop.wxml" />
+<template is="toTop" data="{{...toTop}}" />
+

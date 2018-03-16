@@ -1,0 +1,61 @@
+<!-- 标签栏 -->
+<view class="tabBar" style="margin:0">
+  <text data-tab="0" class="tab {{tab==0?'tab-active':''}}" bindtap="tabClick">商品收藏</text>
+  <text data-tab="1" class="tab {{tab==1?'tab-active':''}}" bindtap="tabClick">店铺收藏</text>
+</view>
+
+<!-- 商品收藏  -->
+<view class="order-item" wx:for="{{collects}}" wx:key="" wx:if="{{tab==0}}">
+	<view class="carts-item">
+		<view>
+			<!-- 缩略图 -->
+			<image class="carts-image" src="{{item.image}}" mode="aspectFill"/>
+		</view>
+		<view class="carts-text">
+			<!-- 商品标题 -->
+			<text class="carts-title">{{item.goods_name}}</text>
+			<view class="carts-subtitle">
+				<!-- 价格 -->
+				<text>￥{{item.shop_price}}</text>
+			</view>
+    <view class="order-footer">
+      <text data-goods-id = "{{item.goods_id}}" bindtap="details" class="btn-pay">加入购物车</text>
+      <text data-goods-id = "{{item.goods_id}}" bindtap="deleteGoods" class="btn-delete">删除</text>
+    </view>
+	</view>
+	</view>
+</view>
+
+<!-- 店铺收藏  -->
+<view class="order-item" wx:for="{{store}}" wx:key="" wx:if="{{tab==1}}">
+	<view class="carts-item">
+		<view>
+			<!-- 缩略图 -->
+			<image class="carts-image" src="{{item.store_logo}}" mode="aspectFill"/>
+		</view>
+		<view class="carts-text">
+			<!-- 商品标题 -->
+			<text class="carts-title" style='font-size:35rpx;'>{{item.store_name}}</text>
+			<view class="carts-subtitle">
+				<!-- 价格 -->
+				<text style='color:#6098f1;'>{{item.store_address}}</text>
+			</view>
+    <view class="order-footer">
+      <text data-id = "{{item.store_id}}" bindtap="goods" class="btn-store">进入店铺</text>
+      <text data-id="{{item.store_id}}"  bindtap="deleteGoods" class="btn-sen">删除</text>
+    </view>
+	</view>
+	</view>
+</view>
+
+<!-- 无数据  -->
+<view wx:if="{{collects.length == 0}}"class="view-tint">
+  <image src="/images/icon_empty.png"></image>
+  <text>亲,没有数据</text>
+</view>
+
+
+
+<!-- 返回顶部按钮 -->
+<import src="/template/toTop/toTop.wxml" />
+<template is="toTop" data="{{...toTop}}" />

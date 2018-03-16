@@ -1,0 +1,30 @@
+page {
+  background: #fff;
+}
+
+.userinfo {
+  height: 360rpx;
+  background: #F4F4F4;
+}
+
+.userinfo-avatar {
+  width: 300rpx;
+  height: 330rpx;
+  margin-left: 30%;
+}
+
+.userinfo-nickname {
+  color: #fff;
+}
+
+.rwm-text{
+  font-size: 26rpx;
+  background-color: #fff;
+  color: #ABABAB;
+  margin-left: 3%;
+  padding-bottom: 160rpx;
+}
+
+.rwx-list{
+  padding-top:20rpx;padding-bottom:20rpx;border-bottom:1px #F4F4F4 solid;display:block;
+}

@@ -1,0 +1,352 @@
+[ 2018-01-22T14:48:18+08:00 ] 113.69.46.171 /index.php?m=Home&c=api&a=get_category&parent_id=43
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000539s ]
+SQL: SHOW COLUMNS FROM `ty_goods_category` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ty_goods_category` WHERE `parent_id` = 43  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: html /var/www/html/maicai/Application/Home/Controller/ApiController.class.php 第 66 行.
+
+[ 2018-01-22T14:48:21+08:00 ] 113.69.46.171 /index.php?m=Home&c=api&a=get_category&parent_id=70
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000542s ]
+SQL: SHOW COLUMNS FROM `ty_goods_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ty_goods_category` WHERE `parent_id` = 70  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: html /var/www/html/maicai/Application/Home/Controller/ApiController.class.php 第 68 行.
+
+[ 2018-01-22T14:48:36+08:00 ] 113.69.46.171 /index.php?m=Home&c=api&a=get_category&parent_id=43
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000373s ]
+SQL: SHOW COLUMNS FROM `ty_goods_category` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ty_goods_category` WHERE `parent_id` = 43  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: html /var/www/html/maicai/Application/Home/Controller/ApiController.class.php 第 66 行.
+
+[ 2018-01-22T14:48:38+08:00 ] 113.69.46.171 /index.php?m=Home&c=api&a=get_category&parent_id=70
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000229s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000484s ]
+SQL: SHOW COLUMNS FROM `ty_goods_category` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ty_goods_category` WHERE `parent_id` = 70  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: html /var/www/html/maicai/Application/Home/Controller/ApiController.class.php 第 68 行.
+
+[ 2018-01-22T14:51:19+08:00 ] 113.69.46.171 /index.php?m=Home&c=api&a=get_category&parent_id=43
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000499s ]
+SQL: SHOW COLUMNS FROM `ty_goods_category` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ty_goods_category` WHERE `parent_id` = 43  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: html /var/www/html/maicai/Application/Home/Controller/ApiController.class.php 第 66 行.
+
+[ 2018-01-22T14:51:20+08:00 ] 113.69.46.171 /index.php?m=Home&c=api&a=get_category&parent_id=70
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000354s ]
+SQL: SHOW COLUMNS FROM `ty_goods_category` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ty_goods_category` WHERE `parent_id` = 70  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: html /var/www/html/maicai/Application/Home/Controller/ApiController.class.php 第 68 行.
+
+[ 2018-01-22T15:06:24+08:00 ] 113.69.46.171 /index.php?m=Home&c=api&a=get_category&parent_id=43
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000484s ]
+SQL: SHOW COLUMNS FROM `ty_goods_category` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ty_goods_category` WHERE `parent_id` = 43  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: html /var/www/html/maicai/Application/Home/Controller/ApiController.class.php 第 66 行.
+
+[ 2018-01-22T15:06:31+08:00 ] 113.69.46.171 /index.php?m=Home&c=api&a=get_category&parent_id=44
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000343s ]
+SQL: SHOW COLUMNS FROM `ty_goods_category` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ty_goods_category` WHERE `parent_id` = 44  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: html /var/www/html/maicai/Application/Home/Controller/ApiController.class.php 第 66 行.
+
+[ 2018-01-22T15:06:37+08:00 ] 113.69.46.171 /index.php?m=Home&c=api&a=get_category&parent_id=57
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000346s ]
+SQL: SHOW COLUMNS FROM `ty_goods_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ty_goods_category` WHERE `parent_id` = 57  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: html /var/www/html/maicai/Application/Home/Controller/ApiController.class.php 第 68 行.
+
+[ 2018-01-22T15:06:54+08:00 ] 113.69.46.171 /index.php?m=Home&c=api&a=get_category&parent_id=43
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000345s ]
+SQL: SHOW COLUMNS FROM `ty_goods_category` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ty_goods_category` WHERE `parent_id` = 43  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: html /var/www/html/maicai/Application/Home/Controller/ApiController.class.php 第 66 行.
+
+[ 2018-01-22T15:06:55+08:00 ] 113.69.46.171 /index.php?m=Home&c=api&a=get_category&parent_id=70
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000489s ]
+SQL: SHOW COLUMNS FROM `ty_goods_category` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ty_goods_category` WHERE `parent_id` = 70  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: html /var/www/html/maicai/Application/Home/Controller/ApiController.class.php 第 68 行.
+
+[ 2018-01-22T15:07:03+08:00 ] 113.69.46.171 /index.php?m=Home&c=api&a=get_category&parent_id=51
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000338s ]
+SQL: SHOW COLUMNS FROM `ty_goods_category` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ty_goods_category` WHERE `parent_id` = 51  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: html /var/www/html/maicai/Application/Home/Controller/ApiController.class.php 第 66 行.
+
+[ 2018-01-22T15:08:01+08:00 ] 113.69.46.171 /index.php?m=Home&c=api&a=get_category&parent_id=44
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000340s ]
+SQL: SHOW COLUMNS FROM `ty_goods_category` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ty_goods_category` WHERE `parent_id` = 44  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: html /var/www/html/maicai/Application/Home/Controller/ApiController.class.php 第 66 行.
+
+[ 2018-01-22T15:08:05+08:00 ] 113.69.46.171 /index.php?m=Home&c=api&a=get_category&parent_id=57
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000346s ]
+SQL: SHOW COLUMNS FROM `ty_goods_category` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ty_goods_category` WHERE `parent_id` = 57  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: html /var/www/html/maicai/Application/Home/Controller/ApiController.class.php 第 68 行.
+
+[ 2018-01-22T15:08:39+08:00 ] 113.69.46.171 /index.php?m=Home&c=api&a=get_category&parent_id=43
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000367s ]
+SQL: SHOW COLUMNS FROM `ty_goods_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ty_goods_category` WHERE `parent_id` = 43  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: html /var/www/html/maicai/Application/Home/Controller/ApiController.class.php 第 66 行.
+
+[ 2018-01-22T15:08:40+08:00 ] 113.69.46.171 /index.php?m=Home&c=api&a=get_category&parent_id=70
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000410s ]
+SQL: SHOW COLUMNS FROM `ty_goods_category` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `ty_goods_category` WHERE `parent_id` = 70  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: html /var/www/html/maicai/Application/Home/Controller/ApiController.class.php 第 68 行.
+
+[ 2018-01-22T15:10:39+08:00 ] 113.69.46.171 /index.php?m=Home&c=api&a=get_category&parent_id=43
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000377s ]
+SQL: SHOW COLUMNS FROM `ty_goods_category` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ty_goods_category` WHERE `parent_id` = 43  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: html /var/www/html/maicai/Application/Home/Controller/ApiController.class.php 第 66 行.
+
+[ 2018-01-22T15:10:40+08:00 ] 113.69.46.171 /index.php?m=Home&c=api&a=get_category&parent_id=70
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000393s ]
+SQL: SHOW COLUMNS FROM `ty_goods_category` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ty_goods_category` WHERE `parent_id` = 70  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: html /var/www/html/maicai/Application/Home/Controller/ApiController.class.php 第 68 行.
+
+[ 2018-01-22T15:10:49+08:00 ] 113.69.46.171 /index.php?m=Home&c=api&a=get_category&parent_id=43
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000419s ]
+SQL: SHOW COLUMNS FROM `ty_goods_category` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ty_goods_category` WHERE `parent_id` = 43  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: html /var/www/html/maicai/Application/Home/Controller/ApiController.class.php 第 66 行.
+
+[ 2018-01-22T15:10:50+08:00 ] 113.69.46.171 /index.php?m=Home&c=api&a=get_category&parent_id=70
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000339s ]
+SQL: SHOW COLUMNS FROM `ty_goods_category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `ty_goods_category` WHERE `parent_id` = 70  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: html /var/www/html/maicai/Application/Home/Controller/ApiController.class.php 第 68 行.
+
+[ 2018-01-22T15:11:15+08:00 ] 113.69.46.171 /index.php?m=Home&c=api&a=get_category&parent_id=44
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000374s ]
+SQL: SHOW COLUMNS FROM `ty_goods_category` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ty_goods_category` WHERE `parent_id` = 44  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: html /var/www/html/maicai/Application/Home/Controller/ApiController.class.php 第 66 行.
+
+[ 2018-01-22T15:11:16+08:00 ] 113.69.46.171 /index.php?m=Home&c=api&a=get_category&parent_id=57
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000347s ]
+SQL: SHOW COLUMNS FROM `ty_goods_category` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `ty_goods_category` WHERE `parent_id` = 57  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: html /var/www/html/maicai/Application/Home/Controller/ApiController.class.php 第 68 行.
+
+[ 2018-01-22T15:11:18+08:00 ] 113.69.46.171 /index.php?m=Home&c=api&a=get_category&parent_id=43
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000455s ]
+SQL: SHOW COLUMNS FROM `ty_goods_category` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ty_goods_category` WHERE `parent_id` = 43  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: html /var/www/html/maicai/Application/Home/Controller/ApiController.class.php 第 66 行.
+
+[ 2018-01-22T15:11:20+08:00 ] 113.69.46.171 /index.php?m=Home&c=api&a=get_category&parent_id=70
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000462s ]
+SQL: SHOW COLUMNS FROM `ty_goods_category` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ty_goods_category` WHERE `parent_id` = 70  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: html /var/www/html/maicai/Application/Home/Controller/ApiController.class.php 第 68 行.
+
+[ 2018-01-22T15:13:35+08:00 ] 113.69.46.171 /index.php?m=Home&c=api&a=get_category&parent_id=44
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000446s ]
+SQL: SHOW COLUMNS FROM `ty_goods_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ty_goods_category` WHERE `parent_id` = 44  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: html /var/www/html/maicai/Application/Home/Controller/ApiController.class.php 第 66 行.
+
+[ 2018-01-22T15:13:36+08:00 ] 113.69.46.171 /index.php?m=Home&c=api&a=get_category&parent_id=57
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000346s ]
+SQL: SHOW COLUMNS FROM `ty_goods_category` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ty_goods_category` WHERE `parent_id` = 57  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: html /var/www/html/maicai/Application/Home/Controller/ApiController.class.php 第 68 行.
+
+[ 2018-01-22T15:13:38+08:00 ] 113.69.46.171 /index.php?m=Home&c=api&a=get_category&parent_id=43
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000362s ]
+SQL: SHOW COLUMNS FROM `ty_goods_category` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ty_goods_category` WHERE `parent_id` = 43  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: html /var/www/html/maicai/Application/Home/Controller/ApiController.class.php 第 66 行.
+
+[ 2018-01-22T15:13:39+08:00 ] 113.69.46.171 /index.php?m=Home&c=api&a=get_category&parent_id=70
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000354s ]
+SQL: SHOW COLUMNS FROM `ty_goods_category` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ty_goods_category` WHERE `parent_id` = 70  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: html /var/www/html/maicai/Application/Home/Controller/ApiController.class.php 第 68 行.
+
+[ 2018-01-22T15:13:52+08:00 ] 113.69.46.171 /index.php?m=Home&c=api&a=get_category&parent_id=43
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000357s ]
+SQL: SHOW COLUMNS FROM `ty_goods_category` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ty_goods_category` WHERE `parent_id` = 43  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: html /var/www/html/maicai/Application/Home/Controller/ApiController.class.php 第 66 行.
+
+[ 2018-01-22T15:13:54+08:00 ] 113.69.46.171 /index.php?m=Home&c=api&a=get_category&parent_id=51
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000338s ]
+SQL: SHOW COLUMNS FROM `ty_goods_category` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ty_goods_category` WHERE `parent_id` = 51  [ RunTime:0.0029s ]
+NOTIC: [8] Undefined variable: html /var/www/html/maicai/Application/Home/Controller/ApiController.class.php 第 66 行.
+
+[ 2018-01-22T15:17:38+08:00 ] 113.69.46.171 /index.php?m=Home&c=api&a=get_category&parent_id=43
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000366s ]
+SQL: SHOW COLUMNS FROM `ty_goods_category` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ty_goods_category` WHERE `parent_id` = 43  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: html /var/www/html/maicai/Application/Home/Controller/ApiController.class.php 第 66 行.
+
+[ 2018-01-22T15:17:40+08:00 ] 113.69.46.171 /index.php?m=Home&c=api&a=get_category&parent_id=70
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000386s ]
+SQL: SHOW COLUMNS FROM `ty_goods_category` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ty_goods_category` WHERE `parent_id` = 70  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: html /var/www/html/maicai/Application/Home/Controller/ApiController.class.php 第 68 行.
+

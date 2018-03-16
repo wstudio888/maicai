@@ -1,0 +1,627 @@
+[ 2018-03-02T09:22:35+08:00 ] 14.157.52.83 /Public/images/login_bg_pic.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+
+[ 2018-03-02T09:22:48+08:00 ] 14.157.52.83 /Public/images/login_bg_pic.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000228s ]
+
+[ 2018-03-02T09:46:23+08:00 ] 14.157.52.83 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000336s ]
+
+[ 2018-03-02T09:46:23+08:00 ] 14.157.52.83 /Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000220s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000349s ]
+
+[ 2018-03-02T09:46:50+08:00 ] 14.157.52.83 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000237s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000331s ]
+
+[ 2018-03-02T09:46:50+08:00 ] 14.157.52.83 /Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000344s ]
+
+[ 2018-03-02T09:49:52+08:00 ] 14.157.52.83 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000357s ]
+
+[ 2018-03-02T09:49:52+08:00 ] 14.157.52.83 /Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000212s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000325s ]
+
+[ 2018-03-02T10:19:54+08:00 ] 14.157.52.83 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000363s ]
+SQL: SHOW COLUMNS FROM `ty_order` [ RunTime:0.0013s ]
+NOTIC: [8] Constant UC_AUTH_KEY already defined /var/www/html/maicai/Application/Index/Model/CourierModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `ty_courier` [ RunTime:0.0019s ]
+SQL: SELECT `courier_id`,`courier`,`courier_name`,`courier_pwd`,`courier_img`,`courier_phone`,`courier_wx`,`card_no`,`bank_name`,`courier_address`,`courier_idle`,`status`,`money`,`last_login`,`logins` FROM `ty_courier` LIMIT 1   [ RunTime:0.0011s ]
+ERR: 表达式错误:<
+
+[ 2018-03-02T10:36:08+08:00 ] 14.157.52.83 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000327s ]
+SQL: SHOW COLUMNS FROM `ty_order` [ RunTime:0.0019s ]
+NOTIC: [8] Constant UC_AUTH_KEY already defined /var/www/html/maicai/Application/Index/Model/CourierModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `ty_courier` [ RunTime:0.0006s ]
+SQL: SELECT `courier_id`,`courier`,`courier_name`,`courier_pwd`,`courier_img`,`courier_phone`,`courier_wx`,`card_no`,`bank_name`,`courier_address`,`courier_idle`,`status`,`money`,`last_login`,`logins` FROM `ty_courier` LIMIT 1   [ RunTime:0.0001s ]
+ERR: 表达式错误:<
+
+[ 2018-03-02T10:37:22+08:00 ] 14.157.52.83 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000229s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000332s ]
+
+[ 2018-03-02T10:37:22+08:00 ] 14.157.52.83 /Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000215s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000331s ]
+
+[ 2018-03-02T10:40:32+08:00 ] 14.157.52.83 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000346s ]
+SQL: SHOW COLUMNS FROM `ty_order` [ RunTime:0.0014s ]
+NOTIC: [8] Constant UC_AUTH_KEY already defined /var/www/html/maicai/Application/Index/Model/CourierModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `ty_courier` [ RunTime:0.0006s ]
+SQL: SELECT `courier_id`,`courier`,`courier_name`,`courier_pwd`,`courier_img`,`courier_phone`,`courier_wx`,`card_no`,`bank_name`,`courier_address`,`courier_idle`,`status`,`money`,`last_login`,`logins` FROM `ty_courier` LIMIT 1   [ RunTime:0.0001s ]
+ERR: 表达式错误:<
+
+[ 2018-03-02T10:48:05+08:00 ] 14.157.52.83 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000346s ]
+SQL: SHOW COLUMNS FROM `ty_order` [ RunTime:0.0014s ]
+NOTIC: [8] Constant UC_AUTH_KEY already defined /var/www/html/maicai/Application/Index/Model/CourierModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `ty_courier` [ RunTime:0.0005s ]
+SQL: SELECT `courier_id`,`courier`,`courier_name`,`courier_pwd`,`courier_img`,`courier_phone`,`courier_wx`,`card_no`,`bank_name`,`courier_address`,`courier_idle`,`status`,`money`,`last_login`,`logins` FROM `ty_courier` LIMIT 1   [ RunTime:0.0001s ]
+ERR: 表达式错误:<
+
+[ 2018-03-02T11:04:31+08:00 ] 14.157.52.83 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000235s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000337s ]
+
+[ 2018-03-02T11:04:31+08:00 ] 14.157.52.83 /Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000364s ]
+
+[ 2018-03-02T11:30:51+08:00 ] 14.157.52.83 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000335s ]
+SQL: SHOW COLUMNS FROM `ty_order` [ RunTime:0.0013s ]
+NOTIC: [8] Constant UC_AUTH_KEY already defined /var/www/html/maicai/Application/Index/Model/CourierModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `ty_courier` [ RunTime:0.0005s ]
+SQL: SELECT `courier_id`,`courier`,`courier_name`,`courier_pwd`,`courier_img`,`courier_phone`,`courier_wx`,`card_no`,`bank_name`,`courier_address`,`courier_idle`,`status`,`money`,`last_login`,`logins` FROM `ty_courier` LIMIT 1   [ RunTime:0.0001s ]
+ERR: 表达式错误:<
+
+[ 2018-03-02T11:36:20+08:00 ] 106.4.1.94 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000346s ]
+
+[ 2018-03-02T11:36:21+08:00 ] 106.4.1.94 /Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000229s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000338s ]
+
+[ 2018-03-02T11:36:46+08:00 ] 106.4.1.94 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000333s ]
+
+[ 2018-03-02T11:36:46+08:00 ] 106.4.1.94 /Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000215s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000333s ]
+
+[ 2018-03-02T11:55:18+08:00 ] 14.157.52.83 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000358s ]
+
+[ 2018-03-02T11:55:18+08:00 ] 14.157.52.83 /Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000350s ]
+
+[ 2018-03-02T11:55:28+08:00 ] 14.157.52.83 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000235s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000350s ]
+SQL: SHOW COLUMNS FROM `ty_order` [ RunTime:0.0014s ]
+NOTIC: [8] Constant UC_AUTH_KEY already defined /var/www/html/maicai/Application/Index/Model/CourierModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `ty_courier` [ RunTime:0.0007s ]
+SQL: SELECT `courier_id`,`courier`,`courier_name`,`courier_pwd`,`courier_img`,`courier_phone`,`courier_wx`,`card_no`,`bank_name`,`courier_address`,`courier_idle`,`status`,`money`,`last_login`,`logins` FROM `ty_courier` LIMIT 1   [ RunTime:0.0001s ]
+ERR: 表达式错误:<
+
+[ 2018-03-02T12:50:26+08:00 ] 117.136.12.134 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000553s ]
+
+[ 2018-03-02T12:50:26+08:00 ] 117.136.12.134 /Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000423s ]
+
+[ 2018-03-02T12:50:27+08:00 ] 117.136.12.134 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000231s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000335s ]
+
+[ 2018-03-02T12:50:27+08:00 ] 117.136.12.134 /Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000341s ]
+
+[ 2018-03-02T12:51:07+08:00 ] 117.136.12.134 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000468s ]
+
+[ 2018-03-02T12:51:07+08:00 ] 117.136.12.134 /Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000231s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000396s ]
+
+[ 2018-03-02T13:48:19+08:00 ] 14.157.52.83 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000341s ]
+
+[ 2018-03-02T13:48:19+08:00 ] 14.157.52.83 /Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000453s ]
+
+[ 2018-03-02T14:13:30+08:00 ] 14.157.52.83 /Public/images/login_bg_pic.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+
+[ 2018-03-02T14:32:11+08:00 ] 14.157.52.83 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000359s ]
+
+[ 2018-03-02T14:32:11+08:00 ] 14.157.52.83 /Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000323s ]
+
+[ 2018-03-02T14:36:26+08:00 ] 14.157.52.83 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000518s ]
+
+[ 2018-03-02T14:36:26+08:00 ] 14.157.52.83 /Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000430s ]
+
+[ 2018-03-02T14:40:53+08:00 ] 14.157.52.83 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000345s ]
+
+[ 2018-03-02T14:40:53+08:00 ] 14.157.52.83 /Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000335s ]
+
+[ 2018-03-02T14:43:25+08:00 ] 14.157.52.83 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000360s ]
+SQL: SHOW COLUMNS FROM `ty_order` [ RunTime:0.0014s ]
+NOTIC: [8] Constant UC_AUTH_KEY already defined /var/www/html/maicai/Application/Index/Model/CourierModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `ty_courier` [ RunTime:0.0007s ]
+SQL: SELECT `courier_id`,`courier`,`courier_name`,`courier_pwd`,`courier_img`,`courier_phone`,`courier_wx`,`card_no`,`bank_name`,`courier_address`,`courier_idle`,`status`,`money`,`last_login`,`logins` FROM `ty_courier` LIMIT 1   [ RunTime:0.0001s ]
+ERR: 表达式错误:<
+
+[ 2018-03-02T14:44:26+08:00 ] 14.157.52.83 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000334s ]
+
+[ 2018-03-02T14:44:26+08:00 ] 14.157.52.83 /Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000240s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000331s ]
+
+[ 2018-03-02T14:54:07+08:00 ] 14.157.52.83 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000356s ]
+
+[ 2018-03-02T14:54:07+08:00 ] 14.157.52.83 /Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000322s ]
+
+[ 2018-03-02T14:54:21+08:00 ] 14.157.52.83 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000333s ]
+
+[ 2018-03-02T14:54:21+08:00 ] 14.157.52.83 /Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000343s ]
+
+[ 2018-03-02T15:09:02+08:00 ] 14.157.52.83 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000356s ]
+
+[ 2018-03-02T15:09:02+08:00 ] 14.157.52.83 /Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000342s ]
+
+[ 2018-03-02T15:10:49+08:00 ] 14.157.52.83 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000337s ]
+SQL: SHOW COLUMNS FROM `ty_order` [ RunTime:0.0015s ]
+NOTIC: [8] Constant UC_AUTH_KEY already defined /var/www/html/maicai/Application/Index/Model/CourierModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `ty_courier` [ RunTime:0.0006s ]
+SQL: SELECT `courier_id`,`courier`,`courier_name`,`courier_pwd`,`courier_img`,`courier_phone`,`courier_wx`,`card_no`,`bank_name`,`courier_address`,`courier_idle`,`status`,`money`,`last_login`,`logins` FROM `ty_courier` LIMIT 1   [ RunTime:0.0001s ]
+ERR: 表达式错误:<
+
+[ 2018-03-02T15:17:48+08:00 ] 14.157.52.83 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000366s ]
+
+[ 2018-03-02T15:17:49+08:00 ] 14.157.52.83 /Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000367s ]
+
+[ 2018-03-02T15:23:17+08:00 ] 14.157.52.83 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000483s ]
+SQL: SHOW COLUMNS FROM `ty_order` [ RunTime:0.0014s ]
+NOTIC: [8] Constant UC_AUTH_KEY already defined /var/www/html/maicai/Application/Index/Model/CourierModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `ty_courier` [ RunTime:0.0006s ]
+SQL: SELECT `courier_id`,`courier`,`courier_name`,`courier_pwd`,`courier_img`,`courier_phone`,`courier_wx`,`card_no`,`bank_name`,`courier_address`,`courier_idle`,`status`,`money`,`last_login`,`logins` FROM `ty_courier` LIMIT 1   [ RunTime:0.0001s ]
+ERR: 表达式错误:<
+
+[ 2018-03-02T15:41:22+08:00 ] 14.157.52.83 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000350s ]
+SQL: SHOW COLUMNS FROM `ty_order` [ RunTime:0.0014s ]
+NOTIC: [8] Constant UC_AUTH_KEY already defined /var/www/html/maicai/Application/Index/Model/CourierModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `ty_courier` [ RunTime:0.0006s ]
+SQL: SELECT `courier_id`,`courier`,`courier_name`,`courier_pwd`,`courier_img`,`courier_phone`,`courier_wx`,`card_no`,`bank_name`,`courier_address`,`courier_idle`,`status`,`money`,`last_login`,`logins` FROM `ty_courier` LIMIT 1   [ RunTime:0.0001s ]
+ERR: 表达式错误:<
+
+[ 2018-03-02T15:46:05+08:00 ] 14.157.52.83 /Public/images/login_bg_pic.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000234s ]
+
+[ 2018-03-02T15:46:34+08:00 ] 14.157.52.83 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000337s ]
+
+[ 2018-03-02T15:46:34+08:00 ] 14.157.52.83 /Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000331s ]
+
+[ 2018-03-02T15:53:07+08:00 ] 183.40.159.5 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000517s ]
+
+[ 2018-03-02T15:53:07+08:00 ] 183.40.159.5 /Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000335s ]
+
+[ 2018-03-02T15:57:59+08:00 ] 14.157.52.83 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000331s ]
+
+[ 2018-03-02T15:57:59+08:00 ] 14.157.52.83 /Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000214s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000349s ]
+
+[ 2018-03-02T15:58:17+08:00 ] 14.157.52.83 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000330s ]
+SQL: SHOW COLUMNS FROM `ty_order` [ RunTime:0.0013s ]
+NOTIC: [8] Constant UC_AUTH_KEY already defined /var/www/html/maicai/Application/Index/Model/CourierModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `ty_courier` [ RunTime:0.0006s ]
+SQL: SELECT `courier_id`,`courier`,`courier_name`,`courier_pwd`,`courier_img`,`courier_phone`,`courier_wx`,`card_no`,`bank_name`,`courier_address`,`courier_idle`,`status`,`money`,`last_login`,`logins` FROM `ty_courier` LIMIT 1   [ RunTime:0.0001s ]
+ERR: 表达式错误:<
+
+[ 2018-03-02T15:58:53+08:00 ] 14.157.52.83 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000354s ]
+
+[ 2018-03-02T15:58:53+08:00 ] 14.157.52.83 /Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000235s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000339s ]
+
+[ 2018-03-02T15:58:57+08:00 ] 14.157.52.83 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000351s ]
+
+[ 2018-03-02T15:58:57+08:00 ] 14.157.52.83 /Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000324s ]
+
+[ 2018-03-02T19:26:30+08:00 ] 117.136.79.77 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000348s ]
+
+[ 2018-03-02T19:26:30+08:00 ] 117.136.79.77 /Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000218s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000359s ]
+
+[ 2018-03-02T19:26:58+08:00 ] 117.136.79.77 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000336s ]
+
+[ 2018-03-02T19:26:58+08:00 ] 117.136.79.77 /Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000335s ]
+
+[ 2018-03-02T22:18:02+08:00 ] 117.136.79.99 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000524s ]
+
+[ 2018-03-02T22:18:02+08:00 ] 117.136.79.99 /Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000220s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000330s ]
+
+[ 2018-03-02T22:26:50+08:00 ] 119.126.171.134 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000366s ]
+
+[ 2018-03-02T22:26:50+08:00 ] 119.126.171.134 /Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000357s ]
+

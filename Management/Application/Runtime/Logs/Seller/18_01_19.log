@@ -1,0 +1,630 @@
+[ 2018-01-19T13:40:04+08:00 ] 113.69.40.115 /seller/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000365s ]
+INFO: [ view_begin ] --START--
+INFO: Run Home\Behaviors\testBehavior [ RunTime:0.000203s ]
+INFO: [ view_begin ] --END-- [ RunTime:0.000268s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006461s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006507s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000195s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000229s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000508s ]
+
+[ 2018-01-19T13:40:05+08:00 ] 113.69.40.115 /Seller/Admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000339s ]
+SQL: SHOW COLUMNS FROM `ty_config` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ty_config`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: seller/admin /var/www/html/maicai/Application/Seller/Common/function.php 第 71 行.
+NOTIC: [8] Undefined index: seller/admin /var/www/html/maicai/Application/Seller/Common/function.php 第 72 行.
+INFO: [ view_begin ] --START--
+INFO: Run Home\Behaviors\testBehavior [ RunTime:0.000183s ]
+INFO: [ view_begin ] --END-- [ RunTime:0.000239s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006450s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006498s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000125s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000230s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000368s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000416s ]
+
+[ 2018-01-19T13:40:06+08:00 ] 113.69.40.115 /Seller/Admin/vertify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000373s ]
+SQL: SHOW COLUMNS FROM `ty_config` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ty_config`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: seller/admin /var/www/html/maicai/Application/Seller/Common/function.php 第 71 行.
+NOTIC: [8] Undefined index: seller/admin /var/www/html/maicai/Application/Seller/Common/function.php 第 72 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000339s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000386s ]
+
+[ 2018-01-19T13:40:16+08:00 ] 113.69.40.115 /index.php?m=Seller&c=Admin&a=vertify&r=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000360s ]
+SQL: SHOW COLUMNS FROM `ty_config` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ty_config`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: seller/admin /var/www/html/maicai/Application/Seller/Common/function.php 第 71 行.
+NOTIC: [8] Undefined index: seller/admin /var/www/html/maicai/Application/Seller/Common/function.php 第 72 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000497s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000561s ]
+
+[ 2018-01-19T13:40:20+08:00 ] 113.69.40.115 /index.php?m=Seller&c=Admin&a=login&t=0.17866560227672168
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000333s ]
+SQL: SHOW COLUMNS FROM `ty_config` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ty_config`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: seller/admin /var/www/html/maicai/Application/Seller/Common/function.php 第 71 行.
+NOTIC: [8] Undefined index: seller/admin /var/www/html/maicai/Application/Seller/Common/function.php 第 72 行.
+SQL: SHOW COLUMNS FROM `ty_seller` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ty_seller` WHERE `seller_name` = 'niurou' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ty_users` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `ty_users` WHERE ( user_id=2 and password='519475228fe35ad067744465c42a19b2' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `ty_seller` SET `last_login_time`='1516340420' WHERE `seller_id` = 3 [ RunTime:0.0058s ]
+SQL: SHOW COLUMNS FROM `ty_seller_log` [ RunTime:0.0006s ]
+SQL: INSERT INTO `ty_seller_log` (`log_time`,`log_seller_id`,`log_seller_name`,`log_content`,`log_seller_ip`,`log_store_id`,`log_url`) VALUES ('1516340420','3','niurou','商家管理中心登录','113.69.40.115','3','/Seller/Admin/login') [ RunTime:0.0053s ]
+
+[ 2018-01-19T13:40:20+08:00 ] 113.69.40.115 /Seller/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000357s ]
+SQL: SHOW COLUMNS FROM `ty_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ty_config`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: seller/index /var/www/html/maicai/Application/Seller/Common/function.php 第 71 行.
+NOTIC: [8] Undefined index: seller/index /var/www/html/maicai/Application/Seller/Common/function.php 第 72 行.
+NOTIC: [8] Undefined index: act_limits /var/www/html/maicai/Application/Seller/Controller/IndexController.class.php 第 22 行.
+INFO: [ view_begin ] --START--
+INFO: Run Home\Behaviors\testBehavior [ RunTime:0.000132s ]
+INFO: [ view_begin ] --END-- [ RunTime:0.000168s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008281s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008316s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000100s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000274s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000429s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000321s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000356s ]
+
+[ 2018-01-19T13:40:20+08:00 ] 113.69.40.115 /Seller/Index/welcome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000335s ]
+SQL: SHOW COLUMNS FROM `ty_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ty_config`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: seller/index /var/www/html/maicai/Application/Seller/Common/function.php 第 71 行.
+NOTIC: [8] Undefined index: seller/index /var/www/html/maicai/Application/Seller/Common/function.php 第 72 行.
+SQL: SHOW COLUMNS FROM `ty_order` [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ty_order` WHERE ( store_id = 3 AND (pay_status = 1 OR pay_code="weixin") AND shipping_status !=1 AND order_status in(0,1)  ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ty_order` WHERE ( store_id = 3 and add_time>1515735620 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ty_return_goods` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ty_return_goods` WHERE ( store_id = 3 and type=0 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ty_return_goods` WHERE ( store_id = 3 and type=1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_goods` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ty_goods` WHERE `store_id` = 3  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `ty_article` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ty_article` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ty_users` WHERE `user_id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(order_amount) AS tp_sum FROM `ty_order` WHERE ( store_id = 3 and add_time>1516254020 and pay_status=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ty_comment` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ty_comment` WHERE ( is_show=0 and store_id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ty_goods_consult` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ty_goods_consult` WHERE ( is_show=0 and store_id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ty_store` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `ty_store` WHERE `store_id` = 3 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_begin ] --START--
+INFO: Run Home\Behaviors\testBehavior [ RunTime:0.000176s ]
+INFO: [ view_begin ] --END-- [ RunTime:0.000223s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+NOTIC: [8] Use of undefined constant store_id - assumed 'store_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/2c4075b0ad2d7ac34d0c65c9a2a286bb.php 第 138 行.
+NOTIC: [8] Use of undefined constant store_state - assumed 'store_state' /var/www/html/maicai/Application/Runtime/Cache/Seller/2c4075b0ad2d7ac34d0c65c9a2a286bb.php 第 143 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010408s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010444s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000100s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000242s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000389s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000427s ]
+
+[ 2018-01-19T13:40:20+08:00 ] 113.69.40.115 /Seller/Admin/login_task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000331s ]
+SQL: SHOW COLUMNS FROM `ty_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ty_config`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: seller/admin /var/www/html/maicai/Application/Seller/Common/function.php 第 71 行.
+NOTIC: [8] Undefined index: seller/admin /var/www/html/maicai/Application/Seller/Common/function.php 第 72 行.
+NOTIC: [8] Undefined index: pay_date /var/www/html/maicai/Application/Common/Common/common.php 第 496 行.
+SQL: select id,user_id,money from ty_rebate_log where store_id = 3 and status = 2 and ((1516340420 - confirm ) >  0)  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ty_store` [ RunTime:0.0016s ]
+SQL: select order_id from ty_order where store_id = 3 and order_status in(2,4) and ((1516340420 - confirm_time) >  604800) and is_checkout = 0 [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000323s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000367s ]
+
+[ 2018-01-19T13:40:22+08:00 ] 113.69.40.115 /Seller/Goods/addEditGoods
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000512s ]
+SQL: SHOW COLUMNS FROM `ty_config` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ty_config`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: seller/goods /var/www/html/maicai/Application/Seller/Common/function.php 第 71 行.
+NOTIC: [8] Undefined index: seller/goods /var/www/html/maicai/Application/Seller/Common/function.php 第 72 行.
+SQL: SHOW COLUMNS FROM `ty_goods` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `ty_goods` [ RunTime:0.0015s ]
+NOTIC: [8] Undefined index: is_ajax /var/www/html/maicai/Application/Seller/Controller/GoodsController.class.php 第 139 行.
+SQL: SHOW COLUMNS FROM `ty_goods` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `ty_goods` WHERE ( goods_id=0 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ty_store` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `ty_store` WHERE `store_id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ty_goods_category` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ty_goods_category` WHERE ( parent_id = 0 and id in(select class_1 from ty_store_bind_class  where store_id = 3 and state = 1 ) )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `ty_store_goods_class` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ty_store_goods_class` WHERE ( parent_id = 0 and store_id = 3 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ty_brand` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ty_brand`  [ RunTime:0.0001s ]
+SQL: SELECT `id`,`cat_id2` FROM `ty_brand` WHERE ( name in (select `name` from `ty_brand` group by name having COUNT(id) > 1) )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_goods_category` [ RunTime:0.0008s ]
+SQL: SELECT `id`,`name` FROM `ty_goods_category` WHERE ( level = 1 )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_goods_type` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ty_goods_type`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_suppliers` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ty_suppliers`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ty_plugin` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ty_plugin` WHERE `type` = 'shipping'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ty_shipping_area` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `ty_shipping_area` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ty_shipping_area` WHERE `store_id` = 3  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ty_goods_images` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ty_goods_images` WHERE ( goods_id =0 )  [ RunTime:0.0002s ]
+INFO: [ view_begin ] --START--
+INFO: Run Home\Behaviors\testBehavior [ RunTime:0.000184s ]
+INFO: [ view_begin ] --END-- [ RunTime:0.000242s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000189s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000257s ]
+NOTIC: [8] Undefined variable: URL_home /var/www/html/maicai/Application/Runtime/Cache/Seller/cbd0d12d2abc83cb6bdaba68075e031d.php 第 104 行.
+NOTIC: [8] Use of undefined constant is_free_shipping - assumed 'is_free_shipping' /var/www/html/maicai/Application/Runtime/Cache/Seller/cbd0d12d2abc83cb6bdaba68075e031d.php 第 361 行.
+NOTIC: [8] Use of undefined constant is_free_shipping - assumed 'is_free_shipping' /var/www/html/maicai/Application/Runtime/Cache/Seller/cbd0d12d2abc83cb6bdaba68075e031d.php 第 362 行.
+NOTIC: [8] Use of undefined constant is_recommend - assumed 'is_recommend' /var/www/html/maicai/Application/Runtime/Cache/Seller/cbd0d12d2abc83cb6bdaba68075e031d.php 第 368 行.
+NOTIC: [8] Use of undefined constant is_recommend - assumed 'is_recommend' /var/www/html/maicai/Application/Runtime/Cache/Seller/cbd0d12d2abc83cb6bdaba68075e031d.php 第 369 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/cbd0d12d2abc83cb6bdaba68075e031d.php 第 375 行.
+NOTIC: [8] Use of undefined constant basic_default_storage - assumed 'basic_default_storage' /var/www/html/maicai/Application/Runtime/Cache/Seller/cbd0d12d2abc83cb6bdaba68075e031d.php 第 377 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/maicai/Application/Runtime/Cache/Seller/cbd0d12d2abc83cb6bdaba68075e031d.php 第 486 行.
+NOTIC: [8] Use of undefined constant shipping_code - assumed 'shipping_code' /var/www/html/maicai/Application/Runtime/Cache/Seller/cbd0d12d2abc83cb6bdaba68075e031d.php 第 493 行.
+NOTIC: [8] Use of undefined constant code - assumed 'code' /var/www/html/maicai/Application/Runtime/Cache/Seller/cbd0d12d2abc83cb6bdaba68075e031d.php 第 493 行.
+NOTIC: [8] Use of undefined constant shipping_code - assumed 'shipping_code' /var/www/html/maicai/Application/Runtime/Cache/Seller/cbd0d12d2abc83cb6bdaba68075e031d.php 第 493 行.
+NOTIC: [8] Use of undefined constant code - assumed 'code' /var/www/html/maicai/Application/Runtime/Cache/Seller/cbd0d12d2abc83cb6bdaba68075e031d.php 第 493 行.
+NOTIC: [8] Use of undefined constant shipping_code - assumed 'shipping_code' /var/www/html/maicai/Application/Runtime/Cache/Seller/cbd0d12d2abc83cb6bdaba68075e031d.php 第 493 行.
+NOTIC: [8] Use of undefined constant code - assumed 'code' /var/www/html/maicai/Application/Runtime/Cache/Seller/cbd0d12d2abc83cb6bdaba68075e031d.php 第 493 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026162s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026210s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000107s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000331s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000492s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000308s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000363s ]
+
+[ 2018-01-19T13:40:22+08:00 ] 113.69.40.115 /Seller/Goods/goodsList/goods_state/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000382s ]
+SQL: SHOW COLUMNS FROM `ty_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ty_config`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: seller/goods /var/www/html/maicai/Application/Seller/Common/function.php 第 71 行.
+NOTIC: [8] Undefined index: seller/goods /var/www/html/maicai/Application/Seller/Common/function.php 第 72 行.
+SQL: SHOW COLUMNS FROM `ty_store_goods_class` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ty_store_goods_class` WHERE ( parent_id = 0 and store_id = 3 )  [ RunTime:0.0001s ]
+INFO: [ view_begin ] --START--
+INFO: Run Home\Behaviors\testBehavior [ RunTime:0.000152s ]
+INFO: [ view_begin ] --END-- [ RunTime:0.000190s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007331s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007378s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000270s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000728s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000338s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000377s ]
+
+[ 2018-01-19T13:40:23+08:00 ] 113.69.40.115 /index.php?m=Seller&c=goods&a=ajaxGoodsList&p=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000363s ]
+SQL: SHOW COLUMNS FROM `ty_config` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ty_config`  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: seller/goods /var/www/html/maicai/Application/Seller/Common/function.php 第 71 行.
+NOTIC: [8] Undefined index: seller/goods /var/www/html/maicai/Application/Seller/Common/function.php 第 72 行.
+SQL: SHOW COLUMNS FROM `ty_goods` [ RunTime:0.0018s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ty_goods` WHERE ( store_id = 3 and goods_state in (1)  ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ty_goods` WHERE ( store_id = 3 and goods_state in (1)  ) ORDER BY `goods_id` desc LIMIT 0,10   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `ty_goods_category` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ty_goods_category`  [ RunTime:0.0002s ]
+INFO: [ view_begin ] --START--
+INFO: Run Home\Behaviors\testBehavior [ RunTime:0.000211s ]
+INFO: [ view_begin ] --END-- [ RunTime:0.000268s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+NOTIC: [8] Use of undefined constant cat_id1 - assumed 'cat_id1' /var/www/html/maicai/Application/Runtime/Cache/Seller/d32a08fbc23e53ce8725c68343aacf3d.php 第 51 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/maicai/Application/Runtime/Cache/Seller/d32a08fbc23e53ce8725c68343aacf3d.php 第 51 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' /var/www/html/maicai/Application/Runtime/Cache/Seller/d32a08fbc23e53ce8725c68343aacf3d.php 第 54 行.
+NOTIC: [8] Use of undefined constant goods_state - assumed 'goods_state' /var/www/html/maicai/Application/Runtime/Cache/Seller/d32a08fbc23e53ce8725c68343aacf3d.php 第 63 行.
+NOTIC: [8] Use of undefined constant goods_state - assumed 'goods_state' /var/www/html/maicai/Application/Runtime/Cache/Seller/d32a08fbc23e53ce8725c68343aacf3d.php 第 64 行.
+NOTIC: [8] Use of undefined constant goods_state - assumed 'goods_state' /var/www/html/maicai/Application/Runtime/Cache/Seller/d32a08fbc23e53ce8725c68343aacf3d.php 第 65 行.
+NOTIC: [8] Use of undefined constant goods_state - assumed 'goods_state' /var/www/html/maicai/Application/Runtime/Cache/Seller/d32a08fbc23e53ce8725c68343aacf3d.php 第 66 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/d32a08fbc23e53ce8725c68343aacf3d.php 第 71 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/d32a08fbc23e53ce8725c68343aacf3d.php 第 72 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/d32a08fbc23e53ce8725c68343aacf3d.php 第 73 行.
+NOTIC: [8] Use of undefined constant cat_id1 - assumed 'cat_id1' /var/www/html/maicai/Application/Runtime/Cache/Seller/d32a08fbc23e53ce8725c68343aacf3d.php 第 51 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/maicai/Application/Runtime/Cache/Seller/d32a08fbc23e53ce8725c68343aacf3d.php 第 51 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' /var/www/html/maicai/Application/Runtime/Cache/Seller/d32a08fbc23e53ce8725c68343aacf3d.php 第 54 行.
+NOTIC: [8] Use of undefined constant goods_state - assumed 'goods_state' /var/www/html/maicai/Application/Runtime/Cache/Seller/d32a08fbc23e53ce8725c68343aacf3d.php 第 63 行.
+NOTIC: [8] Use of undefined constant goods_state - assumed 'goods_state' /var/www/html/maicai/Application/Runtime/Cache/Seller/d32a08fbc23e53ce8725c68343aacf3d.php 第 64 行.
+NOTIC: [8] Use of undefined constant goods_state - assumed 'goods_state' /var/www/html/maicai/Application/Runtime/Cache/Seller/d32a08fbc23e53ce8725c68343aacf3d.php 第 65 行.
+NOTIC: [8] Use of undefined constant goods_state - assumed 'goods_state' /var/www/html/maicai/Application/Runtime/Cache/Seller/d32a08fbc23e53ce8725c68343aacf3d.php 第 66 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/d32a08fbc23e53ce8725c68343aacf3d.php 第 71 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/d32a08fbc23e53ce8725c68343aacf3d.php 第 72 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/d32a08fbc23e53ce8725c68343aacf3d.php 第 73 行.
+NOTIC: [8] Use of undefined constant cat_id1 - assumed 'cat_id1' /var/www/html/maicai/Application/Runtime/Cache/Seller/d32a08fbc23e53ce8725c68343aacf3d.php 第 51 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/maicai/Application/Runtime/Cache/Seller/d32a08fbc23e53ce8725c68343aacf3d.php 第 51 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' /var/www/html/maicai/Application/Runtime/Cache/Seller/d32a08fbc23e53ce8725c68343aacf3d.php 第 54 行.
+NOTIC: [8] Use of undefined constant goods_state - assumed 'goods_state' /var/www/html/maicai/Application/Runtime/Cache/Seller/d32a08fbc23e53ce8725c68343aacf3d.php 第 63 行.
+NOTIC: [8] Use of undefined constant goods_state - assumed 'goods_state' /var/www/html/maicai/Application/Runtime/Cache/Seller/d32a08fbc23e53ce8725c68343aacf3d.php 第 64 行.
+NOTIC: [8] Use of undefined constant goods_state - assumed 'goods_state' /var/www/html/maicai/Application/Runtime/Cache/Seller/d32a08fbc23e53ce8725c68343aacf3d.php 第 65 行.
+NOTIC: [8] Use of undefined constant goods_state - assumed 'goods_state' /var/www/html/maicai/Application/Runtime/Cache/Seller/d32a08fbc23e53ce8725c68343aacf3d.php 第 66 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/d32a08fbc23e53ce8725c68343aacf3d.php 第 71 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/d32a08fbc23e53ce8725c68343aacf3d.php 第 72 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/d32a08fbc23e53ce8725c68343aacf3d.php 第 73 行.
+NOTIC: [8] Use of undefined constant cat_id1 - assumed 'cat_id1' /var/www/html/maicai/Application/Runtime/Cache/Seller/d32a08fbc23e53ce8725c68343aacf3d.php 第 51 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/maicai/Application/Runtime/Cache/Seller/d32a08fbc23e53ce8725c68343aacf3d.php 第 51 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' /var/www/html/maicai/Application/Runtime/Cache/Seller/d32a08fbc23e53ce8725c68343aacf3d.php 第 54 行.
+NOTIC: [8] Use of undefined constant goods_state - assumed 'goods_state' /var/www/html/maicai/Application/Runtime/Cache/Seller/d32a08fbc23e53ce8725c68343aacf3d.php 第 63 行.
+NOTIC: [8] Use of undefined constant goods_state - assumed 'goods_state' /var/www/html/maicai/Application/Runtime/Cache/Seller/d32a08fbc23e53ce8725c68343aacf3d.php 第 64 行.
+NOTIC: [8] Use of undefined constant goods_state - assumed 'goods_state' /var/www/html/maicai/Application/Runtime/Cache/Seller/d32a08fbc23e53ce8725c68343aacf3d.php 第 65 行.
+NOTIC: [8] Use of undefined constant goods_state - assumed 'goods_state' /var/www/html/maicai/Application/Runtime/Cache/Seller/d32a08fbc23e53ce8725c68343aacf3d.php 第 66 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/d32a08fbc23e53ce8725c68343aacf3d.php 第 71 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/d32a08fbc23e53ce8725c68343aacf3d.php 第 72 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/d32a08fbc23e53ce8725c68343aacf3d.php 第 73 行.
+NOTIC: [8] Use of undefined constant cat_id1 - assumed 'cat_id1' /var/www/html/maicai/Application/Runtime/Cache/Seller/d32a08fbc23e53ce8725c68343aacf3d.php 第 51 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/maicai/Application/Runtime/Cache/Seller/d32a08fbc23e53ce8725c68343aacf3d.php 第 51 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' /var/www/html/maicai/Application/Runtime/Cache/Seller/d32a08fbc23e53ce8725c68343aacf3d.php 第 54 行.
+NOTIC: [8] Use of undefined constant goods_state - assumed 'goods_state' /var/www/html/maicai/Application/Runtime/Cache/Seller/d32a08fbc23e53ce8725c68343aacf3d.php 第 63 行.
+NOTIC: [8] Use of undefined constant goods_state - assumed 'goods_state' /var/www/html/maicai/Application/Runtime/Cache/Seller/d32a08fbc23e53ce8725c68343aacf3d.php 第 64 行.
+NOTIC: [8] Use of undefined constant goods_state - assumed 'goods_state' /var/www/html/maicai/Application/Runtime/Cache/Seller/d32a08fbc23e53ce8725c68343aacf3d.php 第 65 行.
+NOTIC: [8] Use of undefined constant goods_state - assumed 'goods_state' /var/www/html/maicai/Application/Runtime/Cache/Seller/d32a08fbc23e53ce8725c68343aacf3d.php 第 66 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/d32a08fbc23e53ce8725c68343aacf3d.php 第 71 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/d32a08fbc23e53ce8725c68343aacf3d.php 第 72 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/d32a08fbc23e53ce8725c68343aacf3d.php 第 73 行.
+NOTIC: [8] Use of undefined constant cat_id1 - assumed 'cat_id1' /var/www/html/maicai/Application/Runtime/Cache/Seller/d32a08fbc23e53ce8725c68343aacf3d.php 第 51 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/maicai/Application/Runtime/Cache/Seller/d32a08fbc23e53ce8725c68343aacf3d.php 第 51 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' /var/www/html/maicai/Application/Runtime/Cache/Seller/d32a08fbc23e53ce8725c68343aacf3d.php 第 54 行.
+NOTIC: [8] Use of undefined constant goods_state - assumed 'goods_state' /var/www/html/maicai/Application/Runtime/Cache/Seller/d32a08fbc23e53ce8725c68343aacf3d.php 第 63 行.
+NOTIC: [8] Use of undefined constant goods_state - assumed 'goods_state' /var/www/html/maicai/Application/Runtime/Cache/Seller/d32a08fbc23e53ce8725c68343aacf3d.php 第 64 行.
+NOTIC: [8] Use of undefined constant goods_state - assumed 'goods_state' /var/www/html/maicai/Application/Runtime/Cache/Seller/d32a08fbc23e53ce8725c68343aacf3d.php 第 65 行.
+NOTIC: [8] Use of undefined constant goods_state - assumed 'goods_state' /var/www/html/maicai/Application/Runtime/Cache/Seller/d32a08fbc23e53ce8725c68343aacf3d.php 第 66 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/d32a08fbc23e53ce8725c68343aacf3d.php 第 71 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/d32a08fbc23e53ce8725c68343aacf3d.php 第 72 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/d32a08fbc23e53ce8725c68343aacf3d.php 第 73 行.
+NOTIC: [8] Use of undefined constant cat_id1 - assumed 'cat_id1' /var/www/html/maicai/Application/Runtime/Cache/Seller/d32a08fbc23e53ce8725c68343aacf3d.php 第 51 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/maicai/Application/Runtime/Cache/Seller/d32a08fbc23e53ce8725c68343aacf3d.php 第 51 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' /var/www/html/maicai/Application/Runtime/Cache/Seller/d32a08fbc23e53ce8725c68343aacf3d.php 第 54 行.
+NOTIC: [8] Use of undefined constant goods_state - assumed 'goods_state' /var/www/html/maicai/Application/Runtime/Cache/Seller/d32a08fbc23e53ce8725c68343aacf3d.php 第 63 行.
+NOTIC: [8] Use of undefined constant goods_state - assumed 'goods_state' /var/www/html/maicai/Application/Runtime/Cache/Seller/d32a08fbc23e53ce8725c68343aacf3d.php 第 64 行.
+NOTIC: [8] Use of undefined constant goods_state - assumed 'goods_state' /var/www/html/maicai/Application/Runtime/Cache/Seller/d32a08fbc23e53ce8725c68343aacf3d.php 第 65 行.
+NOTIC: [8] Use of undefined constant goods_state - assumed 'goods_state' /var/www/html/maicai/Application/Runtime/Cache/Seller/d32a08fbc23e53ce8725c68343aacf3d.php 第 66 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/d32a08fbc23e53ce8725c68343aacf3d.php 第 71 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/d32a08fbc23e53ce8725c68343aacf3d.php 第 72 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/d32a08fbc23e53ce8725c68343aacf3d.php 第 73 行.
+NOTIC: [8] Use of undefined constant cat_id1 - assumed 'cat_id1' /var/www/html/maicai/Application/Runtime/Cache/Seller/d32a08fbc23e53ce8725c68343aacf3d.php 第 51 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/maicai/Application/Runtime/Cache/Seller/d32a08fbc23e53ce8725c68343aacf3d.php 第 51 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' /var/www/html/maicai/Application/Runtime/Cache/Seller/d32a08fbc23e53ce8725c68343aacf3d.php 第 54 行.
+NOTIC: [8] Use of undefined constant goods_state - assumed 'goods_state' /var/www/html/maicai/Application/Runtime/Cache/Seller/d32a08fbc23e53ce8725c68343aacf3d.php 第 63 行.
+NOTIC: [8] Use of undefined constant goods_state - assumed 'goods_state' /var/www/html/maicai/Application/Runtime/Cache/Seller/d32a08fbc23e53ce8725c68343aacf3d.php 第 64 行.
+NOTIC: [8] Use of undefined constant goods_state - assumed 'goods_state' /var/www/html/maicai/Application/Runtime/Cache/Seller/d32a08fbc23e53ce8725c68343aacf3d.php 第 65 行.
+NOTIC: [8] Use of undefined constant goods_state - assumed 'goods_state' /var/www/html/maicai/Application/Runtime/Cache/Seller/d32a08fbc23e53ce8725c68343aacf3d.php 第 66 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/d32a08fbc23e53ce8725c68343aacf3d.php 第 71 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/d32a08fbc23e53ce8725c68343aacf3d.php 第 72 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/d32a08fbc23e53ce8725c68343aacf3d.php 第 73 行.
+NOTIC: [8] Use of undefined constant cat_id1 - assumed 'cat_id1' /var/www/html/maicai/Application/Runtime/Cache/Seller/d32a08fbc23e53ce8725c68343aacf3d.php 第 51 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/maicai/Application/Runtime/Cache/Seller/d32a08fbc23e53ce8725c68343aacf3d.php 第 51 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' /var/www/html/maicai/Application/Runtime/Cache/Seller/d32a08fbc23e53ce8725c68343aacf3d.php 第 54 行.
+NOTIC: [8] Use of undefined constant goods_state - assumed 'goods_state' /var/www/html/maicai/Application/Runtime/Cache/Seller/d32a08fbc23e53ce8725c68343aacf3d.php 第 63 行.
+NOTIC: [8] Use of undefined constant goods_state - assumed 'goods_state' /var/www/html/maicai/Application/Runtime/Cache/Seller/d32a08fbc23e53ce8725c68343aacf3d.php 第 64 行.
+NOTIC: [8] Use of undefined constant goods_state - assumed 'goods_state' /var/www/html/maicai/Application/Runtime/Cache/Seller/d32a08fbc23e53ce8725c68343aacf3d.php 第 65 行.
+NOTIC: [8] Use of undefined constant goods_state - assumed 'goods_state' /var/www/html/maicai/Application/Runtime/Cache/Seller/d32a08fbc23e53ce8725c68343aacf3d.php 第 66 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/d32a08fbc23e53ce8725c68343aacf3d.php 第 71 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/d32a08fbc23e53ce8725c68343aacf3d.php 第 72 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/d32a08fbc23e53ce8725c68343aacf3d.php 第 73 行.
+NOTIC: [8] Use of undefined constant cat_id1 - assumed 'cat_id1' /var/www/html/maicai/Application/Runtime/Cache/Seller/d32a08fbc23e53ce8725c68343aacf3d.php 第 51 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/maicai/Application/Runtime/Cache/Seller/d32a08fbc23e53ce8725c68343aacf3d.php 第 51 行.
+NOTIC: [8] Use of undefined constant is_on_sale - assumed 'is_on_sale' /var/www/html/maicai/Application/Runtime/Cache/Seller/d32a08fbc23e53ce8725c68343aacf3d.php 第 54 行.
+NOTIC: [8] Use of undefined constant goods_state - assumed 'goods_state' /var/www/html/maicai/Application/Runtime/Cache/Seller/d32a08fbc23e53ce8725c68343aacf3d.php 第 63 行.
+NOTIC: [8] Use of undefined constant goods_state - assumed 'goods_state' /var/www/html/maicai/Application/Runtime/Cache/Seller/d32a08fbc23e53ce8725c68343aacf3d.php 第 64 行.
+NOTIC: [8] Use of undefined constant goods_state - assumed 'goods_state' /var/www/html/maicai/Application/Runtime/Cache/Seller/d32a08fbc23e53ce8725c68343aacf3d.php 第 65 行.
+NOTIC: [8] Use of undefined constant goods_state - assumed 'goods_state' /var/www/html/maicai/Application/Runtime/Cache/Seller/d32a08fbc23e53ce8725c68343aacf3d.php 第 66 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/d32a08fbc23e53ce8725c68343aacf3d.php 第 71 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/d32a08fbc23e53ce8725c68343aacf3d.php 第 72 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/d32a08fbc23e53ce8725c68343aacf3d.php 第 73 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012592s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012639s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000143s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000545s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000753s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000306s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000344s ]
+
+[ 2018-01-19T13:40:25+08:00 ] 113.69.40.115 /Seller/Goods/addEditGoods/goods_id/58
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000231s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000379s ]
+SQL: SHOW COLUMNS FROM `ty_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ty_config`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: seller/goods /var/www/html/maicai/Application/Seller/Common/function.php 第 71 行.
+NOTIC: [8] Undefined index: seller/goods /var/www/html/maicai/Application/Seller/Common/function.php 第 72 行.
+SQL: SHOW COLUMNS FROM `ty_goods` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `ty_goods` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ty_goods` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ty_goods` WHERE ( goods_id = 58 and store_id = 3 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: is_ajax /var/www/html/maicai/Application/Seller/Controller/GoodsController.class.php 第 139 行.
+SQL: SHOW COLUMNS FROM `ty_goods` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ty_goods` WHERE ( goods_id=58 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ty_store` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `ty_store` WHERE `store_id` = 3 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_goods_category` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ty_goods_category` WHERE ( parent_id = 0 and id in(select class_1 from ty_store_bind_class  where store_id = 3 and state = 1 ) )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_store_goods_class` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ty_store_goods_class` WHERE ( parent_id = 0 and store_id = 3 )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_brand` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ty_brand`  [ RunTime:0.0001s ]
+SQL: SELECT `id`,`cat_id2` FROM `ty_brand` WHERE ( name in (select `name` from `ty_brand` group by name having COUNT(id) > 1) )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_goods_category` [ RunTime:0.0006s ]
+SQL: SELECT `id`,`name` FROM `ty_goods_category` WHERE ( level = 1 )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_goods_type` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ty_goods_type`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_suppliers` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ty_suppliers`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_plugin` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ty_plugin` WHERE `type` = 'shipping'  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_shipping_area` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `ty_shipping_area` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ty_shipping_area` WHERE `store_id` = 3  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_goods_images` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ty_goods_images` WHERE ( goods_id =58 )  [ RunTime:0.0002s ]
+INFO: [ view_begin ] --START--
+INFO: Run Home\Behaviors\testBehavior [ RunTime:0.000153s ]
+INFO: [ view_begin ] --END-- [ RunTime:0.000202s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000144s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000191s ]
+NOTIC: [8] Undefined variable: URL_home /var/www/html/maicai/Application/Runtime/Cache/Seller/cbd0d12d2abc83cb6bdaba68075e031d.php 第 104 行.
+NOTIC: [8] Use of undefined constant is_free_shipping - assumed 'is_free_shipping' /var/www/html/maicai/Application/Runtime/Cache/Seller/cbd0d12d2abc83cb6bdaba68075e031d.php 第 361 行.
+NOTIC: [8] Use of undefined constant is_free_shipping - assumed 'is_free_shipping' /var/www/html/maicai/Application/Runtime/Cache/Seller/cbd0d12d2abc83cb6bdaba68075e031d.php 第 362 行.
+NOTIC: [8] Use of undefined constant is_recommend - assumed 'is_recommend' /var/www/html/maicai/Application/Runtime/Cache/Seller/cbd0d12d2abc83cb6bdaba68075e031d.php 第 368 行.
+NOTIC: [8] Use of undefined constant is_recommend - assumed 'is_recommend' /var/www/html/maicai/Application/Runtime/Cache/Seller/cbd0d12d2abc83cb6bdaba68075e031d.php 第 369 行.
+NOTIC: [8] Use of undefined constant goods_id - assumed 'goods_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/cbd0d12d2abc83cb6bdaba68075e031d.php 第 375 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/maicai/Application/Runtime/Cache/Seller/cbd0d12d2abc83cb6bdaba68075e031d.php 第 486 行.
+NOTIC: [8] Use of undefined constant shipping_code - assumed 'shipping_code' /var/www/html/maicai/Application/Runtime/Cache/Seller/cbd0d12d2abc83cb6bdaba68075e031d.php 第 493 行.
+NOTIC: [8] Use of undefined constant code - assumed 'code' /var/www/html/maicai/Application/Runtime/Cache/Seller/cbd0d12d2abc83cb6bdaba68075e031d.php 第 493 行.
+NOTIC: [8] Use of undefined constant shipping_code - assumed 'shipping_code' /var/www/html/maicai/Application/Runtime/Cache/Seller/cbd0d12d2abc83cb6bdaba68075e031d.php 第 493 行.
+NOTIC: [8] Use of undefined constant code - assumed 'code' /var/www/html/maicai/Application/Runtime/Cache/Seller/cbd0d12d2abc83cb6bdaba68075e031d.php 第 493 行.
+NOTIC: [8] Use of undefined constant shipping_code - assumed 'shipping_code' /var/www/html/maicai/Application/Runtime/Cache/Seller/cbd0d12d2abc83cb6bdaba68075e031d.php 第 493 行.
+NOTIC: [8] Use of undefined constant code - assumed 'code' /var/www/html/maicai/Application/Runtime/Cache/Seller/cbd0d12d2abc83cb6bdaba68075e031d.php 第 493 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019117s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019155s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000106s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000371s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000531s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000299s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000335s ]
+
+[ 2018-01-19T13:40:25+08:00 ] 113.69.40.115 /index.php?m=Seller&c=Goods&a=ajaxGetSpecSelect&goods_id=58&cat_id2=66
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000359s ]
+SQL: SHOW COLUMNS FROM `ty_config` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ty_config`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: seller/goods /var/www/html/maicai/Application/Seller/Common/function.php 第 71 行.
+NOTIC: [8] Undefined index: seller/goods /var/www/html/maicai/Application/Seller/Common/function.php 第 72 行.
+SQL: SHOW COLUMNS FROM `ty_goods_category` [ RunTime:0.0008s ]
+SQL: SELECT `type_id` FROM `ty_goods_category` WHERE ( id = 66 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ty_spec_type` [ RunTime:0.0006s ]
+SQL: SELECT `spec_id` FROM `ty_spec_type` WHERE ( type_id = 40 )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_spec` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ty_spec` WHERE ( id in (41)  ) ORDER BY `order` desc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ty_spec_item` [ RunTime:0.0005s ]
+SQL: SELECT `id`,`item` FROM `ty_spec_item` WHERE ( store_id = 3 and spec_id = 41 )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_spec_goods_price` [ RunTime:0.0004s ]
+SQL: SELECT GROUP_CONCAT(`key` SEPARATOR '_') AS items_id FROM `ty_spec_goods_price` WHERE ( goods_id = 58 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ty_spec_image` [ RunTime:0.0005s ]
+SQL: SELECT `spec_image_id`,`src` FROM `ty_spec_image` WHERE ( goods_id = 58 )  [ RunTime:0.0002s ]
+INFO: [ view_begin ] --START--
+INFO: Run Home\Behaviors\testBehavior [ RunTime:0.000198s ]
+INFO: [ view_begin ] --END-- [ RunTime:0.000241s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+NOTIC: [8] Use of undefined constant name - assumed 'name' /var/www/html/maicai/Application/Runtime/Cache/Seller/30637f0fd18fe9be85abd38b800fd3c4.php 第 6 行.
+NOTIC: [8] Use of undefined constant spec_item - assumed 'spec_item' /var/www/html/maicai/Application/Runtime/Cache/Seller/30637f0fd18fe9be85abd38b800fd3c4.php 第 8 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/30637f0fd18fe9be85abd38b800fd3c4.php 第 15 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008579s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008622s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000124s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000233s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000412s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000308s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000342s ]
+
+[ 2018-01-19T13:40:25+08:00 ] 113.69.40.115 /index.php?m=Seller&c=Goods&a=ajaxGetAttrInput&goods_id=58&cat_id2=66
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000427s ]
+SQL: SHOW COLUMNS FROM `ty_config` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ty_config`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: seller/goods /var/www/html/maicai/Application/Seller/Common/function.php 第 71 行.
+NOTIC: [8] Undefined index: seller/goods /var/www/html/maicai/Application/Seller/Common/function.php 第 72 行.
+
+[ 2018-01-19T13:40:25+08:00 ] 113.69.40.115 /index.php?m=Seller&c=Index&a=get_category&parent_id=43
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000249s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000374s ]
+SQL: SHOW COLUMNS FROM `ty_config` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ty_config`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: seller/index /var/www/html/maicai/Application/Seller/Common/function.php 第 71 行.
+NOTIC: [8] Undefined index: seller/index /var/www/html/maicai/Application/Seller/Common/function.php 第 72 行.
+SQL: SHOW COLUMNS FROM `ty_goods_category` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ty_goods_category` WHERE `parent_id` = 43  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ty_store` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `ty_store` WHERE ( store_id = 3 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ty_store_bind_class` [ RunTime:0.0005s ]
+SQL: SELECT `class_1` FROM `ty_store_bind_class` WHERE ( store_id = 3 and state = 1 )  [ RunTime:0.0003s ]
+SQL: SELECT `class_2` FROM `ty_store_bind_class` WHERE ( store_id = 3 and state = 1 )  [ RunTime:0.0002s ]
+SQL: SELECT `class_3` FROM `ty_store_bind_class` WHERE ( store_id = 3 and state = 1 )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: html /var/www/html/maicai/Application/Seller/Controller/IndexController.class.php 第 290 行.
+
+[ 2018-01-19T13:40:25+08:00 ] 113.69.40.115 /index.php/Seller/Goods/ajaxGetSpecInput/goods_id/58
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000445s ]
+SQL: SHOW COLUMNS FROM `ty_config` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ty_config`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: seller/goods /var/www/html/maicai/Application/Seller/Common/function.php 第 71 行.
+NOTIC: [8] Undefined index: seller/goods /var/www/html/maicai/Application/Seller/Common/function.php 第 72 行.
+SQL: SHOW COLUMNS FROM `ty_goods` [ RunTime:0.0016s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/html/maicai/Application/Seller/Logic/GoodsLogic.class.php 第 314 行.
+NOTIC: [2] asort() expects parameter 1 to be array, null given /var/www/html/maicai/Application/Seller/Logic/GoodsLogic.class.php 第 318 行.
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/html/maicai/Application/Seller/Logic/GoodsLogic.class.php 第 319 行.
+NOTIC: [8] Undefined variable: spec_arr2 /var/www/html/maicai/Application/Seller/Logic/GoodsLogic.class.php 第 325 行.
+NOTIC: [2] array_keys() expects parameter 1 to be array, null given /var/www/html/maicai/Application/Seller/Logic/GoodsLogic.class.php 第 325 行.
+NOTIC: [8] Undefined variable: spec_arr2 /var/www/html/maicai/Application/Seller/Logic/GoodsLogic.class.php 第 326 行.
+NOTIC: [2] array_shift() expects parameter 1 to be array, null given /var/www/html/maicai/Application/Common/Common/function.php 第 365 行.
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/html/maicai/Application/Common/Common/function.php 第 366 行.
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/html/maicai/Application/Common/Common/function.php 第 371 行.
+SQL: SHOW COLUMNS FROM `ty_spec` [ RunTime:0.0006s ]
+SQL: SELECT `id`,`name` FROM `ty_spec`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_spec_item` [ RunTime:0.0005s ]
+SQL: SELECT `id`,`item`,`spec_id` FROM `ty_spec_item` WHERE ( store_id = 3 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ty_spec_goods_price` [ RunTime:0.0007s ]
+SQL: SELECT `key`,`key_name`,`price`,`store_count`,`sku` FROM `ty_spec_goods_price` WHERE ( store_id = 3 and goods_id = 58 )  [ RunTime:0.0002s ]
+NOTIC: [2] Invalid argument supplied for foreach() /var/www/html/maicai/Application/Seller/Logic/GoodsLogic.class.php 第 335 行.
+
+[ 2018-01-19T13:41:05+08:00 ] 101.226.225.59 /Seller/Admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000484s ]
+SQL: SHOW COLUMNS FROM `ty_config` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ty_config`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: seller/admin /var/www/html/maicai/Application/Seller/Common/function.php 第 71 行.
+NOTIC: [8] Undefined index: seller/admin /var/www/html/maicai/Application/Seller/Common/function.php 第 72 行.
+INFO: [ view_begin ] --START--
+INFO: Run Home\Behaviors\testBehavior [ RunTime:0.000260s ]
+INFO: [ view_begin ] --END-- [ RunTime:0.000341s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007140s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007197s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000164s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000315s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000559s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000365s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000409s ]
+

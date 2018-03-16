@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+<title>配送系统</title>
+
+<include file="public/header"/>
+</head>
+<body class="userinfo html">
+
+
+  <!--页头开始-->
+  <div class="header">
+    <div class="head">
+    <span class="title_left float_left"><a href="#" onClick="javascript :history.back(-1);"><img src="__HOME__/images/jiantou.png" style="width: 85%;margin-top: 5px;"></a></span>
+    <span class="title">用户中心</span>
+       <div class="title_r"><a href="javascript:void(0);" onclick="show()"><img src="__HOME__/images/dian.png"></a></div>
+      <div class="hide loginout" id="showdiv">
+      <ul>
+      <li><a href="{:url('Index/index')}">首页</a></li>
+      <li><a href="{:url('Login/logout')}">退出</a></li>
+      </ul></div>
+    </div>
+  </div>
+  
+  <!--页头结束-->
+  <!-- 内容头部开始 -->
+    <div class="user userinfo_back">
+    <a href="{:url('index/user')}">
+    <div style="width: 100%; height: 100%;">
+      <div class="user_left">
+        <img src="{$courier.courier_img}">
+      </div>
+      <div class="user_r">
+        <span>{$courier.courier_name}</span><br/>
+        <span>{$courier.courier_phone}</span>
+
+      </div>
+      <img src="__HOME__/images/fan.png" class="userinfo_li_img">
+    </div></div></a>
+  <!-- 内容头部结束 -->
+
+  <!-- 内容主体开始 -->
+  <div class="content">
+    <ul>
+      <a href="{:url('order/index',['status'=>'1'])}"><li>
+        <img src="__HOME__/images/0.png" class="userinfo_li_leftimg">
+        <span>全部订单</span>
+        <img src="__HOME__/images/fan.png" class="userinfo_li_img">
+        </li></a>
+      <a href="{:url('order/bill')}"><li>
+        <img src="__HOME__/images/jiesuan.png" class="userinfo_li_leftimg">
+        <span>结算记录</span>
+        <img src="__HOME__/images/fan.png" class="userinfo_li_img">
+        </li></a>      
+      <a href="{:url('index/user')}"><li>
+        <img src="__HOME__/images/shezhi.png" class="userinfo_li_leftimg">
+        <span>设置</span>
+        <img src="__HOME__/images/fan.png" class="userinfo_li_img">
+        </li></a>
+
+    </ul>
+  </div>
+  <!-- 内容主体结束 -->
+  <!-- 内容尾部开始 -->
+  <include file="public/footer" />
+
+  <!-- 内容尾部结束 -->
+</body>
+</html>

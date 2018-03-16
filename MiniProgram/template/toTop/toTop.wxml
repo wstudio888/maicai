@@ -1,0 +1,5 @@
+<template name="toTop">
+  <view class="toTop" bindtap="toTop">
+    <image src="/images/icon_up_arrow.png" mode="widthFix"></image>
+  </view>
+</template>

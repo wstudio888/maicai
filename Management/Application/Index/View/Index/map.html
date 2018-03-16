@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no, width=device-width">
+<title>配送系统</title>
+<include file="public/header"/>
+<link rel="stylesheet" type="text/css" href=" __HOME__/css/map.css">
+    
+<style type="text/css">
+    #panel {
+        position: fixed;
+        background-color: white;
+        max-height: 32%;
+        overflow-y: auto;
+        top: 50px;
+        right: 10px;
+        width: 280px;
+    }
+</style>
+
+<script type="text/javascript" src="http://webapi.amap.com/maps?v=1.4.0&key=742abd0ce995841e7b1721000ac4672e&plugin=AMap.Riding"></script>
+<script type="text/javascript" src="http://cache.amap.com/lbs/static/addToolbar.js"></script>
+</head>
+<body class="map">
+
+
+  <!--页头开始-->
+  <div class="header">
+    <div class="head">
+    <span class="title_left float_left"><a href="#" onClick="javascript :history.back(-1);"><img src="__HOME__/images/jiantou.png" style="width: 85%;margin-top: 5px;"></a></span>
+    <span class="title">查看路线</span>
+    <div class="title_r"><a href="javascript:void(0);" onclick="show()"><img src="__HOME__/images/dian.png"></a></div>
+      <div class="hide loginout" id="showdiv">
+      <ul>
+      <li><a href="{:url('Index/index')}">首页</a></li>
+      <li><a href="{:url('Login/logout')}">退出</a></li>
+      </ul></div>
+      <div class="hide loginout" id="showdiv">
+      <ul>
+      <li><a href="{:url('Index/index')}">首页</a></li>
+      <li><a href="{:url('Login/logout')}">退出</a></li>
+      </ul></div>
+    </div>
+  </div>
+  
+  <!--地图板块开始-->
+  <div class="map_div">    
+    <div id="container" class="map_buttom"></div>
+    <div id="panel"></div>
+  </div>
+  <!--地图板块结束-->
+  <!-- 内容尾部开始 -->
+  <div class="map_buttom">
+    <div class="map_b_div2">
+      <span class="qu" id="quaddress">{$address.store_address.store_address}</span><br/>
+      <span class="song" id="address">{$address.user_address.address}</span>
+    </div>
+  </div>
+  <span class="hide" id="user_city">{$address.user_address.city}</span>
+  <!-- 内容尾部结束 -->
+<script type="text/javascript">
+  var address = $('#address').html();
+  var quaddress = $('#quaddress').html();
+
+  var map = new AMap.Map("container", {
+      resizeEnable: true,
+      center: [116.397428, 29.90923],//地图中心点
+      zoom: 15 //地图显示的缩放级别
+  });
+  //步行导航
+  var riding = new AMap.Riding({
+      map: map,
+      panel: "panel"
+  }); 
+  riding.search([
+      {keyword: quaddress,city:'佛山'},
+      {keyword: address,city:'佛山'}
+  ]);
+  function show() {
+    $('#showdiv').removeClass("hide");
+    setTimeout(function () {
+                $('#showdiv').addClass("hide");
+            }, 2000);
+  }
+</script>
+</body>
+</html>
+
+
+  

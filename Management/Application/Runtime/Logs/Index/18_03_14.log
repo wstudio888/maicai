@@ -1,0 +1,541 @@
+[ 2018-03-14T08:49:07+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-14T08:49:07+08:00 ] 127.0.0.1 /Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-14T08:49:08+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T08:50:23+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-14T08:50:23+08:00 ] ::1 /Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T08:50:23+08:00 ] ::1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-14T08:50:35+08:00 ] ::1 /mishu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Mishu
+
+[ 2018-03-14T08:58:08+08:00 ] 127.0.0.1 /Public/images/login_bg_pic.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T11:16:02+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T11:16:03+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T11:16:23+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ty_order` [ RunTime:0.0010s ]
+NOTIC: [8] Constant UC_AUTH_KEY already defined E:\phpweb\maicai\Application\Index\Model\CourierModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `ty_courier` [ RunTime:0.0010s ]
+SQL: SELECT `courier_id`,`courier`,`courier_name`,`courier_pwd`,`courier_img`,`courier_phone`,`courier_wx`,`card_no`,`bank_name`,`courier_address`,`courier_idle`,`status`,`money`,`last_login`,`logins` FROM `ty_courier` LIMIT 1   [ RunTime:0.0190s ]
+ERR: 表达式错误:<
+
+[ 2018-03-14T11:18:43+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ty_order` [ RunTime:0.0010s ]
+NOTIC: [8] Constant UC_AUTH_KEY already defined E:\phpweb\maicai\Application\Index\Model\CourierModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `ty_courier` [ RunTime:0.0010s ]
+SQL: SELECT `courier_id`,`courier`,`courier_name`,`courier_pwd`,`courier_img`,`courier_phone`,`courier_wx`,`card_no`,`bank_name`,`courier_address`,`courier_idle`,`status`,`money`,`last_login`,`logins` FROM `ty_courier` LIMIT 1   [ RunTime:0.0000s ]
+ERR: 表达式错误:<
+
+[ 2018-03-14T11:22:25+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ty_order` [ RunTime:0.0010s ]
+NOTIC: [8] Constant UC_AUTH_KEY already defined E:\phpweb\maicai\Application\Index\Model\CourierModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `ty_courier` [ RunTime:0.0010s ]
+SQL: SELECT `courier_id`,`courier`,`courier_name`,`courier_pwd`,`courier_img`,`courier_phone`,`courier_wx`,`card_no`,`bank_name`,`courier_address`,`courier_idle`,`status`,`money`,`last_login`,`logins` FROM `ty_courier` LIMIT 1   [ RunTime:0.0010s ]
+ERR: 表达式错误:<
+
+[ 2018-03-14T11:46:45+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ty_order` [ RunTime:0.0010s ]
+NOTIC: [8] Constant UC_AUTH_KEY already defined E:\phpweb\maicai\Application\Index\Model\CourierModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `ty_courier` [ RunTime:0.0010s ]
+SQL: SELECT `courier_id`,`courier`,`courier_name`,`courier_pwd`,`courier_img`,`courier_phone`,`courier_wx`,`card_no`,`bank_name`,`courier_address`,`courier_idle`,`status`,`money`,`last_login`,`logins` FROM `ty_courier` LIMIT 1   [ RunTime:0.0000s ]
+ERR: 表达式错误:<
+
+[ 2018-03-14T13:50:04+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ty_order` [ RunTime:0.0010s ]
+NOTIC: [8] Constant UC_AUTH_KEY already defined E:\phpweb\maicai\Application\Index\Model\CourierModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `ty_courier` [ RunTime:0.0010s ]
+SQL: SELECT `courier_id`,`courier`,`courier_name`,`courier_pwd`,`courier_img`,`courier_phone`,`courier_wx`,`card_no`,`bank_name`,`courier_address`,`courier_idle`,`status`,`money`,`last_login`,`logins` FROM `ty_courier` LIMIT 1   [ RunTime:0.0000s ]
+ERR: 表达式错误:<
+
+[ 2018-03-14T13:52:05+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ty_order` [ RunTime:0.0010s ]
+NOTIC: [8] Constant UC_AUTH_KEY already defined E:\phpweb\maicai\Application\Index\Model\CourierModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `ty_courier` [ RunTime:0.0000s ]
+SQL: SELECT `courier_id`,`courier`,`courier_name`,`courier_pwd`,`courier_img`,`courier_phone`,`courier_wx`,`card_no`,`bank_name`,`courier_address`,`courier_idle`,`status`,`money`,`last_login`,`logins` FROM `ty_courier` LIMIT 1   [ RunTime:0.0010s ]
+ERR: 表达式错误:<
+
+[ 2018-03-14T15:22:04+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ty_order` [ RunTime:0.0010s ]
+NOTIC: [8] Constant UC_AUTH_KEY already defined E:\phpweb\maicai\Application\Index\Model\CourierModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `ty_courier` [ RunTime:0.0010s ]
+SQL: SELECT `courier_id`,`courier`,`courier_name`,`courier_pwd`,`courier_img`,`courier_phone`,`courier_wx`,`card_no`,`bank_name`,`courier_address`,`courier_idle`,`status`,`money`,`last_login`,`logins` FROM `ty_courier` LIMIT 1   [ RunTime:0.0010s ]
+ERR: 表达式错误:<
+
+[ 2018-03-14T15:32:25+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ty_order` [ RunTime:0.0010s ]
+NOTIC: [8] Constant UC_AUTH_KEY already defined E:\phpweb\maicai\Application\Index\Model\CourierModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `ty_courier` [ RunTime:0.0000s ]
+SQL: SELECT `courier_id`,`courier`,`courier_name`,`courier_pwd`,`courier_img`,`courier_phone`,`courier_wx`,`card_no`,`bank_name`,`courier_address`,`courier_idle`,`status`,`money`,`last_login`,`logins` FROM `ty_courier` LIMIT 1   [ RunTime:0.0000s ]
+ERR: 表达式错误:<
+
+[ 2018-03-14T15:40:10+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ty_order` [ RunTime:0.0010s ]
+NOTIC: [8] Constant UC_AUTH_KEY already defined E:\phpweb\maicai\Application\Index\Model\CourierModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `ty_courier` [ RunTime:0.0010s ]
+SQL: SELECT `courier_id`,`courier`,`courier_name`,`courier_pwd`,`courier_img`,`courier_phone`,`courier_wx`,`card_no`,`bank_name`,`courier_address`,`courier_idle`,`status`,`money`,`last_login`,`logins` FROM `ty_courier` LIMIT 1   [ RunTime:0.0010s ]
+ERR: 表达式错误:<
+
+[ 2018-03-14T17:15:19+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ty_order` [ RunTime:0.0010s ]
+NOTIC: [8] Constant UC_AUTH_KEY already defined E:\phpweb\maicai\Application\Index\Model\CourierModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `ty_courier` [ RunTime:0.0010s ]
+SQL: SELECT `courier_id`,`courier`,`courier_name`,`courier_pwd`,`courier_img`,`courier_phone`,`courier_wx`,`card_no`,`bank_name`,`courier_address`,`courier_idle`,`status`,`money`,`last_login`,`logins` FROM `ty_courier` LIMIT 1   [ RunTime:0.0000s ]
+ERR: 表达式错误:<
+
+[ 2018-03-14T17:15:28+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T17:15:30+08:00 ] 127.0.0.1 /Public/images/login_bg_pic.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-14T17:16:19+08:00 ] 127.0.0.1 /Goods/goodsList/curpage/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Goods
+
+[ 2018-03-14T17:18:18+08:00 ] 127.0.0.1 /Goods/goodsList/curpage/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Goods
+
+[ 2018-03-14T17:18:54+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T17:19:16+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ty_order` [ RunTime:0.0010s ]
+NOTIC: [8] Constant UC_AUTH_KEY already defined E:\phpweb\maicai\Application\Index\Model\CourierModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `ty_courier` [ RunTime:0.0010s ]
+SQL: SELECT `courier_id`,`courier`,`courier_name`,`courier_pwd`,`courier_img`,`courier_phone`,`courier_wx`,`card_no`,`bank_name`,`courier_address`,`courier_idle`,`status`,`money`,`last_login`,`logins` FROM `ty_courier` LIMIT 1   [ RunTime:0.0000s ]
+ERR: 表达式错误:<
+
+[ 2018-03-14T17:20:16+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ty_order` [ RunTime:0.0010s ]
+NOTIC: [8] Constant UC_AUTH_KEY already defined E:\phpweb\maicai\Application\Index\Model\CourierModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `ty_courier` [ RunTime:0.0000s ]
+SQL: SELECT `courier_id`,`courier`,`courier_name`,`courier_pwd`,`courier_img`,`courier_phone`,`courier_wx`,`card_no`,`bank_name`,`courier_address`,`courier_idle`,`status`,`money`,`last_login`,`logins` FROM `ty_courier` LIMIT 1   [ RunTime:0.0000s ]
+ERR: 表达式错误:<
+
+[ 2018-03-14T17:22:11+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T17:22:25+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ty_order` [ RunTime:0.0010s ]
+NOTIC: [8] Constant UC_AUTH_KEY already defined E:\phpweb\maicai\Application\Index\Model\CourierModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `ty_courier` [ RunTime:0.0010s ]
+SQL: SELECT `courier_id`,`courier`,`courier_name`,`courier_pwd`,`courier_img`,`courier_phone`,`courier_wx`,`card_no`,`bank_name`,`courier_address`,`courier_idle`,`status`,`money`,`last_login`,`logins` FROM `ty_courier` LIMIT 1   [ RunTime:0.0000s ]
+ERR: 表达式错误:<
+
+[ 2018-03-14T17:22:34+08:00 ] 127.0.0.1 /Goods/goodsList/curpage/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Goods
+
+[ 2018-03-14T17:27:46+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `ty_order` [ RunTime:0.0010s ]
+NOTIC: [8] Constant UC_AUTH_KEY already defined E:\phpweb\maicai\Application\Index\Model\CourierModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `ty_courier` [ RunTime:0.0010s ]
+SQL: SELECT `courier_id`,`courier`,`courier_name`,`courier_pwd`,`courier_img`,`courier_phone`,`courier_wx`,`card_no`,`bank_name`,`courier_address`,`courier_idle`,`status`,`money`,`last_login`,`logins` FROM `ty_courier` LIMIT 1   [ RunTime:0.0000s ]
+ERR: 表达式错误:<
+
+[ 2018-03-14T17:28:25+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ty_order` [ RunTime:0.0010s ]
+NOTIC: [8] Constant UC_AUTH_KEY already defined E:\phpweb\maicai\Application\Index\Model\CourierModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `ty_courier` [ RunTime:0.0010s ]
+SQL: SELECT `courier_id`,`courier`,`courier_name`,`courier_pwd`,`courier_img`,`courier_phone`,`courier_wx`,`card_no`,`bank_name`,`courier_address`,`courier_idle`,`status`,`money`,`last_login`,`logins` FROM `ty_courier` LIMIT 1   [ RunTime:0.0010s ]
+ERR: 表达式错误:<
+
+[ 2018-03-14T17:29:39+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ty_order` [ RunTime:0.0010s ]
+NOTIC: [8] Constant UC_AUTH_KEY already defined E:\phpweb\maicai\Application\Index\Model\CourierModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `ty_courier` [ RunTime:0.0010s ]
+SQL: SELECT `courier_id`,`courier`,`courier_name`,`courier_pwd`,`courier_img`,`courier_phone`,`courier_wx`,`card_no`,`bank_name`,`courier_address`,`courier_idle`,`status`,`money`,`last_login`,`logins` FROM `ty_courier` LIMIT 1   [ RunTime:0.0000s ]
+ERR: 表达式错误:<
+
+[ 2018-03-14T17:30:34+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ty_order` [ RunTime:0.0010s ]
+NOTIC: [8] Constant UC_AUTH_KEY already defined E:\phpweb\maicai\Application\Index\Model\CourierModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `ty_courier` [ RunTime:0.0000s ]
+SQL: SELECT `courier_id`,`courier`,`courier_name`,`courier_pwd`,`courier_img`,`courier_phone`,`courier_wx`,`card_no`,`bank_name`,`courier_address`,`courier_idle`,`status`,`money`,`last_login`,`logins` FROM `ty_courier` LIMIT 1   [ RunTime:0.0000s ]
+ERR: 表达式错误:<
+
+[ 2018-03-14T17:31:33+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-14T17:31:44+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ty_order` [ RunTime:0.0010s ]
+NOTIC: [8] Constant UC_AUTH_KEY already defined E:\phpweb\maicai\Application\Index\Model\CourierModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `ty_courier` [ RunTime:0.0000s ]
+SQL: SELECT `courier_id`,`courier`,`courier_name`,`courier_pwd`,`courier_img`,`courier_phone`,`courier_wx`,`card_no`,`bank_name`,`courier_address`,`courier_idle`,`status`,`money`,`last_login`,`logins` FROM `ty_courier` LIMIT 1   [ RunTime:0.0010s ]
+ERR: 表达式错误:<
+
+[ 2018-03-14T17:32:22+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ty_order` [ RunTime:0.0000s ]
+NOTIC: [8] Constant UC_AUTH_KEY already defined E:\phpweb\maicai\Application\Index\Model\CourierModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `ty_courier` [ RunTime:0.0010s ]
+SQL: SELECT `courier_id`,`courier`,`courier_name`,`courier_pwd`,`courier_img`,`courier_phone`,`courier_wx`,`card_no`,`bank_name`,`courier_address`,`courier_idle`,`status`,`money`,`last_login`,`logins` FROM `ty_courier` LIMIT 1   [ RunTime:0.0000s ]
+ERR: 表达式错误:<
+
+[ 2018-03-14T17:32:31+08:00 ] 127.0.0.1 /Goods/goodsList/curpage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Goods
+
+[ 2018-03-14T17:32:47+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ty_order` [ RunTime:0.0010s ]
+NOTIC: [8] Constant UC_AUTH_KEY already defined E:\phpweb\maicai\Application\Index\Model\CourierModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `ty_courier` [ RunTime:0.0000s ]
+SQL: SELECT `courier_id`,`courier`,`courier_name`,`courier_pwd`,`courier_img`,`courier_phone`,`courier_wx`,`card_no`,`bank_name`,`courier_address`,`courier_idle`,`status`,`money`,`last_login`,`logins` FROM `ty_courier` LIMIT 1   [ RunTime:0.0000s ]
+ERR: 表达式错误:<
+
+[ 2018-03-14T17:32:55+08:00 ] 127.0.0.1 /Goods/goodsList/curpage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Goods
+
+[ 2018-03-14T17:33:33+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ty_order` [ RunTime:0.0010s ]
+NOTIC: [8] Constant UC_AUTH_KEY already defined E:\phpweb\maicai\Application\Index\Model\CourierModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `ty_courier` [ RunTime:0.0000s ]
+SQL: SELECT `courier_id`,`courier`,`courier_name`,`courier_pwd`,`courier_img`,`courier_phone`,`courier_wx`,`card_no`,`bank_name`,`courier_address`,`courier_idle`,`status`,`money`,`last_login`,`logins` FROM `ty_courier` LIMIT 1   [ RunTime:0.0000s ]
+ERR: 表达式错误:<
+
+[ 2018-03-14T17:34:01+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ty_order` [ RunTime:0.0010s ]
+NOTIC: [8] Constant UC_AUTH_KEY already defined E:\phpweb\maicai\Application\Index\Model\CourierModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `ty_courier` [ RunTime:0.0000s ]
+SQL: SELECT `courier_id`,`courier`,`courier_name`,`courier_pwd`,`courier_img`,`courier_phone`,`courier_wx`,`card_no`,`bank_name`,`courier_address`,`courier_idle`,`status`,`money`,`last_login`,`logins` FROM `ty_courier` LIMIT 1   [ RunTime:0.0010s ]
+ERR: 表达式错误:<
+
+[ 2018-03-14T17:34:24+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ty_order` [ RunTime:0.0010s ]
+NOTIC: [8] Constant UC_AUTH_KEY already defined E:\phpweb\maicai\Application\Index\Model\CourierModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `ty_courier` [ RunTime:0.0010s ]
+SQL: SELECT `courier_id`,`courier`,`courier_name`,`courier_pwd`,`courier_img`,`courier_phone`,`courier_wx`,`card_no`,`bank_name`,`courier_address`,`courier_idle`,`status`,`money`,`last_login`,`logins` FROM `ty_courier` LIMIT 1   [ RunTime:0.0000s ]
+ERR: 表达式错误:<
+
+[ 2018-03-14T17:41:04+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T17:44:35+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T17:46:00+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T17:48:16+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-14T17:49:43+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-14T18:01:35+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T18:01:36+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T18:01:40+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T18:01:40+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T18:01:40+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T18:01:40+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T18:01:41+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-14T18:01:41+08:00 ] 127.0.0.1 /Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T18:01:41+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-14T18:01:50+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T18:01:50+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T18:01:50+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T18:01:50+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-03-14T18:01:50+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-03-14T18:01:50+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+

@@ -1,0 +1,75 @@
+/* withdrawals.wxss */
+
+page {
+  background-color: #f6f5fa;
+}
+
+.wback {
+  background: #fff;
+}
+
+input {
+  display: inline-table;
+  /* height: 1rem;  */
+  text-overflow: clip;
+  overflow: hidden;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  min-height: auto;
+  height: auto;
+  margin-left: 20rpx;
+}
+
+.wdiv {
+  font-size: 30rpx;
+  display: flex;
+  align-items: center;
+  padding-top: 25rpx;
+  padding-bottom: 25rpx;
+  background: #fff;
+  margin-top: 20rpx;
+}
+
+.wdiv text {
+  margin-left: 25rpx;
+}
+
+.wtitle {
+  padding-left: 25rpx;
+  background: #fff;
+}
+
+.wtitle text {
+  display: block;
+  padding-top: 20rpx;
+}
+
+.title-text {
+  padding-bottom: 13px;
+  font-size: 60rpx;
+}
+
+.title-text2 {
+  font-size: 30rpx;
+  color: #878787;
+}
+
+.wbutton {
+  margin: auto;
+  margin-top: 50rpx;
+  width: 86%;
+}
+
+button {
+  background: #f9464b;
+  color: #fff;
+}
+
+.show_view {
+  display: block;
+}
+
+.hidde_view {
+  display: none;
+}

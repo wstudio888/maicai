@@ -1,0 +1,274 @@
+<include file="Public/min-header" />
+<!--引入高德地图JSAPI -->
+<script src="//webapi.amap.com/maps?v=1.3&key=742abd0ce995841e7b1721000ac4672e"></script>
+
+<div class="wrapper">
+	<include file="Public/breadcrumb"/>
+	<section class="content">
+       <div class="row">
+       		<div class="col-xs-12">
+	       		<div class="box">
+	             <div class="box-header">
+	           	   <nav class="navbar navbar-default">
+				      <div class="collapse navbar-collapse">
+	    				<div class="navbar-form form-inline">
+				            <div class="form-group">
+				            	<p class="text-success margin blod">达达门店编辑</p>
+				            </div>
+				             <div class="form-group">
+				            </div>
+	                        <div class="pull-right">
+				                <a href="javascript:history.go(-1)" data-toggle="tooltip" title="" class="btn btn-default" data-original-title="返回"><i class="fa fa-reply"></i></a>
+				            </div>
+				          </div>
+				       </div>
+	    		 	</nav>
+	             </div>
+	             <div class="box-body">
+	           	 <div class="row">
+	            	<div class="col-sm-12">
+	            	  <form method="post" id="store_info">
+		              <table class="table table-bordered table-striped dataTable">
+                        <tbody>
+                        <!-- 达达门店信息 -->
+                         <tr>
+                            <td>门店名称：</td>
+                            <td><input type="text" name="dada_name" class="small form-control" value="{$info.dada_name}"></td>
+                       		<td class="text-warning">达达门店名称</td>
+                        </tr>
+                         <tr>
+                            <td>门店主营：</td>
+                            <td><select name="dada_class" class="small form-control">
+                                    <option value="1" class="select-option" <eq name="info['dada_class']" value="1">selected="selected"</eq>> 食品小吃</option>
+                                    <option value="2" class="select-option" <eq name="info['dada_class']" value="2">selected="selected"</eq>> 饮料</option>
+                                    <option value="3" class="select-option" <eq name="info['dada_class']" value="3">selected="selected"</eq>> 鲜花</option>
+                                    <option value="5" class="select-option" <eq name="info['dada_class']" value="5">selected="selected"</eq>> 其他</option>
+                                    <option value="8" class="select-option" <eq name="info['dada_class']" value="8">selected="selected"</eq>> 文印票务</option>
+                                    <option value="9" class="select-option" <eq name="info['dada_class']" value="9">selected="selected"</eq>> 便利店</option>
+                                    <option value="13" class="select-option" <eq name="info['dada_class']" value="13">selected="selected"</eq>>水果生鲜</option>
+                                    <option value="19" class="select-option" <eq name="info['dada_class']" value="19">selected="selected"</eq>>同城电商</option>
+                                    <option value="20" class="select-option" <eq name="info['dada_class']" value="20">selected="selected"</eq>>医药</option>
+                                    <option value="21" class="select-option" <eq name="info['dada_class']" value="21">selected="selected"</eq>>蛋糕</option>
+                                    <option value="24" class="select-option" <eq name="info['dada_class']" value="24">selected="selected"</eq>>酒品</option>
+                                    <option value="25" class="select-option" <eq name="info['dada_class']" value="25">selected="selected"</eq>>小商品市场</option>
+                                    <option value="26" class="select-option" <eq name="info['dada_class']" value="26">selected="selected"</eq>>服装</option>
+                                    <option value="27" class="select-option" <eq name="info['dada_class']" value="27">selected="selected"</eq>>汽修零配</option>
+                                    <option value="28" class="select-option" <eq name="info['dada_class']" value="28">selected="selected"</eq>>数码</option>
+                                    <option value="29" class="select-option" <eq name="info['dada_class']" value="29">selected="selected"</eq>>小龙虾</option>
+                            </select></td>
+                       		<td class="text-warning">达达门店主营</td>
+                        </tr>
+                         <tr>
+                            <td>联系人/店长：</td>
+                            <td><input type="text" name="dada_contacts" class="small form-control" value="{$info.dada_contacts}"></td>
+                       		<td class="text-warning">达达联系人</td>
+                        </tr>
+                        <tr>
+                            <td>联系人身份证：</td>
+                            <td><input type="text" name="dada_identity" class="small form-control" value="{$info.dada_identity}"></td>
+                            <td class="text-warning">达达身份证地址</td>
+                        </tr>
+                         <tr>
+                            <td>联系电话：</td>
+                            <td><input type="text" name="dede_mobile" class="small form-control" value="{$info.dede_mobile}"></td>
+                            <td class="text-warning">达达联系电话</td>
+                        </tr>
+                        <tr>
+                            <td>门店地址：</td>
+                            <td><input type="text" name="dada_addres" id="addres" class="small form-control" value="{$info.dada_addres}"></td>
+                            <td class="text-warning"  onclick="getaddres()">
+                                <div style="align-content:center;height:34px;width:120px;border:1px solid #00acd6;text-align:center;line-height:34px;">定位确认地址</div>
+                            </td>
+                        </tr>
+                        <tr >
+                            <td colspan="3"><div id="container" style="width:776px; height:450px;margin:auto;"></div></td>
+                            <div id ='message'></div>
+                        </tr>
+                        </tbody>
+                        <tfoot>
+                        <tr>
+                        <input type="hidden" name="dada_lat" id="dada_lat" value="{$info.dada_lat}"/>
+                        <input type="hidden" name="dada_lng" id="dada_lng" value="{$info.dada_lng}"/>
+                        <input type="hidden" name="dada_city" id="dada_city" value="{$info.dada_city}"/>
+                        <input type="hidden" name="dada_district" id="dada_district" value="{$info.dada_district}"/>
+                        <input type="hidden" name="origin_shop_id" id="origin_shop_id" value="{$info.origin_shop_id}"/>
+                        <input type="hidden" name="id" id="id" value="{$info.id}"/>
+                        <td colspan="3" style="text-align:center;">
+                        	<a href="javascript:void(0)" onclick="actsubmit()" class="btn btn-info margin">提交</a>
+                        	<input type="hidden" name="is_own_shop" value="{$is_own_shop}">
+                        </td>
+                        </tr>
+                        </tfoot>
+		               </table>
+		               </form>
+	               </div>
+	            </div>
+	          </div>
+	        </div>
+       	</div>
+       </div>
+   </section>
+    <script type="text/javascript">
+    var lng = "{$info.dada_lng|default='113.241923'}";
+    var lat = "{$info.dada_lat|default='23.165876'}";
+
+    var map = new AMap.Map('container', {
+        zoom: 13,
+        resizeEnable: true,
+        pageSize: 5,
+        city: "广州市",
+        pageIndex: 1,
+        center: [lng,lat],
+        map: map,
+    });
+    function getaddres() {
+        var keyword = $("#addres").val();
+        AMap.service(["AMap.Geocoder"],function () {
+            //实例化Geocoder
+            geocoder = new AMap.Geocoder({
+            });
+            //地理编码
+            geocoder.getLocation(keyword, function (status, result) {
+                if (status === 'complete' && result.info === 'OK') {
+                    //TODO:获得了有效经纬度，可以做一些展示工作
+                    console.info(result);
+                   console.info("经度:"+result.geocodes[0].location.lng)
+                   console.info("纬度:"+result.geocodes[0].location.lat);
+                   $("#dada_lng").val(result.geocodes[0].location.lng);
+                   $("#dada_lat").val(result.geocodes[0].location.lat);
+                   $("#dada_city").val(result.geocodes[0].addressComponent.city);
+                   $("#dada_district").val(result.geocodes[0].addressComponent.district);
+                    alert("定位成功");
+                } else {
+                  //获取经纬度失败
+                  alert("定位失败,请选择详细的地址！");
+                  console.info(status);
+                }
+            });
+        });
+    }
+    function dingwei() {
+        var keyword = $("#addres").val();
+        AMap.service(["AMap.PlaceSearch"], function () {
+            var placeSearch = new AMap.PlaceSearch({ //构造地点查询类
+                pageSize: 5,
+                pageIndex: 1,
+                city: "广州", //城市
+                map: map//,
+                //panel: "panel"
+            });
+            //关键字查询
+            placeSearch.search(keyword, function (status, result) {
+            });
+        });
+    }
+    AMap.plugin(['AMap.Autocomplete', 'AMap.PlaceSearch'], function () {
+        var autoOptions = {
+            city: "广州", //城市，默认全国
+            input: "addres"//使用联想输入的input的id
+        };
+        autocomplete = new AMap.Autocomplete(autoOptions);
+        var placeSearch = new AMap.PlaceSearch({
+            city: '广州',
+            map: map
+        })
+
+        AMap.event.addListener(autocomplete, "select", function (e) {
+            placeSearch.search(e.poi.name)
+        });
+    });
+
+        AMap.plugin('AMap.Geocoder',function(){
+        var geocoder = new AMap.Geocoder({
+            city: "广州"//城市，默认：“全国”
+        });
+        var marker = new AMap.Marker({
+            map:map,
+            bubble:true
+        })
+        var input = document.getElementById('addres');
+        var message = document.getElementById('message');
+        map.on('click',function(e){
+            marker.setPosition(e.lnglat);
+            geocoder.getAddress(e.lnglat,function(status,result){
+              if(status=='complete'){
+                 input.value = result.regeocode.formattedAddress
+                 message.innerHTML = ''
+              }else{
+                 message.innerHTML = '无法获取地址'
+              }
+            })
+        })
+
+        input.onchange = function(e){
+            var address = input.value;
+            geocoder.getLocation(address,function(status,result){
+              if(status=='complete'&&result.geocodes.length){
+                marker.setPosition(result.geocodes[0].location);
+                map.setCenter(marker.getPosition())
+                message.innerHTML = ''
+              }else{
+                message.innerHTML = '无法获取位置'
+              }
+            })
+        }
+
+    });
+    </script>
+<script>
+var flag = true;
+function actsubmit(){
+	if($('input[name=dada_name]').val() == ''){
+		layer.msg("门店名称不能为空", {icon: 2,time: 2000});
+		return;
+	}
+	if($('input[name=dada_contacts]').val() == ''){
+		layer.msg("联系人不能为空", {icon: 2,time: 2000});
+		return;
+	}
+	if($('input[name=dada_class]').val() == ''){
+		layer.msg("门店主营不能为空", {icon: 2,time: 2000});
+		return;
+	}
+	if($('input[name=dada_identity]').val() == ''){
+		layer.msg("联系人身份证不能为空", {icon: 2,time: 2000});
+		return;
+	}
+	if($('input[name=dede_mobile]').val() == ''){
+		layer.msg("联系电话不能为空", {icon: 2,time: 2000});
+		return;
+	}
+	if($('input[name=dada_addres]').val() == ''){
+		layer.msg("门店地址不能为空", {icon: 2,time: 2000});
+		return;
+	}
+    if($('input[name=dada_lat]').val() == ''){
+		layer.msg("定位失败,请重新等位", {icon: 2,time: 2000});
+		return;
+	}
+	if(flag){
+		$('#store_info').submit();
+	}
+}
+
+function store_check(){
+	$.ajax({
+		type:'post',
+		url:"{:U('Store/store_check')}",
+		dataType:'json',
+		data:{store_name:$('input[name=store_name]').val(),seller_name:$('input[name=seller_name]').val(),user_name:$('input[name=user_name]').val()},
+		success:function(res){
+			if(res.stat != 'ok'){
+				layer.msg(res.msg, {icon: 2,time: 2000});
+				flag = false;
+				return;
+			}else{
+				flag = true;
+			}
+		}
+	});
+}
+</script>
+</div>
+</body>
+</html>

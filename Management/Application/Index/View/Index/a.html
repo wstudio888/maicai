@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no, width=device-width">
+    <title>逆地理编码</title>
+    <link rel="stylesheet" href="http://cache.amap.com/lbs/static/main1119.css"/>
+    <script type="text/javascript" src="http://webapi.amap.com/maps?v=1.4.0&key=742abd0ce995841e7b1721000ac4672e&plugin=AMap.Geocoder"></script>
+    <script type="text/javascript" src="http://cache.amap.com/lbs/static/addToolbar.js"></script>
+</head>
+<body onload="regeocoder()">
+<div id="container"></div>
+<div id="tip">
+    <b id="lng">{$lng}</b>
+    <b id="lat">{$lat}</b>
+    <b id="order_id" style="display: none">{$order_id}</b>
+    <b id="status" style="display: none">{$status}</b>
+    <span id="result"></span>
+</div>
+<script type="text/javascript" src="__HOME__/js/jquery.js"></script>
+<script type="text/javascript">
+    var lng = $('#lng').html();
+    var lat = $('#lat').html();
+    var order_id = $('#order_id').html();
+    var status = $('#status').html();
+
+    var map = new AMap.Map("container", {
+        resizeEnable: true,
+		zoom: 18
+    }),    
+    lnglatXY = [lng,lat]; //已知点坐标
+    function regeocoder() {  //逆地理编码
+        var geocoder = new AMap.Geocoder({
+            radius: 1000,
+            extensions: "all"
+        });        
+        geocoder.getAddress(lnglatXY, function(status, result) {
+            if (status === 'complete' && result.info === 'OK') {
+                geocoder_CallBack(result);
+            }
+        });        
+        var marker = new AMap.Marker({  //加点
+            map: map,
+            position: lnglatXY
+        });
+        map.setFitView();
+    }
+    function geocoder_CallBack(data) {
+        var address_s = data.regeocode.formattedAddress; //返回地址描述
+        window.location.href='map.html?address_s='+ address_s +'&order_id=' + order_id+'&status=' + status;
+    }
+</script>
+</body>
+</html>

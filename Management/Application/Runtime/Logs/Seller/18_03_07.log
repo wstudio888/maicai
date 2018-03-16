@@ -1,0 +1,127 @@
+[ 2018-03-07T10:18:17+08:00 ] 14.157.58.163 /Seller/Admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000544s ]
+SQL: SHOW COLUMNS FROM `ty_config` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ty_config`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: seller/admin /var/www/html/maicai/Application/Seller/Common/function.php 第 71 行.
+NOTIC: [8] Undefined index: seller/admin /var/www/html/maicai/Application/Seller/Common/function.php 第 72 行.
+INFO: [ view_begin ] --START--
+INFO: Run Home\Behaviors\testBehavior [ RunTime:0.000233s ]
+INFO: [ view_begin ] --END-- [ RunTime:0.000303s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004922s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004961s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000110s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000251s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000442s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000333s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000377s ]
+
+[ 2018-03-07T10:18:17+08:00 ] 14.157.58.163 /Seller/Admin/vertify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000395s ]
+SQL: SHOW COLUMNS FROM `ty_config` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ty_config`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: seller/admin /var/www/html/maicai/Application/Seller/Common/function.php 第 71 行.
+NOTIC: [8] Undefined index: seller/admin /var/www/html/maicai/Application/Seller/Common/function.php 第 72 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000369s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000417s ]
+
+[ 2018-03-07T10:18:36+08:00 ] 14.157.58.163 /index.php?m=Seller&c=Admin&a=login&t=0.9729639489346797
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000370s ]
+SQL: SHOW COLUMNS FROM `ty_config` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ty_config`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: seller/admin /var/www/html/maicai/Application/Seller/Common/function.php 第 71 行.
+NOTIC: [8] Undefined index: seller/admin /var/www/html/maicai/Application/Seller/Common/function.php 第 72 行.
+SQL: SHOW COLUMNS FROM `ty_seller` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ty_seller` WHERE `seller_name` = 'mcpt2333@163.com' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-03-07T10:19:35+08:00 ] 14.157.58.163 /index.php?m=Seller&c=Admin&a=login&t=0.7889831409247712
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000229s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000334s ]
+SQL: SHOW COLUMNS FROM `ty_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ty_config`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: seller/admin /var/www/html/maicai/Application/Seller/Common/function.php 第 71 行.
+NOTIC: [8] Undefined index: seller/admin /var/www/html/maicai/Application/Seller/Common/function.php 第 72 行.
+
+[ 2018-03-07T10:19:37+08:00 ] 14.157.58.163 /index.php?m=Seller&c=Admin&a=vertify&r=45
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000367s ]
+SQL: SHOW COLUMNS FROM `ty_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ty_config`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: seller/admin /var/www/html/maicai/Application/Seller/Common/function.php 第 71 行.
+NOTIC: [8] Undefined index: seller/admin /var/www/html/maicai/Application/Seller/Common/function.php 第 72 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000334s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000382s ]
+
+[ 2018-03-07T10:19:40+08:00 ] 14.157.58.163 /index.php?m=Seller&c=Admin&a=login&t=0.39354743251700813
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000338s ]
+SQL: SHOW COLUMNS FROM `ty_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ty_config`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: seller/admin /var/www/html/maicai/Application/Seller/Common/function.php 第 71 行.
+NOTIC: [8] Undefined index: seller/admin /var/www/html/maicai/Application/Seller/Common/function.php 第 72 行.
+SQL: SHOW COLUMNS FROM `ty_seller` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ty_seller` WHERE `seller_name` = 'mcpt2333@163.com' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2018-03-07T10:23:42+08:00 ] 14.157.58.163 /index.php?m=Seller&c=Admin&a=vertify&r=35
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000352s ]
+SQL: SHOW COLUMNS FROM `ty_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ty_config`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: seller/admin /var/www/html/maicai/Application/Seller/Common/function.php 第 71 行.
+NOTIC: [8] Undefined index: seller/admin /var/www/html/maicai/Application/Seller/Common/function.php 第 72 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000467s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000526s ]
+
+[ 2018-03-07T10:23:48+08:00 ] 14.157.58.163 /index.php?m=Seller&c=Admin&a=login&t=0.9362980450779981
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000355s ]
+SQL: SHOW COLUMNS FROM `ty_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ty_config`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: seller/admin /var/www/html/maicai/Application/Seller/Common/function.php 第 71 行.
+NOTIC: [8] Undefined index: seller/admin /var/www/html/maicai/Application/Seller/Common/function.php 第 72 行.
+SQL: SHOW COLUMNS FROM `ty_seller` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ty_seller` WHERE `seller_name` = 'mp.weixin.qq.com' LIMIT 1   [ RunTime:0.0002s ]
+

@@ -1,0 +1,27 @@
+  <div class="buttom">
+    <a href="{:url('index/index')}"><div>
+    <img src="__HOME__/images/index.png" class="img">
+    <span>首页</span>
+    </div></a>
+
+     <a href="{:url('order/index',['status'=>'1'])}"><div>
+    <img src="__HOME__/images/1.png" class="img">
+    <span>订单</span>
+    </div></a>
+
+     <a href="{:url('index/userinfo')}"><div>
+    <img src="__HOME__/images/my.png" class="img">
+    <span>我的</span>
+    </div></a>
+
+
+  </div>
+  <script type="text/javascript">
+  function show() {
+    $('#showdiv').removeClass("hide");
+    setTimeout(function () {
+                $('#showdiv').addClass("hide");
+            }, 2000);
+  }
+
+  </script>

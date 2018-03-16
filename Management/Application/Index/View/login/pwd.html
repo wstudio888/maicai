@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+<title>配送系统</title>
+
+<include file="public/header"/>
+</head>
+<body class="user html">
+  <!--页头开始-->
+  <div class="header">
+    <div class="head">
+    <span class="title_left float_left"><a href="" onclick="javascript:window.history.back(-1);"><img src="__HOME__/images/jiantou.png" style="width: 85%;margin-top: 5px;"></a></span>
+    <span class="title">编辑资料</span>
+       <div class="title_r"><a href="javascript:void(0);" onclick="show()"><img src="__HOME__/images/dian.png"></a></div>
+      <div class="hide loginout" id="showdiv">
+      <ul>
+      <li><a href="{:url('Index/index')}">首页</a></li>
+      <li><a href="{:url('Login/logout')}">退出</a></li>
+      </ul></div>
+    </div>
+  </div>  
+  <!--页头结束-->
+  <!-- 内容主体开始 -->
+  <div class="content pwd_x">
+    <ul>
+      <li class="userinfo_li_one" onclick="show_input(img)">
+        <span>{$courier.courier_name}</span>
+        <img src="__HOME__/images/fan.png" class="userinfo_li_img"> 
+        <img alt="用户头像" src="{$courier.courier_img}" class="userimg"> </li>
+
+      <form action="{:url('Login/pwd')}" method="POST">
+      <input type="hidden" name="courier_id"  value="{$courier.courier_id}" />
+      <li >
+          <div id="name_show" class="courier_name_show pwd">
+            <span>旧密码</span>
+            <img src="__HOME__/images/fan.png" class="userinfo_li_img">
+            <p id="courier_name_val" class="pwd_p"><input type="password" name="old_pwd" id="old_pwd" placeholder="******"  /></p></div>
+      </li>
+      <li>
+          <div id="name_show" class="courier_name_show pwd">
+            <span>新密码</span>
+            <img src="__HOME__/images/fan.png" class="userinfo_li_img">
+            <p id="courier_name_val" class="pwd_p"><input type="password" name="new_pwd" id="new_pwd" placeholder="******" /></p></div>
+      </li>
+      <li>
+          <div id="name_show" class="courier_name_show pwd">
+            <span>确认新密码</span>
+            <img src="__HOME__/images/fan.png" class="userinfo_li_img">
+            <p id="courier_name_val" class="pwd_p"><input type="password" name="new2_pwd" id="new2_pwd" placeholder="******" /></p></div>
+      </li>
+      <li id="quxiao">
+        <div>
+            <span><button type="submit" class="busy"  href="javascript:void(0);" onclick="check1()">确认修改</button></span>
+            <p class="ap"></p></div></li>   
+      </form>
+
+    </ul>
+  </div>
+  <!-- 内容主体结束 -->
+  <!-- 内容尾部开始 -->
+  <include file="public/footer" />
+  <!-- 内容尾部结束 -->
+
+  <script type="text/javascript">
+    function $(id) {  
+         return document.getElementById(id);  
+    }  
+    function check1() {  
+       var old_pwd = $("old_pwd").value;  
+       var new_pwd = $("new_pwd").value;  
+       var new2_pwd = $("new2_pwd").value;  
+
+       if(old_pwd == "") {  
+          $("old_pwd").placeholder = ("旧密码不能为空");  
+          $("old_pwd").focus();  
+          return false; 
+       }
+
+       if(new_pwd == "") {  
+         $("new_pwd").placeholder = ("旧密码不能为空");  
+          $("new_pwd").focus();  
+          return false;  
+       }
+
+       if(new2_pwd == "") {  
+         $("new2_pwd").placeholder = ("旧密码不能为空");  
+          $("new2_pwd").focus();  
+          return false;  
+       }
+
+       $.ajax({
+        type: "get",
+        url: 'user.html?'+ key +'='+ val,
+        success: function (res) {
+
+        }
+    }
+  </script>
+</body>
+</html>

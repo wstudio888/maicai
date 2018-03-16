@@ -1,0 +1,58 @@
+<!--money.wxml-->
+<view style="background:#F5F5F5">
+  <!-- 头部 -->
+  <view class="money-header">
+    <view class="money-left">
+      <text>累计佣金(元)</text>
+      <text>{{user.distribut_money}}</text>
+    </view>
+    <view class="money-right" bindtap="navigateToDetailed">
+      <text>提现明细</text>
+    </view>
+  </view>
+
+  <view class="list-text">
+    <view class="text-list">
+      <text>可提现佣金</text>
+      <text class="textred">{{user.out_money}}元</text>
+    </view>
+    <view class="text-list">
+      <text>已申请佣金</text>
+      <text class="textred">{{user.y_money}}元</text>
+    </view>
+    <!-- <view class="text-list">
+      <text>待打款佣金</text>
+      <text class="textred">{{user.p_money}}元</text>
+    </view> -->
+    <view class="text-list">
+      <text>无效佣金</text>
+      <text class="textred">{{user.w_money}}元</text>
+    </view>
+    <view class="text-list">
+      <text>成功提现佣金</text>
+      <text class="textred">{{user.ok_money}}元</text>
+    </view>
+    <!-- <view class="text-list">
+      <text>代收货佣金</text>
+      <text class="textred">0.00元</text>
+    </view> -->
+    <view class="text-list">
+      <text>未结算佣金</text>
+      <text class="textred">{{user.d_money}}元</text>
+    </view>
+    <view class="text-list">
+      <text>冻结佣金</text>
+      <text class="textred">0.00元</text>
+    </view>
+    <view class="text-list">
+      <text>用户须知</text>
+      <text class="textred">买家确认收货后,立即获得</text>
+    </view>
+  </view>
+  <view style="padding-bottom:30rpx;">
+    <block wx:if="{{user.out_money > 1}}">
+      <button class="txbutton" bindtap="navigateToWithdrawals">申请提现</button>
+    </block>
+    <button wx:else class="txbutton2" >暂无提现</button>
+  </view>
+</view>

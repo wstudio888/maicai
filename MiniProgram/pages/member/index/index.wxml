@@ -1,0 +1,121 @@
+<view>
+  <view class="userinfo">
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover" bindtap="chooseImage"></image>
+    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+  </view>
+  <view class="order-area">
+    <view bindtap="navigateToOrder" data-index="1" class="order">
+      <image src="../../../images/dfk.png" style="width:45rpx;height:45rpx;" />
+      <text>待付款</text>
+    </view>
+    <view bindtap="navigateToOrder" data-index="3" class="order">
+      <image src="../../../images/dsh.png" style="width:45rpx;height:45rpx;" />
+      <text>待收货</text>
+    </view>
+    <view bindtap="navigateToOrder" data-index="4" class="order">
+      <image src="../../../images/success.png" style="width:55rpx;height:45rpx;" />
+      <text>已完成</text>
+    </view>
+    <view bindtap="navigateToPin" data-index="4" class="order">
+      <image src="../../../images/wdpj.png" style="width:45rpx;height:45rpx;" />
+      <text>待评价</text>
+    </view>
+        <view bindtap="navigateToOrder" data-index="5" class="order">
+      <image src="../../../images/tk.png" style="width:45rpx;height:45rpx;" />
+      <text>退款/售后</text>
+    </view>
+  </view>
+  <view bindtap="navigateToMoney" class="tableviewcell">
+    <image src="../../../images/qb.png" />
+    <text>我的钱包</text>
+    <image src="../../../images/right.png" style="position: absolute;right:5%"></image>
+  </view>
+  <view bindtap="navigateToFx" class="tableviewcell">
+    <image src="../../../images/jjf.png" />
+    <text>分销中心</text>
+    <image src="../../../images/right.png" style="position: absolute;right:5%"></image>
+  </view>
+  <view bindtap="navigateToPoint" class="tableviewcell">
+    <image src="../../../images/jf.png" />
+    <text>我的积分</text>
+    <image src="../../../images/right.png" style="position: absolute;right:5%"></image>
+  </view>
+  <view bindtap="navigateToCoupon" class="tableviewcell">
+    <image src="../../../images/yhj.png" />
+    <text>我的优惠劵</text>
+    <image src="../../../images/right.png" style="position: absolute;right:5%"></image>
+  </view>
+  <view bindtap="navigateToOrder" class="tableviewcell">
+    <image src="../../../images/dd.png" />
+    <text>我的订单</text>
+    <image src="../../../images/right.png" style="position: absolute;right:5%"></image>
+  </view>
+  <!-- <view bindtap="navigateToAddressAboutus" class="tableviewcell">
+    <image src="../../../images/yhj.png" />
+    <text>我的优惠劵</text>
+    <image src="../../../images/right.png" style="position: absolute;right:5%"></image>
+  </view> -->
+  <view bindtap="navigateToEvaluate" class="tableviewcell">
+    <image src="../../../images/pj.png" />
+    <text>我的评价</text>
+    <image src="../../../images/right.png" style="position: absolute;right:5%"></image>
+  </view>
+  <view bindtap="navigateToCollect" class="tableviewcell">
+    <image src="../../../images/sc.png" />
+    <text>我的收藏</text>
+    <image src="../../../images/right.png" style="position: absolute;right:5%"></image>
+  </view>
+  <view bindtap="navigateToAddress" class="tableviewcell">
+    <image src="../../../images/dw.png" />
+    <text>地址管理</text>
+    <image src="../../../images/right.png" style="position: absolute;right:5%"></image>
+  </view>
+  <!-- <view bindtap="navigateToAddressAboutus" class="tableviewcell">
+	<image src="../../../images/ly.png" />
+	<text>我的留言</text>
+</view> -->
+  <view hidden bindtap="navigateToAddressAboutus" class="tableviewcell">
+    <image src="../../../images/jf.png" />
+    <text>关于我们</text>
+  </view>
+
+   <view bindtap="logout" class="tableviewcell">
+    <image src="../../../images/ly.png" />
+    <text>免费入驻</text>
+    <image src="../../../images/right.png" style="position: absolute;right:5%"></image>
+  </view> 
+  <!--<button bindtap="logout" type="warn" class="logout">退出</button>-->
+ </view> 
+ <view class="footer-desc">
+<view ><image src="../../../images/ws.png" mode="scaleToFill" style="width:89px;height:45px;"></image></view>
+ </view>  
+<!--
+
+<view wx:else class="wx-view_login" style="height:{{height}}px;">
+
+    <view class="view_logup_form">
+        <view class="wx-view_log_item" >
+            <input placeholder-style="color:#999999" class="c-block wx_input" placeholder="请输入11位手机号" type="number" bindinput="getPhoneNum"/>
+            <view class="btn_getnum" catchtap="getnum">
+			{{time}}
+            </view>
+        </view>
+        <view class="wx-view_log_item" style="border-bottom-style: none;">
+            <input placeholder-style="color:#999999" class="c-block c-fullwidth wx_input"  placeholder="请输入验证码" type="number" bindinput="inputNum"/>
+        </view>
+    </view>
+    <button class="wx-button_logup"  bindtap="quick_login_phone" data-id="{{phoneNum}}" hover-class="button-hover" size="default" type="warn" >
+        登录
+    </button>
+	 <button class="wx-button_register"  bindtap="quick_reguster_phone" data-id="{{phoneNum}}" hover-class="button-hover" size="default"  >
+        注册
+    </button>
+</view>
+
+
+-->
+
+
+<!-- 返回顶部按钮 -->
+<import src="/template/toTop/toTop.wxml" />
+<template is="toTop" data="{{...toTop}}" />

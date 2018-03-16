@@ -1,0 +1,73 @@
+<include file="Public/min-header" />
+<div class="wrapper">
+	<include file="Public/breadcrumb"/>
+	<section class="content">
+       <div class="row">
+       		<div class="col-xs-12">
+	       		<div class="box">
+	             <div class="box-header">
+              		<nav class="navbar navbar-default">
+	               		<div class="pull-right navbar-form">
+	               			<label><a class="btn btn-block btn-primary" href="{:U('Admin/Ad/position')}">新增广告位</a></label>
+	               		</div>
+	               	</nav>
+	             </div>
+	             <div class="box-body">
+		           <div class="row">
+		            	<div class="col-sm-12">
+			              <table id="list-table" class="table table-bordered table-striped dataTable" role="grid" aria-describedby="example1_info">
+			                 <thead>
+			                   <tr role="row">
+			                   	 <th>编号</th>
+				                   <th>微信昵称</th>
+				                   <th>可用资金</th>
+				                   <th>冻结资金</th>
+				                   <th>总分成金额</th>
+				                   <th>下线会员总数</th>
+				                   <th>一级会员数</th>
+				                   <th>二级会员数</th>
+				                   <th>三级会员数</th>
+				                   <th>状态</th>
+				                   <th>操作</th>
+			                   </tr>
+			                 </thead>
+							<tbody>
+							  <foreach name="list" item="vo" key="k" >
+							  	<tr role="row">
+                      <td>{$vo.user_id}</td>
+                      <td>{$vo.nick_name}</td>
+                      <td>{$vo.user_money}</td>
+                      <td>{$vo.frozen_money}</td>
+                      <td>{$vo.distribut_money}</td>
+                      <td>{$vo.underling_number}</td>
+                      <td align="left" class="">
+                          <div style="text-align: center; width: 30px;">{$first_leader[$vo[user_id]]['count']|default="0"}</div>
+                      </td>
+                      <td align="left" class="">
+                          <div style="text-align: center; width: 30px;">{$second_leader[$vo[user_id]]['count']|default="0"}</div>
+                      </td>
+                      <td align="left" class="">
+                          <div style="text-align: center; width: 30px;">{$third_leader[$vo[user_id]]['count']|default="0"}</div>
+                      </td>
+                      <td>分销会员</td>
+                      <td>
+                          <a href="{:U('User/detail',array('id'=>$vo['user_id']))}">查看</a></td>
+			                   </tr>
+			                  </foreach>
+			                   </tbody>
+			               </table>
+		               </div>
+		          </div>
+
+	              <div class="row">
+	              	    <div class="col-sm-6 text-left"></div>
+	                    <div class="col-sm-6 text-right">{$page}</div>
+	              </div>
+	          </div>
+	        </div>
+       	</div>
+       </div>
+   </section>
+</div>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+<title>用户登录</title>
+<link rel="stylesheet" type="text/css" href=" __HOME__/css/login.css">
+</head>
+<body class="login">
+
+  <div class="title">
+    <span>*** 用户注册</span>
+  </div>
+  <div class="form">
+  <div>
+    <form action="{:url('Login/add')}" method="POST">
+      <p style="margin-left: 20px;">用户注册<a href="{:url('Login/login')}" style="float: right; margin-right: 15px;">登录</a></p>
+      <input type="text" name="user_name" placeholder="帐号名称">
+      <input type="password" name="user_pwd" placeholder="密码">
+      <input type="submit"  value="注&nbsp;册" class="submit">
+    </form>
+    <span style="padding: 15px;">注意：请用户注册后去往个人中心完善资料！</span>
+  </div></div>
+
+</body>
+</html>

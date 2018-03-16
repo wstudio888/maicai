@@ -1,0 +1,151 @@
+<import src="../../wxParse/wxParse.wxml" />
+<swiper indicator-dots="true" autoplay="true" interval="5000" duration="1000" style="height:{{bannerHeight}}px;">
+  <block wx:for="{{banner}}" wx:key="">
+    <swiper-item>
+      <image src="{{item.ad_code}}" data-goods-id="{{item.ad_link}}" mode="scaleToFill" class="swiper-image" bindtap="clickBanner" />
+    </swiper-item>
+  </block>
+</swiper>
+
+<view class="view_search">
+  <view class="view_searchbg" bindtap="search">
+
+    <text bindtap="search" placeholder-style="color:#999999" class="input_search" placeholder="请输入您所搜索的商品">请输入您所搜索的商品</text>
+    <view bindtap="search" class="view1">
+      <view bindtap="search" class="line"></view>
+      <image bindtap="search" src="/images/search.png"></image>
+    </view>
+  </view>
+</view>
+<!-- 分类 -->
+<view class="func-area">
+  <block wx:for="{{category}}">
+    <view wx:if="{{item.type == 1}}" bindtap="showSwitchTab" data-index-url="{{item.cat_desc}}">
+      <image src="{{item.thumb}}" mode="aspectFill" class="orange" />
+      <text>{{item.cat_name}}</text>
+    </view>
+    <view wx:else bindtap="showNavigateTo" data-index-url="{{item.cat_desc}}">
+      <image src="{{item.thumb}}" mode="aspectFill" class="orange" />
+      <text>{{item.cat_name}}</text>
+    </view>
+  </block>
+</view>
+
+<view class="func-area">
+  <block wx:for="{{category2}}">
+    <view wx:if="{{item.type == 1}}" bindtap="showSwitchTab" data-index-url="{{item.cat_desc}}">
+      <image src="{{item.thumb}}" mode="aspectFill" class="orange" />
+      <text>{{item.cat_name}}</text>
+    </view>
+    <view wx:else bindtap="showNavigateTo" data-index-url="{{item.cat_desc}}">
+      <image src="{{item.thumb}}" mode="aspectFill" class="orange" />
+      <text>{{item.cat_name}}</text>
+    </view>
+  </block>
+</view>
+
+<view class="hr-h"></view>
+
+<view class="coupon">
+  <view class="coupon-title">
+    <text>推荐商家</text>
+  </view>
+  	<view class="main-goods">
+    <view class="about-txt">
+      <template is="wxParse" data="{{wxParseData:hotarticle.nodes}}" />
+    </view>
+    <view class="hot-but" bindtap="hotbut" data-index="{{hot.link}}">
+      点击进入店铺
+    </view>
+	</view>
+</view>
+
+<view class="hr-h"></view>
+
+<!-- 优惠卷 -->
+<view class="coupon">
+  <view class="coupon-title">
+    <text>优惠卷</text>
+  </view>
+  <view style="display:flex;flex-wrap:wrap;">
+    <block wx:for="{{coupon}}" wx:key="">
+      <view class="order-item0">
+        <view class="carts-item">
+          <view class="item-left">
+            <text style="color:#fff;font-size:24rpx;position:absolute;left:7%;">￥</text>
+            <text class="text-value">{{item.money}}</text>
+            <!-- <text class="text-date">使用期:{{item.use_start_time}}-{{item.use_end_time}}</text> -->
+          </view>
+          <view class="item-right">
+            <text class="text-hint" style="position:absolute;right:5%;top:26%;">优惠卷</text>
+            <text class="text-hint" style="position:absolute;right:5%;top:44%;">满{{item.condition}}使用</text>
+            <button class="view-btn0" disabled="{{item.disabled}}" bindtap="getcoupon" data-coupon-id="{{item.id}}" data-store-id="{{item.store_id}}">
+           领取
+          </button>
+          </view>
+        </view>
+      </view>
+    </block>
+  </view>
+</view>
+<!-- hot goods -->
+
+
+<view class="container-goods">
+  <view class="category_title">
+	  <text class="caption">平台促销推荐</text>
+  </view>
+	<view class="main-goods">
+		<!-- <view class="single-goods" wx:for="{{item.goods_list}}" wx:key="" bindtap="showDetail" data-index="{{index}}" data-goods-id="{{item.goods_id}}"> -->
+			<block wx:for="{{newlist}}" wx:key=""> 
+        <image class="avatar" src="{{item.ad_code}}" data-goods-id="{{item.ad_link}}" mode="aspectFill" bindtap="clickBanner" />
+      </block> 
+	</view>
+
+  <view class="category_title">
+	  <text class="caption">每日市价更新</text>
+  </view>
+	<view class="main-goods">
+    <block wx:for="{{cuxiao}}" wx:key=""> 
+        <image class="avatar" src="{{item.ad_code}}"  data-goods-id="{{item.ad_link}}" mode="aspectFill" bindtap="clickBanner" />
+      </block>
+	</view>
+
+  <view class="category_title">
+	  <text class="caption">公司简介</text>
+  </view>
+	<view class="main-goods">
+    <view class="about-txt">
+      <template is="wxParse" data="{{wxParseData:article.nodes}}" />
+    </view>
+	</view>
+  <navigator bindtap="map"><view class="main-one">地址：{{about.link}}</view></navigator>
+  <navigator bindtap="callphone"><view class="main-one">联系电话：{{about.description}}</view></navigator>
+</view>
+
+<view class="footer">
+  <image src="/images/kf.png"></image>
+  <contact-button style="opacity:0.01" type="default-dark" size="160" session-from="weapp">
+  </contact-button>
+</view>
+
+<view class="footer-desc">
+  <view>
+    <image src="../../images/ws.png" mode="scaleToFill" style="width:89px;height:30px;"></image>
+  </view>
+</view>
+
+<view class="commodity_screen" bindtap="hideModal" wx:if="{{showModalStatus}}"></view>
+<view animation="{{animationData}}" class="commodity_attr_box" wx:if="{{showModalStatus}}">
+  <!--对话框标题-->
+  <view class="title-view">
+    <view class="title-css">
+      <view class="toast-view">
+        <image src="../../images/error.png" style="width:80rpx;height:80rpx;margin-top:5px;margin-bottom:10px;"></image>
+        <text style="text-align:left;font-size:32rpx;">
+      {{toastText}}
+      </text>
+      </view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,9 @@
+[ 2018-03-06T15:25:13+08:00 ] 14.157.58.163 /Home/Article/detail/article_id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000360s ]
+ERR: 无法加载控制器:Article
+

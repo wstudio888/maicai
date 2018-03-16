@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+<title>配送系统</title>
+<include file="public/header"/>
+</head>
+<body class="order html ">
+  <!--页头开始-->
+  <div class="header">
+    <div class="head">
+    <span class="title_left float_left"><a href="" onclick="javascript:window.history.back(-1);"><img src="__HOME__/images/jiantou.png" style="width: 85%;margin-top: 5px;"></a></span>
+    <span class="title">全部订单</span>
+      <div class="title_r"><a href="javascript:void(0);" onclick="show()"><img src="__HOME__/images/dian.png"></a></div>
+      <div class="hide loginout" id="showdiv">
+      <ul>
+      <li><a href="{:url('Index/index')}">首页</a></li>
+      <li><a href="{:url('Login/logout')}">退出</a></li>
+      </ul></div>
+    </div>
+  </div>  
+  <!--页头结束-->
+  <!-- 内容主体头部开始 -->
+  <div class="title">
+    <if condition='$status eq 1'>
+      <a href="{:url('order/index',['status'=>'1'])}" class="astyle">全部订单</a>
+      <a href="{:url('order/index',['status'=>'2'])}">配送中</a>
+      <a href="{:url('order/index',['status'=>'3'])}">已完成</a>
+    <elseif condition='$status eq 2'/>
+      <a href="{:url('order/index',['status'=>'1'])}">全部订单</a>
+      <a href="{:url('order/index',['status'=>'2'])}" class="astyle">配送中</a>
+      <a href="{:url('order/index',['status'=>'3'])}">已完成</a>
+    <else/>
+      <a href="{:url('order/index',['status'=>'1'])}">全部订单</a>
+      <a href="{:url('order/index',['status'=>'2'])}">配送中</a>
+      <a href="{:url('order/index',['status'=>'3'])}" class="astyle">已完成</a>
+    </if>
+
+
+  </div>
+  <!-- 内容主体头部结束 -->
+  <!-- 内容主体开始 -->
+  <div class="content">
+    <ul>
+    <volist name="rs" id="vo">
+      <li><div class="order_li">
+            <div class="order_li_top">
+              <span>订单编号：{$vo.order_sn}</span>
+            </div>
+            <div class="order_li_bottom">
+              <span class="bottom_one">{$vo.address}<br/></span>
+              <div class="bottom_tow">
+              <a href="{:url('index/map', ['order_id' => $vo['order_id'], 'status' => $status])}" >查看路线</a></div>
+              <span class="bottom_three ">期望送达：无</span>
+            </div>
+            <img src="__HOME__/images/<if condition='$vo.status eq 1'>F1.png<elseif condition='$vo.status eq 2'/>F2.png</if>
+" class="order_li_img">
+          </div></li>
+    </volist>
+
+    <div class="order_footer">  </div>
+  </div>
+
+  
+
+  <!-- 内容主体结束 -->
+  <!-- 内容尾部开始 -->
+    <include file="public/footer" />
+  <!-- 内容尾部结束 -->
+</body>
+
+</html>

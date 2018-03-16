@@ -1,0 +1,72 @@
+<include file="Public/min-header" />
+<div class="wrapper">
+	<include file="Public/breadcrumb"/>
+	<section class="content">
+       <div class="row">
+       		<div class="col-xs-12">
+	       		<div class="box">
+	             <div class="box-header">
+
+	               	
+	             </div>
+	             <div class="box-body">
+	           	 <div class="row">
+	            	<div class="col-sm-12">
+                    <table id="list-table" class="table table-bordered table-striped dataTable">
+                        <thead>
+                        <tr role="row">
+                            <th>快递员名称</th>
+                            <th>联系电话</th>
+                            <th>订单id</th>
+                            <th>单笔费用</th>
+                            <th>接单时间</th>
+                            <th>送达时间</th>
+                   
+                        </tr>
+                        </thead>
+                        <tbody>
+                          <foreach name="list" item="vo" key="k" >
+                             <tr role="row">    
+                             <td>{$vo.courier_name}</td>
+		                     <td>{$vo.courier_phone}</td>
+		                     <th>{$vo.express_id}</th>  
+		                     <th>{$vo.sole_money}</th>  
+		                     <th>{$vo.create_time|date='Y-m-d h:i:s',###}  
+		                     <td>{$vo.over_time|date='Y-m-d h:i:s',###}</td>                                     
+		                  
+		                   </tr>
+		                  </foreach>
+		                   </tbody>
+		                 <tfoot>
+		                 </tfoot>
+		               </table>
+	               </div>
+	          </div>
+              <div class="row">
+              	    <div class="col-sm-6 text-left">
+              	    	<button class="btn btn-default btn-sm checkbox-toggle"><i class="fa fa-square-o"></i></button>
+              	    </div>
+                    <div class="col-sm-6 text-right">{$page}</div>		
+              </div>
+	          </div>
+	        </div>
+       	</div>
+       </div>
+   </section>
+<script>
+
+//修改指定表的指定字段值 给商家使用的函数
+function change(id,status)
+{
+		                                                
+		$.ajax({
+				url:"/index.php?m=Admin&c=Store&a=change&id="+id+"&status="+status,			
+				success: function(data){									
+					window.location.href="/index.php?m=Admin&c=Store&a=apply_list";        
+				}
+		});		
+}
+</script>
+</div>
+</body>
+</html>   

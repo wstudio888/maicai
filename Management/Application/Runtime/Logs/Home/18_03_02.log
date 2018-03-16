@@ -1,0 +1,20 @@
+[ 2018-03-02T10:12:12+08:00 ] 14.157.52.83 /index.php?m=Home&c=api&a=get_category&parent_id=46
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000382s ]
+SQL: SHOW COLUMNS FROM `ty_goods_category` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ty_goods_category` WHERE `parent_id` = 46  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: html /var/www/html/maicai/Application/Home/Controller/ApiController.class.php 第 66 行.
+
+[ 2018-03-02T14:43:49+08:00 ] 14.157.52.83 /Home/Article/detail/article_id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000360s ]
+ERR: 无法加载控制器:Article
+

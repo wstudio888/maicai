@@ -1,0 +1,58 @@
+
+@import '../../../template/toTop/toTop.wxss';
+/*每行单元格*/
+
+.carts-item {
+  display: flex;
+  flex-direction: row;
+  /*width属性解决标题文字太短而缩略图偏移*/
+  width: 720rpx;
+  padding: 30rpx 0 0rpx 30rpx;
+}
+
+.carts-title {
+  font-size: 28rpx;
+  color: #444;
+  line-height: 38rpx;
+}
+
+/*左部图片*/
+
+.carts-image {
+  width: 150rpx;
+  height: 150rpx;
+}
+
+/*右部描述*/
+
+.carts-text {
+  margin-left: 10rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.textarea-css {
+  margin-top: 10rpx;
+  font-size: 28rpx;
+  width: 90%;
+  border: 1rpx solid #eee;
+  height: 200rpx;
+  margin: auto;
+}
+
+.btn-pay {
+  margin-bottom: 5rpx;
+  padding-top: 12rpx;
+  padding-bottom: 12rpx;
+  padding-left: 30rpx;
+  padding-right: 30rpx;
+  font-size: 27rpx;
+  color: #093;
+  background: #fff;
+  border: 1rpx solid #093;
+  align-self: flex-end;
+  border-radius: 6rpx;
+  margin-right: 20px;
+  float: right;
+}

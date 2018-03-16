@@ -1,0 +1,708 @@
+[ 2018-03-08T12:01:13+08:00 ] 116.20.78.134 /Seller/Admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000375s ]
+SQL: SHOW COLUMNS FROM `ty_config` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ty_config`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: seller/admin /var/www/html/maicai/Application/Seller/Common/function.php 第 71 行.
+NOTIC: [8] Undefined index: seller/admin /var/www/html/maicai/Application/Seller/Common/function.php 第 72 行.
+INFO: [ view_begin ] --START--
+INFO: Run Home\Behaviors\testBehavior [ RunTime:0.000178s ]
+INFO: [ view_begin ] --END-- [ RunTime:0.000225s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009388s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009436s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000103s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000232s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000311s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000359s ]
+
+[ 2018-03-08T12:01:13+08:00 ] 116.20.78.134 /Seller/Admin/vertify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000350s ]
+SQL: SHOW COLUMNS FROM `ty_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ty_config`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: seller/admin /var/www/html/maicai/Application/Seller/Common/function.php 第 71 行.
+NOTIC: [8] Undefined index: seller/admin /var/www/html/maicai/Application/Seller/Common/function.php 第 72 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000322s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000366s ]
+
+[ 2018-03-08T12:01:22+08:00 ] 116.20.78.134 /index.php?m=Seller&c=Admin&a=vertify&r=12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000353s ]
+SQL: SHOW COLUMNS FROM `ty_config` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ty_config`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: seller/admin /var/www/html/maicai/Application/Seller/Common/function.php 第 71 行.
+NOTIC: [8] Undefined index: seller/admin /var/www/html/maicai/Application/Seller/Common/function.php 第 72 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000325s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000370s ]
+
+[ 2018-03-08T12:01:23+08:00 ] 116.20.78.134 /index.php?m=Seller&c=Admin&a=vertify&r=80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000349s ]
+SQL: SHOW COLUMNS FROM `ty_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ty_config`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: seller/admin /var/www/html/maicai/Application/Seller/Common/function.php 第 71 行.
+NOTIC: [8] Undefined index: seller/admin /var/www/html/maicai/Application/Seller/Common/function.php 第 72 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000312s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000354s ]
+
+[ 2018-03-08T12:01:24+08:00 ] 116.20.78.134 /index.php?m=Seller&c=Admin&a=vertify&r=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000231s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000343s ]
+SQL: SHOW COLUMNS FROM `ty_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ty_config`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: seller/admin /var/www/html/maicai/Application/Seller/Common/function.php 第 71 行.
+NOTIC: [8] Undefined index: seller/admin /var/www/html/maicai/Application/Seller/Common/function.php 第 72 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000333s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000375s ]
+
+[ 2018-03-08T12:01:25+08:00 ] 116.20.78.134 /index.php?m=Seller&c=Admin&a=vertify&r=78
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000362s ]
+SQL: SHOW COLUMNS FROM `ty_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ty_config`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: seller/admin /var/www/html/maicai/Application/Seller/Common/function.php 第 71 行.
+NOTIC: [8] Undefined index: seller/admin /var/www/html/maicai/Application/Seller/Common/function.php 第 72 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000358s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000401s ]
+
+[ 2018-03-08T12:01:26+08:00 ] 116.20.78.134 /index.php?m=Seller&c=Admin&a=vertify&r=37
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000359s ]
+SQL: SHOW COLUMNS FROM `ty_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ty_config`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: seller/admin /var/www/html/maicai/Application/Seller/Common/function.php 第 71 行.
+NOTIC: [8] Undefined index: seller/admin /var/www/html/maicai/Application/Seller/Common/function.php 第 72 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000330s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000391s ]
+
+[ 2018-03-08T12:01:26+08:00 ] 116.20.78.134 /index.php?m=Seller&c=Admin&a=vertify&r=39
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000350s ]
+SQL: SHOW COLUMNS FROM `ty_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ty_config`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: seller/admin /var/www/html/maicai/Application/Seller/Common/function.php 第 71 行.
+NOTIC: [8] Undefined index: seller/admin /var/www/html/maicai/Application/Seller/Common/function.php 第 72 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000323s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000365s ]
+
+[ 2018-03-08T12:01:27+08:00 ] 116.20.78.134 /index.php?m=Seller&c=Admin&a=vertify&r=72
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000240s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000342s ]
+SQL: SHOW COLUMNS FROM `ty_config` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `ty_config`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: seller/admin /var/www/html/maicai/Application/Seller/Common/function.php 第 71 行.
+NOTIC: [8] Undefined index: seller/admin /var/www/html/maicai/Application/Seller/Common/function.php 第 72 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000315s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000357s ]
+
+[ 2018-03-08T12:01:31+08:00 ] 116.20.78.134 /index.php?m=Seller&c=Admin&a=login&t=0.1941413945967423
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000355s ]
+SQL: SHOW COLUMNS FROM `ty_config` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ty_config`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: seller/admin /var/www/html/maicai/Application/Seller/Common/function.php 第 71 行.
+NOTIC: [8] Undefined index: seller/admin /var/www/html/maicai/Application/Seller/Common/function.php 第 72 行.
+SQL: SHOW COLUMNS FROM `ty_seller` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `ty_seller` WHERE `seller_name` = 'niurou' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ty_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ty_users` WHERE ( user_id=2 and password='519475228fe35ad067744465c42a19b2' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `ty_seller` SET `last_login_time`='1520481691' WHERE `seller_id` = 3 [ RunTime:0.0061s ]
+SQL: SHOW COLUMNS FROM `ty_seller_log` [ RunTime:0.0013s ]
+SQL: INSERT INTO `ty_seller_log` (`log_time`,`log_seller_id`,`log_seller_name`,`log_content`,`log_seller_ip`,`log_store_id`,`log_url`) VALUES ('1520481691','3','niurou','商家管理中心登录','116.20.78.134','3','/Seller/Admin/login') [ RunTime:0.0052s ]
+
+[ 2018-03-08T12:01:31+08:00 ] 116.20.78.134 /Seller/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000359s ]
+SQL: SHOW COLUMNS FROM `ty_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ty_config`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: seller/index /var/www/html/maicai/Application/Seller/Common/function.php 第 71 行.
+NOTIC: [8] Undefined index: seller/index /var/www/html/maicai/Application/Seller/Common/function.php 第 72 行.
+NOTIC: [8] Undefined index: act_limits /var/www/html/maicai/Application/Seller/Controller/IndexController.class.php 第 22 行.
+INFO: [ view_begin ] --START--
+INFO: Run Home\Behaviors\testBehavior [ RunTime:0.000142s ]
+INFO: [ view_begin ] --END-- [ RunTime:0.000176s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012525s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012562s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000099s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000311s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000310s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000346s ]
+
+[ 2018-03-08T12:01:31+08:00 ] 116.20.78.134 /Seller/Index/welcome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000231s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000382s ]
+SQL: SHOW COLUMNS FROM `ty_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ty_config`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: seller/index /var/www/html/maicai/Application/Seller/Common/function.php 第 71 行.
+NOTIC: [8] Undefined index: seller/index /var/www/html/maicai/Application/Seller/Common/function.php 第 72 行.
+SQL: SHOW COLUMNS FROM `ty_order` [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ty_order` WHERE ( store_id = 3 AND (pay_status = 1 OR pay_code="weixin") AND shipping_status !=1 AND order_status in(0,1)  ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ty_order` WHERE ( store_id = 3 and add_time>1519876891 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ty_return_goods` [ RunTime:0.0038s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ty_return_goods` WHERE ( store_id = 3 and type=0 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ty_return_goods` WHERE ( store_id = 3 and type=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ty_goods` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `ty_goods` WHERE `store_id` = 3  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `ty_article` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ty_article` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ty_users` WHERE `user_id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT SUM(order_amount) AS tp_sum FROM `ty_order` WHERE ( store_id = 3 and add_time>1520395291 and pay_status=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ty_comment` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ty_comment` WHERE ( is_show=0 and store_id=3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_goods_consult` [ RunTime:0.0015s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ty_goods_consult` WHERE ( is_show=0 and store_id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ty_store` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `ty_store` WHERE `store_id` = 3 LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_begin ] --START--
+INFO: Run Home\Behaviors\testBehavior [ RunTime:0.000186s ]
+INFO: [ view_begin ] --END-- [ RunTime:0.000224s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+NOTIC: [8] Use of undefined constant store_id - assumed 'store_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/2c4075b0ad2d7ac34d0c65c9a2a286bb.php 第 138 行.
+NOTIC: [8] Use of undefined constant store_state - assumed 'store_state' /var/www/html/maicai/Application/Runtime/Cache/Seller/2c4075b0ad2d7ac34d0c65c9a2a286bb.php 第 143 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011407s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011443s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000099s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000265s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000416s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000311s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000351s ]
+
+[ 2018-03-08T12:01:31+08:00 ] 116.20.78.134 /Seller/Admin/login_task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000359s ]
+SQL: SHOW COLUMNS FROM `ty_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ty_config`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: seller/admin /var/www/html/maicai/Application/Seller/Common/function.php 第 71 行.
+NOTIC: [8] Undefined index: seller/admin /var/www/html/maicai/Application/Seller/Common/function.php 第 72 行.
+NOTIC: [8] Undefined index: pay_date /var/www/html/maicai/Application/Common/Common/common.php 第 496 行.
+SQL: select id,user_id,money from ty_rebate_log where store_id = 3 and status = 2 and ((1520481691 - confirm ) >  0)  [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `ty_store` [ RunTime:0.0016s ]
+SQL: select order_id from ty_order where store_id = 3 and order_status in(2,4) and ((1520481691 - confirm_time) >  604800) and is_checkout = 0 [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000313s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000348s ]
+
+[ 2018-03-08T12:01:36+08:00 ] 116.20.78.134 /Seller/Store/store_setting
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000362s ]
+NOTIC: [2048] Declaration of Seller\Controller\StoreController::theme() should be compatible with Think\Controller::theme($theme) /var/www/html/maicai/Application/Seller/Controller/StoreController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `ty_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ty_config`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: seller/store /var/www/html/maicai/Application/Seller/Common/function.php 第 71 行.
+NOTIC: [8] Undefined index: seller/store /var/www/html/maicai/Application/Seller/Common/function.php 第 72 行.
+SQL: SHOW COLUMNS FROM `ty_store` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `ty_store` WHERE ( store_id=3 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_store_grade` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ty_store_grade` WHERE ( sg_id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ty_region` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ty_region` WHERE `parent_id` = 0  [ RunTime:0.0226s ]
+SQL: SELECT * FROM `ty_region` WHERE `parent_id` = 28240  [ RunTime:0.0203s ]
+SQL: SELECT * FROM `ty_region` WHERE `parent_id` = 28241  [ RunTime:0.0201s ]
+INFO: [ view_begin ] --START--
+INFO: Run Home\Behaviors\testBehavior [ RunTime:0.000207s ]
+INFO: [ view_begin ] --END-- [ RunTime:0.000264s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+NOTIC: [8] Undefined variable: info /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 149 行.
+NOTIC: [8] Use of undefined constant province_id - assumed 'province_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant province_id - assumed 'province_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant province_id - assumed 'province_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant province_id - assumed 'province_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant province_id - assumed 'province_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant province_id - assumed 'province_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant province_id - assumed 'province_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant province_id - assumed 'province_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant province_id - assumed 'province_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant province_id - assumed 'province_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant province_id - assumed 'province_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant province_id - assumed 'province_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant province_id - assumed 'province_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant province_id - assumed 'province_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant province_id - assumed 'province_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant province_id - assumed 'province_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant province_id - assumed 'province_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant province_id - assumed 'province_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant province_id - assumed 'province_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant province_id - assumed 'province_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant province_id - assumed 'province_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant province_id - assumed 'province_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant province_id - assumed 'province_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant province_id - assumed 'province_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant province_id - assumed 'province_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant province_id - assumed 'province_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant province_id - assumed 'province_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant province_id - assumed 'province_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant province_id - assumed 'province_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant province_id - assumed 'province_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant province_id - assumed 'province_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant province_id - assumed 'province_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant province_id - assumed 'province_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant province_id - assumed 'province_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant city_id - assumed 'city_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 180 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 180 行.
+NOTIC: [8] Use of undefined constant city_id - assumed 'city_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 180 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 180 行.
+NOTIC: [8] Use of undefined constant city_id - assumed 'city_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 180 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 180 行.
+NOTIC: [8] Use of undefined constant city_id - assumed 'city_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 180 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 180 行.
+NOTIC: [8] Use of undefined constant city_id - assumed 'city_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 180 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 180 行.
+NOTIC: [8] Use of undefined constant city_id - assumed 'city_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 180 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 180 行.
+NOTIC: [8] Use of undefined constant city_id - assumed 'city_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 180 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 180 行.
+NOTIC: [8] Use of undefined constant city_id - assumed 'city_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 180 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 180 行.
+NOTIC: [8] Use of undefined constant city_id - assumed 'city_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 180 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 180 行.
+NOTIC: [8] Use of undefined constant city_id - assumed 'city_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 180 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 180 行.
+NOTIC: [8] Use of undefined constant city_id - assumed 'city_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 180 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 180 行.
+NOTIC: [8] Use of undefined constant city_id - assumed 'city_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 180 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 180 行.
+NOTIC: [8] Use of undefined constant city_id - assumed 'city_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 180 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 180 行.
+NOTIC: [8] Use of undefined constant city_id - assumed 'city_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 180 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 180 行.
+NOTIC: [8] Use of undefined constant city_id - assumed 'city_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 180 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 180 行.
+NOTIC: [8] Use of undefined constant city_id - assumed 'city_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 180 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 180 行.
+NOTIC: [8] Use of undefined constant city_id - assumed 'city_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 180 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 180 行.
+NOTIC: [8] Use of undefined constant city_id - assumed 'city_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 180 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 180 行.
+NOTIC: [8] Use of undefined constant city_id - assumed 'city_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 180 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 180 行.
+NOTIC: [8] Use of undefined constant city_id - assumed 'city_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 180 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 180 行.
+NOTIC: [8] Use of undefined constant city_id - assumed 'city_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 180 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 180 行.
+NOTIC: [8] Use of undefined constant district - assumed 'district' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 188 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 188 行.
+NOTIC: [8] Use of undefined constant district - assumed 'district' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 188 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 188 行.
+NOTIC: [8] Use of undefined constant district - assumed 'district' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 188 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 188 行.
+NOTIC: [8] Use of undefined constant district - assumed 'district' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 188 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 188 行.
+NOTIC: [8] Use of undefined constant district - assumed 'district' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 188 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 188 行.
+NOTIC: [8] Use of undefined constant district - assumed 'district' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 188 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 188 行.
+NOTIC: [8] Use of undefined constant district - assumed 'district' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 188 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 188 行.
+NOTIC: [8] Use of undefined constant district - assumed 'district' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 188 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 188 行.
+NOTIC: [8] Use of undefined constant district - assumed 'district' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 188 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 188 行.
+NOTIC: [8] Use of undefined constant district - assumed 'district' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 188 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 188 行.
+NOTIC: [8] Use of undefined constant district - assumed 'district' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 188 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 188 行.
+NOTIC: [8] Use of undefined constant district - assumed 'district' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 188 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 188 行.
+NOTIC: [8] Use of undefined constant district - assumed 'district' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 188 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 188 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013631s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000103s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000313s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000479s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000295s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000331s ]
+
+[ 2018-03-08T12:02:10+08:00 ] 116.20.78.134 /Seller/Store/setting_save
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000240s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000355s ]
+NOTIC: [2048] Declaration of Seller\Controller\StoreController::theme() should be compatible with Think\Controller::theme($theme) /var/www/html/maicai/Application/Seller/Controller/StoreController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `ty_config` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ty_config`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: seller/store /var/www/html/maicai/Application/Seller/Common/function.php 第 71 行.
+NOTIC: [8] Undefined index: seller/store /var/www/html/maicai/Application/Seller/Common/function.php 第 72 行.
+NOTIC: [8] Undefined index: act /var/www/html/maicai/Application/Seller/Controller/StoreController.class.php 第 56 行.
+SQL: SHOW COLUMNS FROM `ty_store` [ RunTime:0.0016s ]
+SQL: UPDATE `ty_store` SET `store_name`='猴生鲜',`store_zy`='鲜鸡 活毛鸡',`store_logo`='/Public/upload/seller/2017/08-03/5982e041253e6.jpg',`store_banner`='',`store_phone`='19928234799',`store_qq`='',`store_aliwangwang`='',`store_address`='佛山巿三水区西南街道西青大道新动力公寓4座609',`store_free_price`='0.00',`seo_keywords`='',`seo_description`='',`store_id`='3' WHERE ( store_id=3 ) [ RunTime:0.0056s ]
+INFO: [ view_begin ] --START--
+INFO: Run Home\Behaviors\testBehavior [ RunTime:0.000182s ]
+INFO: [ view_begin ] --END-- [ RunTime:0.000220s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005036s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000102s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000223s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000306s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000340s ]
+
+[ 2018-03-08T12:02:11+08:00 ] 116.20.78.134 /Seller/Store/store_setting
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000377s ]
+NOTIC: [2048] Declaration of Seller\Controller\StoreController::theme() should be compatible with Think\Controller::theme($theme) /var/www/html/maicai/Application/Seller/Controller/StoreController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `ty_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ty_config`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: seller/store /var/www/html/maicai/Application/Seller/Common/function.php 第 71 行.
+NOTIC: [8] Undefined index: seller/store /var/www/html/maicai/Application/Seller/Common/function.php 第 72 行.
+SQL: SHOW COLUMNS FROM `ty_store` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `ty_store` WHERE ( store_id=3 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ty_store_grade` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ty_store_grade` WHERE ( sg_id=1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `ty_region` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ty_region` WHERE `parent_id` = 0  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ty_region` WHERE `parent_id` = 28240  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `ty_region` WHERE `parent_id` = 28241  [ RunTime:0.0001s ]
+INFO: [ view_begin ] --START--
+INFO: Run Home\Behaviors\testBehavior [ RunTime:0.000174s ]
+INFO: [ view_begin ] --END-- [ RunTime:0.000217s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+NOTIC: [8] Undefined variable: info /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 149 行.
+NOTIC: [8] Use of undefined constant province_id - assumed 'province_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant province_id - assumed 'province_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant province_id - assumed 'province_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant province_id - assumed 'province_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant province_id - assumed 'province_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant province_id - assumed 'province_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant province_id - assumed 'province_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant province_id - assumed 'province_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant province_id - assumed 'province_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant province_id - assumed 'province_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant province_id - assumed 'province_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant province_id - assumed 'province_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant province_id - assumed 'province_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant province_id - assumed 'province_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant province_id - assumed 'province_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant province_id - assumed 'province_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant province_id - assumed 'province_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant province_id - assumed 'province_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant province_id - assumed 'province_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant province_id - assumed 'province_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant province_id - assumed 'province_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant province_id - assumed 'province_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant province_id - assumed 'province_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant province_id - assumed 'province_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant province_id - assumed 'province_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant province_id - assumed 'province_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant province_id - assumed 'province_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant province_id - assumed 'province_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant province_id - assumed 'province_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant province_id - assumed 'province_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant province_id - assumed 'province_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant province_id - assumed 'province_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant province_id - assumed 'province_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant province_id - assumed 'province_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 172 行.
+NOTIC: [8] Use of undefined constant city_id - assumed 'city_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 180 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 180 行.
+NOTIC: [8] Use of undefined constant city_id - assumed 'city_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 180 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 180 行.
+NOTIC: [8] Use of undefined constant city_id - assumed 'city_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 180 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 180 行.
+NOTIC: [8] Use of undefined constant city_id - assumed 'city_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 180 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 180 行.
+NOTIC: [8] Use of undefined constant city_id - assumed 'city_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 180 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 180 行.
+NOTIC: [8] Use of undefined constant city_id - assumed 'city_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 180 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 180 行.
+NOTIC: [8] Use of undefined constant city_id - assumed 'city_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 180 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 180 行.
+NOTIC: [8] Use of undefined constant city_id - assumed 'city_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 180 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 180 行.
+NOTIC: [8] Use of undefined constant city_id - assumed 'city_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 180 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 180 行.
+NOTIC: [8] Use of undefined constant city_id - assumed 'city_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 180 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 180 行.
+NOTIC: [8] Use of undefined constant city_id - assumed 'city_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 180 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 180 行.
+NOTIC: [8] Use of undefined constant city_id - assumed 'city_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 180 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 180 行.
+NOTIC: [8] Use of undefined constant city_id - assumed 'city_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 180 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 180 行.
+NOTIC: [8] Use of undefined constant city_id - assumed 'city_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 180 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 180 行.
+NOTIC: [8] Use of undefined constant city_id - assumed 'city_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 180 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 180 行.
+NOTIC: [8] Use of undefined constant city_id - assumed 'city_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 180 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 180 行.
+NOTIC: [8] Use of undefined constant city_id - assumed 'city_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 180 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 180 行.
+NOTIC: [8] Use of undefined constant city_id - assumed 'city_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 180 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 180 行.
+NOTIC: [8] Use of undefined constant city_id - assumed 'city_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 180 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 180 行.
+NOTIC: [8] Use of undefined constant city_id - assumed 'city_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 180 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 180 行.
+NOTIC: [8] Use of undefined constant city_id - assumed 'city_id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 180 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 180 行.
+NOTIC: [8] Use of undefined constant district - assumed 'district' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 188 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 188 行.
+NOTIC: [8] Use of undefined constant district - assumed 'district' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 188 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 188 行.
+NOTIC: [8] Use of undefined constant district - assumed 'district' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 188 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 188 行.
+NOTIC: [8] Use of undefined constant district - assumed 'district' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 188 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 188 行.
+NOTIC: [8] Use of undefined constant district - assumed 'district' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 188 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 188 行.
+NOTIC: [8] Use of undefined constant district - assumed 'district' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 188 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 188 行.
+NOTIC: [8] Use of undefined constant district - assumed 'district' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 188 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 188 行.
+NOTIC: [8] Use of undefined constant district - assumed 'district' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 188 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 188 行.
+NOTIC: [8] Use of undefined constant district - assumed 'district' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 188 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 188 行.
+NOTIC: [8] Use of undefined constant district - assumed 'district' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 188 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 188 行.
+NOTIC: [8] Use of undefined constant district - assumed 'district' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 188 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 188 行.
+NOTIC: [8] Use of undefined constant district - assumed 'district' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 188 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 188 行.
+NOTIC: [8] Use of undefined constant district - assumed 'district' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 188 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /var/www/html/maicai/Application/Runtime/Cache/Seller/458de8e88c819a4269be95c7802cd882.php 第 188 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014353s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014389s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000136s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000304s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000319s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000354s ]
+
+[ 2018-03-08T15:05:44+08:00 ] 116.20.78.134 /Seller/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000231s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000338s ]
+INFO: [ view_begin ] --START--
+INFO: Run Home\Behaviors\testBehavior [ RunTime:0.000134s ]
+INFO: [ view_begin ] --END-- [ RunTime:0.000172s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000063s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004212s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004247s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000099s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000199s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000347s ]
+
+[ 2018-03-08T15:05:45+08:00 ] 116.20.78.134 /Seller/Admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000349s ]
+SQL: SHOW COLUMNS FROM `ty_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ty_config`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: seller/admin /var/www/html/maicai/Application/Seller/Common/function.php 第 71 行.
+NOTIC: [8] Undefined index: seller/admin /var/www/html/maicai/Application/Seller/Common/function.php 第 72 行.
+INFO: [ view_begin ] --START--
+INFO: Run Home\Behaviors\testBehavior [ RunTime:0.000166s ]
+INFO: [ view_begin ] --END-- [ RunTime:0.000215s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005421s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005454s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000097s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000213s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000338s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000381s ]
+
+[ 2018-03-08T15:05:45+08:00 ] 116.20.78.134 /Seller/Admin/vertify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000459s ]
+SQL: SHOW COLUMNS FROM `ty_config` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ty_config`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: seller/admin /var/www/html/maicai/Application/Seller/Common/function.php 第 71 行.
+NOTIC: [8] Undefined index: seller/admin /var/www/html/maicai/Application/Seller/Common/function.php 第 72 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000368s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000414s ]
+

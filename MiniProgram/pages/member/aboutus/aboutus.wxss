@@ -1,0 +1,25 @@
+
+@import '../../../template/toTop/toTop.wxss';
+
+page {
+	display: flex;
+	flex-direction: column;
+}
+
+.desc {
+	line-height: 50rpx;
+	color: #333;
+	text-align: left;
+	display: block;
+  margin: auto 30rpx;
+}
+.detail-box image {
+  display: block;
+  width: 750rpx;
+  height: 500rpx;
+}
+.logo{
+  width: 750rpx;
+  height: 280rpx;
+  margin:0 auto;
+}

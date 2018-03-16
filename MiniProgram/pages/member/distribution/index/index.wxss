@@ -1,0 +1,68 @@
+page {
+  background: #fff;
+}
+
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  height: 190rpx;
+  background: #6098F1;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #fff;
+  font-size: 26rpx;
+}
+
+.hr{
+ height:  0.1rpx;
+ opacity: 0.9;
+ background-color: #6098F1;
+}
+.user-money{
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  height: 265rpx;
+  background: #6098F1;
+}
+.money-list{
+  margin-top:20rpx;
+  margin-left: 5%;
+}
+.money-text{
+  display:block;
+  margin-top: 7rpx;
+}
+
+.fx-list{
+width: 100%;
+font-size: 26rpx;
+}
+.fx-list image{
+  height:70rpx;
+  width:70rpx;
+  display: block;
+  margin-left:36%;
+}
+.list-li text{
+  display: block;
+  margin-top: 15rpx;
+  margin-bottom: 15rpx;
+}
+.list-li{
+  width: 33%;
+  height:220rpx;
+  text-align: center;
+  border-bottom: 1px #F5F5F5 solid;
+  border-right: 1px #F5F5F5 solid;
+  padding-top: 40rpx;
+  display:inline-block;
+}

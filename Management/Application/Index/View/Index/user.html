@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+<title>配送系统</title>
+
+<include file="public/header"/>
+</head>
+<body class="user html">
+  <!--页头开始-->
+  <div class="header">
+    <div class="head">
+    <span class="title_left float_left"><a href="#" onClick="javascript :history.back(-1);"><img src="__HOME__/images/jiantou.png" style="width: 85%;margin-top: 5px;"></a></span>
+    <span class="title">编辑资料</span>
+       <div class="title_r"><a href="javascript:void(0);" onclick="show()"><img src="__HOME__/images/dian.png"></a></div>
+      <div class="hide loginout" id="showdiv">
+      <ul>
+      <li><a href="{:url('Index/index')}">首页</a></li>
+      <li><a href="{:url('Login/logout')}">退出</a></li>
+      </ul></div>
+    </div>
+  </div>  
+  <!--页头结束-->
+  <!-- 内容主体开始 -->
+  <div class="content">
+    <ul>
+      <li class="userinfo_li_one" onclick="show_input(img)">
+        <span>头像</span>
+        <img src="__HOME__/images/fan.png" class="userinfo_li_img"> 
+        <img alt="用户头像" src="{$courier.courier_img}" class="userimg"> </li>
+
+
+      <li onclick="show_input('name')">
+          <div id="name_hide" class="hide courier_name_hide go_hide" >
+            <span></span>
+            <input type="text" name="courier_name" id="courier_name" placeholder="昵称:{$courier.courier_name}" class="insy">
+            <button href="javascript:void(0);" onclick="revise('courier_name')" onblur="inputOnBlur('courier_name');"  class="busy">修改</button></div>
+          <div id="name_show" class="courier_name_show go_show">
+            <span>名字</span>
+            <img src="__HOME__/images/fan.png" class="userinfo_li_img">
+            <p id="courier_name_val">{$courier.courier_name}</p></div></li>
+
+
+      <li onclick="show_input('phone')">
+        <div id="phone_hide" class="hide courier_phone_hide go_hide">
+            <span></span>
+            <input type="text" name="courier_phone" id="courier_phone" placeholder="电话:{$courier.courier_phone}" class="insy"/>
+            <button href="javascript:void(0);" onclick="revise('courier_phone')" onblur="inputOnBlur('courier_phone');" class="busy">修改</button></div>
+        <div id="phone_show" class="courier_phone_show go_show">
+            <span>电话</span>
+            <img src="__HOME__/images/fan.png" class="userinfo_li_img">
+            <p  id="courier_phone_val">{$courier.courier_phone}</p></div></li>
+
+      <li onclick="show_input('wx')">
+        <div id="wx_hide" class="hide courier_wx_hide go_hide">
+            <span></span>
+            <input type="text" name="courier_wx" id="courier_wx" placeholder="微信:{$courier.courier_wx}" class="insy">
+            <button href="javascript:void(0);" onclick="revise('courier_wx')" onblur="inputOnBlur('courier_wx');" class="busy">修改</button></div>
+        <div id="wx_show" class="courier_wx_show go_show">
+            <span>微信</span>
+            <img src="__HOME__/images/fan.png" class="userinfo_li_img">
+            <p id="courier_phone_address">{$courier.courier_wx}</p></div></li>
+
+      <li onclick="show_input('address')">
+       <div id="address_hide" class="hide courier_address_hide go_hide">
+           <span></span>
+           <input type="text" name="courier_address" id="courier_address" placeholder="地址:{$courier.courier_address}" class="insy">
+           <button href="javascript:void(0);" onclick="revise('courier_address')" onblur="inputOnBlur('courier_address');" class="busy">修改</button></div>
+       <div id="address_show" class="courier_address_show go_show">
+           <span>地址</span>
+           <img src="__HOME__/images/fan.png" class="userinfo_li_img">
+           <p id="courier_phone_address">{$courier.courier_address_s}...</p></div></li>
+      
+      <li onclick="show_input('card_no')">
+        <div id="card_no_hide" class="hide card_no_hide go_hide">
+            <span></span>
+            <input type="text" name="card_no" id="card_no" placeholder="银行卡号:{$courier.card_no}" class="insy">
+            <button href="javascript:void(0);" onclick="revise('card_no')" onblur="inputOnBlur('card_no');" class="busy">修改</button></div>
+        <div id="card_no_show" class="card_no_show go_show">
+            <span>银行帐号</span>
+            <img src="__HOME__/images/fan.png" class="userinfo_li_img">
+            <p id="card_no_address">***收款帐号***</p></div></li>
+
+      <li onclick="show_input('bank_name')">
+        <div id="bank_name_hide" class="hide bank_name_hide go_hide">
+            <span></span>
+            <input type="text" name="bank_name" id="bank_name" placeholder="银行名称:{$courier.bank_name}" class="insy">
+            <button href="javascript:void(0);" onclick="revise('bank_name')" onblur="inputOnBlur('bank_name');" class="busy">修改</button></div>
+        <div id="bank_name_show" class="bank_name_show go_show">
+            <span>银行名称</span>
+            <img src="__HOME__/images/fan.png" class="userinfo_li_img">
+            <p id="bank_name_address">***收款银行***</p></div></li>
+    
+
+
+
+      <a href="{:url('Login/pwd')}"><li><div id="phone_show" class="courier_phone_show">
+            <span>密码</span>
+            <img src="__HOME__/images/fan.png" class="userinfo_li_img">
+            <p  id="courier_phone_val">******</p></div></li></a>
+
+       <li id="quxiao" class="go_hide hide">
+        <div>
+            <span><button href="javascript:void(0);" onclick="out()" class="busy">取消修改</button></span>
+            <p class="ap"></p></div></li>   
+      <li id="success" class="hide">
+        <div id="address_show" >
+            <span></span>
+            <p id="point" class="ap"></p></div></li>
+
+    </ul>
+  </div>
+  <div class="index_footer">  </div> 
+  <!-- 内容主体结束 -->
+  <!-- 内容尾部开始 -->
+    <include file="public/footer" />
+  <!-- 内容尾部结束 -->
+
+  <script type="text/javascript">
+
+function show_input( div_node ) {
+  $('#'+ div_node +'_hide').removeClass("hide");
+  $('#'+ div_node +'_show').addClass('hide');
+  $('#quxiao').removeClass("hide");
+}
+function out() {
+  $('.go_hide').addClass("hide");
+  $('.go_show').removeClass('hide');
+}
+
+function revise(input_node) {
+    var key = input_node;
+    var val = $('#'+input_node).val();
+    var old = $('#'+input_node+'_show').html();
+    if (val == '') {
+        $('#success').removeClass("hide");
+        $('#point').html('修改内容不能为空&nbsp;!');
+        setTimeout(function () {
+                $('#success').addClass("hide");
+            }, 2000);
+        return false;
+    }
+    $.ajax({
+        type: "get",
+        url: 'user.html?'+ key +'='+ val,
+        success: function (res) {
+            if(res == 1){
+              $('#'+ key +'_val').html(val);
+              $('#success').removeClass("hide");
+              $('#point').html('成功修改');
+              $('.'+ key +'_hide').addClass("hide");
+              $('.'+ key +'_show').removeClass('hide');
+            } else {
+              $('#'+input_node+'_show').html(old);
+              $('#success').removeClass("hide");
+              $('#point').html('修改失败');
+              $('.'+ key +'_hide').addClass("hide");
+              $('.'+ key +'_show').removeClass('hide');
+            }
+            setTimeout(function () {
+                $('#success').addClass("hide");
+                $('#quxiao').addClass("hide");
+            }, 2000);
+        }
+    })
+}
+
+  </script>
+</body>
+</html>

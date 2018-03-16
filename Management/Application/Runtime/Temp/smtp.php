@@ -1,0 +1,1 @@
+a:6:{s:11:"smty_server";s:11:"smtp.qq.com";s:9:"smty_user";s:16:"511482696@qq.com";s:8:"smty_pwd";s:16:"liqozupnlkihbjjh";s:9:"smty_port";s:2:"25";s:17:"regis_smty_enable";s:1:"0";s:10:"test_eamil";s:0:"";}

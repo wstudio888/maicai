@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+<title>配送系统</title>
+<include file="public/header"/>
+</head>
+<body class="bill html ">
+  <!--页头开始-->
+  <div class="header">
+    <div class="head">
+    <span class="title_left float_left"><a href="" onclick="javascript:window.history.back(-1);"><img src="__HOME__/images/jiantou.png" style="width: 85%;margin-top: 5px;"></a></span>
+    <span class="title">配送情况</span>
+      <div class="title_r"><a href="javascript:void(0);" onclick="show()"><img src="__HOME__/images/dian.png"></a></div>
+      <div class="hide loginout" id="showdiv">
+      <ul>
+      <li><a href="{:url('Index/index')}">首页</a></li>
+      <li><a href="{:url('Login/logout')}">退出</a></li>
+      </ul></div>
+    </div>
+  </div> 
+  <!--页头结束-->
+  <!-- 内容主体头部开始 -->
+  <div class="ti_title">
+    <div class="ti_title_div1">
+      <span style="padding:0 15%;">配送量<br/></span><span class="font_num">{$rs.int.num}</span></div>
+    <div class="ti_title_div1">
+      <span>配送费用<br/>￥</span><span class="font_num">{$rs.int.money}</span></div> 
+    <div>
+      <span><a href="{:url('Index/money',['courier_id' => $uid])}">点击提现</a><br/>￥</span><span class="font_num">{$Courier.money}</span></div>           
+  </div>
+
+  <!-- 内容主体头部结束 -->
+  <!-- 内容主体开始 -->
+  <div class="content">
+      <ul>
+
+      <volist name="rs.data" id="vo">
+      <li>        
+        <div class="bill_li_one">
+        <p>
+        <if condition='$vo.hold_give eq 1'>抢单 <elseif condition='$vo.hold_give eq 2'/> 派送 </if></p>
+        <span>{$vo.create_time}</span></div>  
+       
+        <div class="bill_li_tow">
+        <p>￥{$vo.sole_money}</p>
+        <span class="color_hui"><if condition='$vo.status eq 2'> 交易完成 <elseif condition='$vo.status eq 1'/> 未完成 </if></p></span></div></li>
+      </volist> 
+      
+
+    <div class="order_footer">  </div> 
+    </ul>
+  </div>
+
+  
+
+  <!-- 内容主体结束 -->
+  <!-- 内容尾部开始 -->
+    <include file="public/footer" />
+  <!-- 内容尾部结束 -->
+</body>
+</html>
